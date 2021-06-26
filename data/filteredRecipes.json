@@ -1,0 +1,7813 @@
+[
+	[
+		"11298",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 73445,
+			"output_item_count": 1,
+			"min_rating": 325,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 73120,
+					"count": 1,
+					"data": {
+						"name": "Mithril Reinforcing Plate",
+						"buy": 174,
+						"sell": 478,
+						"supply": 7411,
+						"demand": 9982
+					}
+				},
+				{
+					"item_id": 73512,
+					"count": 1,
+					"data": {
+						"name": "Bag of Incandescent Energy",
+						"buy": 2747,
+						"sell": 4800,
+						"supply": 1764,
+						"demand": 1283
+					}
+				}
+			],
+			"output_upgrade_id": 513,
+			"id": 11298,
+			"chat_link": "[&CSIsAAA=]",
+			"output": {
+				"name": "Schematic: Invulnerable Fortifications",
+				"buy": 109999,
+				"sell": 0,
+				"supply": 0,
+				"demand": 424
+			},
+			"totalCost": 6601,
+			"totalRevenue": 109999,
+			"profit": 86898.15,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 109999,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 103,
+					"quantity": 251
+				},
+				{
+					"listings": 2,
+					"unit_price": 6,
+					"quantity": 171
+				},
+				{
+					"listings": 1,
+					"unit_price": 5,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 86898.15,
+			"sellCount": 1
+		}
+	],
+	[
+		"10936",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 72828,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1383,
+						"supply": 2741,
+						"demand": 4750
+					}
+				},
+				{
+					"item_id": 71956,
+					"count": 1,
+					"data": {
+						"name": "Bag of Crystalline Energy",
+						"buy": 3519,
+						"sell": 4966,
+						"supply": 914,
+						"demand": 1612
+					}
+				}
+			],
+			"output_upgrade_id": 298,
+			"id": 10936,
+			"chat_link": "[&CbgqAAA=]",
+			"output": {
+				"name": "Schematic: Airship Defense",
+				"buy": 109999,
+				"sell": 0,
+				"supply": 0,
+				"demand": 255
+			},
+			"totalCost": 7672,
+			"totalRevenue": 109999,
+			"profit": 85827.15,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 109999,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 224,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 223,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 222,
+					"quantity": 250
+				}
+			],
+			"totalProfit": 85827.15,
+			"sellCount": 1
+		}
+	],
+	[
+		"11416",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 72351,
+			"output_item_count": 1,
+			"min_rating": 250,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 74637,
+					"count": 1,
+					"data": {
+						"name": "Bag of Dolyak Chow",
+						"buy": 554,
+						"sell": 1750,
+						"supply": 2177,
+						"demand": 1353
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 71730,
+					"count": 1,
+					"data": {
+						"name": "Bag of Radiant Energy",
+						"buy": 5061,
+						"sell": 9803,
+						"supply": 2979,
+						"demand": 616
+					}
+				}
+			],
+			"output_upgrade_id": 365,
+			"id": 11416,
+			"chat_link": "[&CZgsAAA=]",
+			"output": {
+				"name": "Schematic: Packed Dolyaks",
+				"buy": 109999,
+				"sell": 0,
+				"supply": 0,
+				"demand": 528
+			},
+			"totalCost": 12876,
+			"totalRevenue": 109999,
+			"profit": 80623.15,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 109999,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 204,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 104,
+					"quantity": 251
+				},
+				{
+					"listings": 2,
+					"unit_price": 103,
+					"quantity": 275
+				}
+			],
+			"totalProfit": 80623.15,
+			"sellCount": 1
+		}
+	],
+	[
+		"10456",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 76363,
+			"output_item_count": 1,
+			"min_rating": 300,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 21158,
+					"count": 3,
+					"data": {
+						"name": "Catapult Blueprints",
+						"buy": 407,
+						"sell": 500,
+						"supply": 67115,
+						"demand": 42109
+					}
+				},
+				{
+					"item_id": 73120,
+					"count": 1,
+					"data": {
+						"name": "Mithril Reinforcing Plate",
+						"buy": 174,
+						"sell": 478,
+						"supply": 7411,
+						"demand": 9982
+					}
+				}
+			],
+			"output_upgrade_id": 43,
+			"id": 10456,
+			"chat_link": "[&CdgoAAA=]",
+			"output": {
+				"name": "Guild Catapult",
+				"buy": 85600,
+				"sell": 100000000,
+				"supply": 1,
+				"demand": 102
+			},
+			"totalCost": 3295,
+			"totalRevenue": 85600,
+			"profit": 69465,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 85600,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 85500,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83251,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83243,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 83236,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 83235,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83234,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83233,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 83231,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 83229,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83228,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83227,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 83216,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83211,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83209,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83202,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 83188,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83179,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83178,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 83177,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 33015,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 33011,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 32406,
+					"quantity": 14
+				},
+				{
+					"listings": 1,
+					"unit_price": 32302,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 32299,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 2013,
+					"quantity": 50
+				},
+				{
+					"listings": 2,
+					"unit_price": 1030,
+					"quantity": 2
+				}
+			],
+			"totalProfit": 1474859,
+			"sellCount": 25
+		}
+	],
+	[
+		"10486",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 75772,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 75784,
+					"count": 1,
+					"data": {
+						"name": "Box of Banner Supplies",
+						"buy": 55,
+						"sell": 89,
+						"supply": 31348,
+						"demand": 621
+					}
+				},
+				{
+					"item_id": 73444,
+					"count": 1,
+					"data": {
+						"name": "Bag of Shimmering Energy",
+						"buy": 1580,
+						"sell": 2800,
+						"supply": 2981,
+						"demand": 1975
+					}
+				}
+			],
+			"output_upgrade_id": 399,
+			"id": 10486,
+			"chat_link": "[&CfYoAAA=]",
+			"output": {
+				"name": "Schematic: Turtle Banner",
+				"buy": 13110,
+				"sell": 0,
+				"supply": 0,
+				"demand": 117
+			},
+			"totalCost": 4212,
+			"totalRevenue": 13110,
+			"profit": 6931.5,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 13110,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 3110,
+					"quantity": 53
+				},
+				{
+					"listings": 2,
+					"unit_price": 3109,
+					"quantity": 25
+				},
+				{
+					"listings": 1,
+					"unit_price": 2108,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 8,
+					"quantity": 27
+				},
+				{
+					"listings": 1,
+					"unit_price": 6,
+					"quantity": 10
+				}
+			],
+			"totalProfit": 6931.5,
+			"sellCount": 1
+		}
+	],
+	[
+		"11079",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70532,
+			"output_item_count": 1,
+			"min_rating": 300,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 21161,
+					"count": 3,
+					"data": {
+						"name": "Flame Ram Blueprints",
+						"buy": 40,
+						"sell": 64,
+						"supply": 245586,
+						"demand": 417065
+					}
+				},
+				{
+					"item_id": 73120,
+					"count": 1,
+					"data": {
+						"name": "Mithril Reinforcing Plate",
+						"buy": 174,
+						"sell": 478,
+						"supply": 7411,
+						"demand": 9982
+					}
+				}
+			],
+			"output_upgrade_id": 327,
+			"id": 11079,
+			"chat_link": "[&CUcrAAA=]",
+			"output": {
+				"name": "Guild Flame Ram Blueprint",
+				"buy": 10138,
+				"sell": 0,
+				"supply": 0,
+				"demand": 391
+			},
+			"totalCost": 1987,
+			"totalRevenue": 10138,
+			"profit": 6630.299999999999,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10138,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 10137,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 137,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 135,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 133,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 132,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 131,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 124,
+					"quantity": 72
+				},
+				{
+					"listings": 1,
+					"unit_price": 123,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 85,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 84,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 13259.749999999998,
+			"sellCount": 2
+		}
+	],
+	[
+		"10830",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70754,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 21156,
+					"count": 3,
+					"data": {
+						"name": "Arrow Cart Blueprints",
+						"buy": 2,
+						"sell": 3,
+						"supply": 922664,
+						"demand": 5066
+					}
+				},
+				{
+					"item_id": 73081,
+					"count": 1,
+					"data": {
+						"name": "Steel Reinforcing Plate",
+						"buy": 446,
+						"sell": 1199,
+						"supply": 2269,
+						"demand": 3826
+					}
+				}
+			],
+			"output_upgrade_id": 505,
+			"id": 10830,
+			"chat_link": "[&CU4qAAA=]",
+			"output": {
+				"name": "Guild Arrow Cart Blueprints",
+				"buy": 10346,
+				"sell": 0,
+				"supply": 0,
+				"demand": 408
+			},
+			"totalCost": 2525,
+			"totalRevenue": 10346,
+			"profit": 6269.1,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10346,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 346,
+					"quantity": 375
+				},
+				{
+					"listings": 1,
+					"unit_price": 344,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 343,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 341,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 334,
+					"quantity": 29
+				}
+			],
+			"totalProfit": 6269.1,
+			"sellCount": 1
+		}
+	],
+	[
+		"10690",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 72157,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 21157,
+					"count": 3,
+					"data": {
+						"name": "Ballista Blueprints",
+						"buy": 2,
+						"sell": 8,
+						"supply": 737088,
+						"demand": 54825
+					}
+				},
+				{
+					"item_id": 73081,
+					"count": 1,
+					"data": {
+						"name": "Steel Reinforcing Plate",
+						"buy": 446,
+						"sell": 1199,
+						"supply": 2269,
+						"demand": 3826
+					}
+				}
+			],
+			"output_upgrade_id": 186,
+			"id": 10690,
+			"chat_link": "[&CcIpAAA=]",
+			"output": {
+				"name": "Guild Ballista Blueprints",
+				"buy": 10235,
+				"sell": 0,
+				"supply": 0,
+				"demand": 594
+			},
+			"totalCost": 2540,
+			"totalRevenue": 10235,
+			"profit": 6159.75,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10235,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 10234,
+					"quantity": 1
+				},
+				{
+					"listings": 5,
+					"unit_price": 234,
+					"quantity": 304
+				},
+				{
+					"listings": 1,
+					"unit_price": 233,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 231,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 230,
+					"quantity": 250
+				},
+				{
+					"listings": 2,
+					"unit_price": 228,
+					"quantity": 36
+				}
+			],
+			"totalProfit": 12318.65,
+			"sellCount": 2
+		}
+	],
+	[
+		"11071",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70605,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 21160,
+					"count": 3,
+					"data": {
+						"name": "Trebuchet Blueprints",
+						"buy": 4,
+						"sell": 6,
+						"supply": 320558,
+						"demand": 36880
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1383,
+						"supply": 2741,
+						"demand": 4750
+					}
+				}
+			],
+			"output_upgrade_id": 576,
+			"id": 11071,
+			"chat_link": "[&CT8rAAA=]",
+			"output": {
+				"name": "Guild Trebuchet Blueprints",
+				"buy": 10136,
+				"sell": 0,
+				"supply": 0,
+				"demand": 320
+			},
+			"totalCost": 2718,
+			"totalRevenue": 10136,
+			"profit": 5897.6,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10136,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 134,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 132,
+					"quantity": 250
+				},
+				{
+					"listings": 2,
+					"unit_price": 131,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 124,
+					"quantity": 40
+				},
+				{
+					"listings": 1,
+					"unit_price": 123,
+					"quantity": 22
+				},
+				{
+					"listings": 2,
+					"unit_price": 76,
+					"quantity": 3
+				}
+			],
+			"totalProfit": 5897.6,
+			"sellCount": 1
+		}
+	],
+	[
+		"11683",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 72640,
+			"output_item_count": 1,
+			"min_rating": 175,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 74637,
+					"count": 1,
+					"data": {
+						"name": "Bag of Dolyak Chow",
+						"buy": 554,
+						"sell": 1750,
+						"supply": 2177,
+						"demand": 1353
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				}
+			],
+			"output_upgrade_id": 383,
+			"id": 11683,
+			"chat_link": "[&CaMtAAA=]",
+			"output": {
+				"name": "Schematic: Invulnerable Dolyaks",
+				"buy": 10009,
+				"sell": 0,
+				"supply": 0,
+				"demand": 1023
+			},
+			"totalCost": 3073,
+			"totalRevenue": 10009,
+			"profit": 5434.65,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10009,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 9,
+					"quantity": 251
+				},
+				{
+					"listings": 3,
+					"unit_price": 8,
+					"quantity": 510
+				},
+				{
+					"listings": 2,
+					"unit_price": 6,
+					"quantity": 251
+				},
+				{
+					"listings": 1,
+					"unit_price": 3,
+					"quantity": 10
+				}
+			],
+			"totalProfit": 5434.65,
+			"sellCount": 1
+		}
+	],
+	[
+		"10449",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 71954,
+			"output_item_count": 1,
+			"min_rating": 25,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 72265,
+					"count": 1,
+					"data": {
+						"name": "Copper Reinforcing Plate",
+						"buy": 737,
+						"sell": 1800,
+						"supply": 3110,
+						"demand": 3362
+					}
+				},
+				{
+					"item_id": 73444,
+					"count": 1,
+					"data": {
+						"name": "Bag of Shimmering Energy",
+						"buy": 1580,
+						"sell": 2800,
+						"supply": 2981,
+						"demand": 1975
+					}
+				}
+			],
+			"output_upgrade_id": 483,
+			"id": 10449,
+			"chat_link": "[&CdEoAAA=]",
+			"output": {
+				"name": "Schematic: Minor Supply Drop",
+				"buy": 13031,
+				"sell": 0,
+				"supply": 0,
+				"demand": 287
+			},
+			"totalCost": 5923,
+			"totalRevenue": 13031,
+			"profit": 5153.35,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 13031,
+					"quantity": 1
+				},
+				{
+					"listings": 4,
+					"unit_price": 3031,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 1512,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 506,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 505,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 504,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 503,
+					"quantity": 17
+				},
+				{
+					"listings": 1,
+					"unit_price": 410,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 2,
+					"quantity": 10
+				}
+			],
+			"totalProfit": 5153.35,
+			"sellCount": 1
+		}
+	],
+	[
+		"10638",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 76527,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 75311,
+					"count": 3,
+					"data": {
+						"name": "Shield Generator Blueprint",
+						"buy": 367,
+						"sell": 489,
+						"supply": 26447,
+						"demand": 28148
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1383,
+						"supply": 2741,
+						"demand": 4750
+					}
+				}
+			],
+			"output_upgrade_id": 623,
+			"id": 10638,
+			"chat_link": "[&CY4pAAA=]",
+			"output": {
+				"name": "Guild Shield Generator Blueprint",
+				"buy": 10118,
+				"sell": 0,
+				"supply": 0,
+				"demand": 576
+			},
+			"totalCost": 4167,
+			"totalRevenue": 10118,
+			"profit": 4433.299999999999,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10118,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 117,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 116,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 111,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 86,
+					"quantity": 54
+				},
+				{
+					"listings": 1,
+					"unit_price": 82,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 4433.299999999999,
+			"sellCount": 1
+		}
+	],
+	[
+		"11599",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 72797,
+			"output_item_count": 1,
+			"min_rating": 150,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 72296,
+					"count": 1,
+					"data": {
+						"name": "Vial of Enchanted Water",
+						"buy": 34,
+						"sell": 104,
+						"supply": 20781,
+						"demand": 3081
+					}
+				},
+				{
+					"item_id": 73444,
+					"count": 1,
+					"data": {
+						"name": "Bag of Shimmering Energy",
+						"buy": 1580,
+						"sell": 2800,
+						"supply": 2981,
+						"demand": 1975
+					}
+				}
+			],
+			"output_upgrade_id": 559,
+			"id": 11599,
+			"chat_link": "[&CU8tAAA=]",
+			"output": {
+				"name": "Schematic: Chilling Fog",
+				"buy": 10012,
+				"sell": 0,
+				"supply": 0,
+				"demand": 532
+			},
+			"totalCost": 4227,
+			"totalRevenue": 10012,
+			"profit": 4283.199999999999,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10012,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 12,
+					"quantity": 201
+				},
+				{
+					"listings": 1,
+					"unit_price": 11,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 8,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 7,
+					"quantity": 37
+				},
+				{
+					"listings": 1,
+					"unit_price": 5,
+					"quantity": 33
+				}
+			],
+			"totalProfit": 4283.199999999999,
+			"sellCount": 1
+		}
+	],
+	[
+		"11617",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70948,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 72265,
+					"count": 1,
+					"data": {
+						"name": "Copper Reinforcing Plate",
+						"buy": 737,
+						"sell": 1800,
+						"supply": 3110,
+						"demand": 3362
+					}
+				},
+				{
+					"item_id": 73444,
+					"count": 1,
+					"data": {
+						"name": "Bag of Shimmering Energy",
+						"buy": 1580,
+						"sell": 2800,
+						"supply": 2981,
+						"demand": 1975
+					}
+				}
+			],
+			"output_upgrade_id": 306,
+			"id": 11617,
+			"chat_link": "[&CWEtAAA=]",
+			"output": {
+				"name": "Schematic: Sabotage Depot",
+				"buy": 10316,
+				"sell": 0,
+				"supply": 0,
+				"demand": 270
+			},
+			"totalCost": 5923,
+			"totalRevenue": 10316,
+			"profit": 2845.6000000000004,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10316,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 316,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 314,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 10,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 4,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 2,
+					"quantity": 7
+				}
+			],
+			"totalProfit": 2845.6000000000004,
+			"sellCount": 1
+		}
+	],
+	[
+		"10096",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 74629,
+			"output_item_count": 1,
+			"min_rating": 300,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 75784,
+					"count": 1,
+					"data": {
+						"name": "Box of Banner Supplies",
+						"buy": 55,
+						"sell": 89,
+						"supply": 31348,
+						"demand": 621
+					}
+				},
+				{
+					"item_id": 73512,
+					"count": 1,
+					"data": {
+						"name": "Bag of Incandescent Energy",
+						"buy": 2747,
+						"sell": 4800,
+						"supply": 1764,
+						"demand": 1283
+					}
+				}
+			],
+			"output_upgrade_id": 590,
+			"id": 10096,
+			"chat_link": "[&CXAnAAA=]",
+			"output": {
+				"name": "Schematic: Dragon Banner",
+				"buy": 10306,
+				"sell": 0,
+				"supply": 0,
+				"demand": 513
+			},
+			"totalCost": 6212,
+			"totalRevenue": 10306,
+			"profit": 2548.1000000000004,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10306,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 10305,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 305,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 17,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 7,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 6,
+					"quantity": 2
+				},
+				{
+					"listings": 4,
+					"unit_price": 5,
+					"quantity": 253
+				},
+				{
+					"listings": 1,
+					"unit_price": 4,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 5095.35,
+			"sellCount": 2
+		}
+	],
+	[
+		"11307",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 73776,
+			"output_item_count": 1,
+			"min_rating": 350,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 73120,
+					"count": 1,
+					"data": {
+						"name": "Mithril Reinforcing Plate",
+						"buy": 174,
+						"sell": 478,
+						"supply": 7411,
+						"demand": 9982
+					}
+				},
+				{
+					"item_id": 73512,
+					"count": 1,
+					"data": {
+						"name": "Bag of Incandescent Energy",
+						"buy": 2747,
+						"sell": 4800,
+						"supply": 1764,
+						"demand": 1283
+					}
+				}
+			],
+			"output_upgrade_id": 183,
+			"id": 11307,
+			"chat_link": "[&CSssAAA=]",
+			"output": {
+				"name": "Schematic: Gate Turrets",
+				"buy": 10202,
+				"sell": 0,
+				"supply": 0,
+				"demand": 252
+			},
+			"totalCost": 6601,
+			"totalRevenue": 10202,
+			"profit": 2070.699999999999,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10202,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 202,
+					"quantity": 251
+				}
+			],
+			"totalProfit": 2070.699999999999,
+			"sellCount": 1
+		}
+	],
+	[
+		"10236",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 74432,
+			"output_item_count": 1,
+			"min_rating": 375,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 2,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 76453,
+					"count": 1,
+					"data": {
+						"name": "Strategic Defense Map of the Mists",
+						"buy": 67,
+						"sell": 95,
+						"supply": 52967,
+						"demand": 27748
+					}
+				},
+				{
+					"item_id": 73512,
+					"count": 1,
+					"data": {
+						"name": "Bag of Incandescent Energy",
+						"buy": 2747,
+						"sell": 4800,
+						"supply": 1764,
+						"demand": 1283
+					}
+				}
+			],
+			"output_upgrade_id": 583,
+			"id": 10236,
+			"chat_link": "[&CfwnAAA=]",
+			"output": {
+				"name": "Schematic: Watchtower",
+				"buy": 10251,
+				"sell": 0,
+				"supply": 0,
+				"demand": 603
+			},
+			"totalCost": 7535,
+			"totalRevenue": 10251,
+			"profit": 1178.3500000000004,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10251,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 251,
+					"quantity": 53
+				},
+				{
+					"listings": 1,
+					"unit_price": 250,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 202,
+					"quantity": 250
+				},
+				{
+					"listings": 4,
+					"unit_price": 102,
+					"quantity": 49
+				}
+			],
+			"totalProfit": 1178.3500000000004,
+			"sellCount": 1
+		}
+	],
+	[
+		"9947",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 74600,
+			"output_item_count": 1,
+			"min_rating": 350,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 2,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				},
+				{
+					"item_id": 76453,
+					"count": 2,
+					"data": {
+						"name": "Strategic Defense Map of the Mists",
+						"buy": 67,
+						"sell": 95,
+						"supply": 52967,
+						"demand": 27748
+					}
+				},
+				{
+					"item_id": 73512,
+					"count": 1,
+					"data": {
+						"name": "Bag of Incandescent Energy",
+						"buy": 2747,
+						"sell": 4800,
+						"supply": 1764,
+						"demand": 1283
+					}
+				}
+			],
+			"output_upgrade_id": 178,
+			"id": 9947,
+			"chat_link": "[&CdsmAAA=]",
+			"output": {
+				"name": "Schematic: Emergency Waypoint",
+				"buy": 10301,
+				"sell": 0,
+				"supply": 0,
+				"demand": 796
+			},
+			"totalCost": 7630,
+			"totalRevenue": 10301,
+			"profit": 1125.8500000000004,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10301,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 301,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 201,
+					"quantity": 11
+				},
+				{
+					"listings": 5,
+					"unit_price": 200,
+					"quantity": 283
+				},
+				{
+					"listings": 1,
+					"unit_price": 103,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 102,
+					"quantity": 250
+				}
+			],
+			"totalProfit": 1125.8500000000004,
+			"sellCount": 1
+		}
+	],
+	[
+		"10218",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 77175,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1102,
+						"sell": 1317,
+						"supply": 47531,
+						"demand": 26418
+					}
+				},
+				{
+					"item_id": 21159,
+					"count": 3,
+					"data": {
+						"name": "Alpha Siege Golem Blueprints",
+						"buy": 1330,
+						"sell": 1954,
+						"supply": 19639,
+						"demand": 23281
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1383,
+						"supply": 2741,
+						"demand": 4750
+					}
+				}
+			],
+			"output_upgrade_id": 44,
+			"id": 10218,
+			"chat_link": "[&CeonAAA=]",
+			"output": {
+				"name": "Guild Siege Golem Blueprints",
+				"buy": 10711,
+				"sell": 0,
+				"supply": 0,
+				"demand": 495
+			},
+			"totalCost": 8562,
+			"totalRevenue": 10711,
+			"profit": 542.3500000000004,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 10711,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 10710,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 710,
+					"quantity": 47
+				},
+				{
+					"listings": 1,
+					"unit_price": 709,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 707,
+					"quantity": 310
+				},
+				{
+					"listings": 2,
+					"unit_price": 706,
+					"quantity": 97
+				},
+				{
+					"listings": 1,
+					"unit_price": 702,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 701,
+					"quantity": 37
+				}
+			],
+			"totalProfit": 1083.8500000000004,
+			"sellCount": 2
+		}
+	],
+	[
+		"3669",
+		{
+			"type": "Ring",
+			"output_item_id": 13383,
+			"output_item_count": 1,
+			"min_rating": 250,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 24873,
+					"count": 1,
+					"data": {
+						"name": "Ruby Shard",
+						"buy": 66,
+						"sell": 67,
+						"supply": 37524,
+						"demand": 13179
+					}
+				},
+				{
+					"item_id": 12828,
+					"count": 1,
+					"data": {
+						"name": "Platinum Band",
+						"buy": 271,
+						"sell": 563,
+						"supply": 1595,
+						"demand": 2175
+					}
+				},
+				{
+					"item_id": 12816,
+					"count": 1,
+					"data": {
+						"name": "Platinum Setting",
+						"buy": 256,
+						"sell": 359,
+						"supply": 2728,
+						"demand": 3700
+					}
+				}
+			],
+			"id": 3669,
+			"chat_link": "[&CVUOAAA=]",
+			"output": {
+				"name": "Ruby Platinum Ring",
+				"buy": 1800,
+				"sell": 3436,
+				"supply": 943,
+				"demand": 331
+			},
+			"totalCost": 989,
+			"totalRevenue": 1800,
+			"profit": 541,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 1800,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 627,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 625,
+					"quantity": 12
+				},
+				{
+					"listings": 1,
+					"unit_price": 323,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 322,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 306,
+					"quantity": 60
+				},
+				{
+					"listings": 1,
+					"unit_price": 305,
+					"quantity": 84
+				},
+				{
+					"listings": 1,
+					"unit_price": 104,
+					"quantity": 61
+				},
+				{
+					"listings": 1,
+					"unit_price": 101,
+					"quantity": 94
+				},
+				{
+					"listings": 7,
+					"unit_price": 92,
+					"quantity": 13
+				}
+			],
+			"totalProfit": 541,
+			"sellCount": 1
+		}
+	],
+	[
+		"3627",
+		{
+			"type": "Earring",
+			"output_item_id": 13425,
+			"output_item_count": 1,
+			"min_rating": 250,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 24873,
+					"count": 1,
+					"data": {
+						"name": "Ruby Shard",
+						"buy": 66,
+						"sell": 67,
+						"supply": 37524,
+						"demand": 13179
+					}
+				},
+				{
+					"item_id": 12810,
+					"count": 1,
+					"data": {
+						"name": "Platinum Hook",
+						"buy": 205,
+						"sell": 347,
+						"supply": 1696,
+						"demand": 2439
+					}
+				},
+				{
+					"item_id": 12816,
+					"count": 1,
+					"data": {
+						"name": "Platinum Setting",
+						"buy": 256,
+						"sell": 359,
+						"supply": 2728,
+						"demand": 3700
+					}
+				}
+			],
+			"id": 3627,
+			"chat_link": "[&CSsOAAA=]",
+			"output": {
+				"name": "Ruby Platinum Earring",
+				"buy": 1250,
+				"sell": 2388,
+				"supply": 1206,
+				"demand": 198
+			},
+			"totalCost": 773,
+			"totalRevenue": 1250,
+			"profit": 289.5,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 1250,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1210,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1206,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 1205,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1056,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 1001,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 916,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 912,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 892,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 890,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 880,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 868,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 500,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 496,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 468,
+					"quantity": 11
+				},
+				{
+					"listings": 1,
+					"unit_price": 288,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 81,
+					"quantity": 77
+				},
+				{
+					"listings": 1,
+					"unit_price": 80,
+					"quantity": 59
+				},
+				{
+					"listings": 12,
+					"unit_price": 77,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 66,
+					"quantity": 2
+				}
+			],
+			"totalProfit": 1258.5999999999995,
+			"sellCount": 8
+		}
+	],
+	[
+		"1756",
+		{
+			"type": "Gloves",
+			"output_item_id": 12046,
+			"output_item_count": 1,
+			"min_rating": 125,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Leatherworker"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 13076,
+					"count": 1,
+					"data": {
+						"name": "Thin Glove Strap",
+						"buy": 173,
+						"sell": 378,
+						"supply": 1386,
+						"demand": 2539
+					}
+				},
+				{
+					"item_id": 13081,
+					"count": 1,
+					"data": {
+						"name": "Thin Glove Lining",
+						"buy": 124,
+						"sell": 515,
+						"supply": 1386,
+						"demand": 2541
+					}
+				},
+				{
+					"item_id": 19957,
+					"count": 1,
+					"data": {
+						"name": "Honed Intricate Wool Insignia",
+						"buy": 1624,
+						"sell": 2100,
+						"supply": 267,
+						"demand": 1097
+					}
+				}
+			],
+			"id": 1756,
+			"chat_link": "[&CdwGAAA=]",
+			"output": {
+				"name": "Honed Noble Gloves",
+				"buy": 3721,
+				"sell": 10072,
+				"supply": 258,
+				"demand": 127
+			},
+			"totalCost": 2993,
+			"totalRevenue": 3721,
+			"profit": 169.8499999999999,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 3721,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3720,
+					"quantity": 74
+				},
+				{
+					"listings": 1,
+					"unit_price": 3719,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 3714,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3711,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 3700,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3464,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 3362,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 3358,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3038,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3034,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 1915,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 835,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 833,
+					"quantity": 10
+				},
+				{
+					"listings": 2,
+					"unit_price": 299,
+					"quantity": 2
+				},
+				{
+					"listings": 12,
+					"unit_price": 93,
+					"quantity": 17
+				}
+			],
+			"totalProfit": 984.25,
+			"sellCount": 6
+		}
+	],
+	[
+		"3646",
+		{
+			"type": "Earring",
+			"output_item_id": 13445,
+			"output_item_count": 1,
+			"min_rating": 350,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 24494,
+					"count": 1,
+					"data": {
+						"name": "Brilliant Ruby Jewel",
+						"buy": 127,
+						"sell": 130,
+						"supply": 2100,
+						"demand": 1274
+					}
+				},
+				{
+					"item_id": 12808,
+					"count": 1,
+					"data": {
+						"name": "Mithril Hook",
+						"buy": 106,
+						"sell": 191,
+						"supply": 1089,
+						"demand": 2622
+					}
+				},
+				{
+					"item_id": 12814,
+					"count": 1,
+					"data": {
+						"name": "Mithril Setting",
+						"buy": 73,
+						"sell": 196,
+						"supply": 2921,
+						"demand": 2201
+					}
+				}
+			],
+			"id": 3646,
+			"chat_link": "[&CT4OAAA=]",
+			"output": {
+				"name": "Ruby Mithril Earring",
+				"buy": 801,
+				"sell": 1595,
+				"supply": 567,
+				"demand": 209
+			},
+			"totalCost": 517,
+			"totalRevenue": 801,
+			"profit": 163.85000000000002,
+			"buys": [
+				{
+					"listings": 2,
+					"unit_price": 801,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 800,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 717,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 616,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 615,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 600,
+					"quantity": 55
+				},
+				{
+					"listings": 1,
+					"unit_price": 599,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 545,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 538,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 534,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 530,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 405,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 403,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 402,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 252,
+					"quantity": 29
+				},
+				{
+					"listings": 1,
+					"unit_price": 248,
+					"quantity": 23
+				},
+				{
+					"listings": 2,
+					"unit_price": 244,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 201,
+					"quantity": 13
+				},
+				{
+					"listings": 9,
+					"unit_price": 195,
+					"quantity": 18
+				},
+				{
+					"listings": 1,
+					"unit_price": 175,
+					"quantity": 2
+				},
+				{
+					"listings": 7,
+					"unit_price": 166,
+					"quantity": 16
+				}
+			],
+			"totalProfit": 595.5,
+			"sellCount": 6
+		}
+	],
+	[
+		"4357",
+		{
+			"type": "Trident",
+			"output_item_id": 14074,
+			"output_item_count": 1,
+			"min_rating": 125,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Artificer"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 13002,
+					"count": 1,
+					"data": {
+						"name": "Iron Trident Head",
+						"buy": 50,
+						"sell": 163,
+						"supply": 5284,
+						"demand": 3967
+					}
+				},
+				{
+					"item_id": 13251,
+					"count": 1,
+					"data": {
+						"name": "Soft Trident Shaft",
+						"buy": 43,
+						"sell": 108,
+						"supply": 1946,
+						"demand": 486
+					}
+				},
+				{
+					"item_id": 19938,
+					"count": 1,
+					"data": {
+						"name": "Strong Iron Imbued Inscription",
+						"buy": 1529,
+						"sell": 2416,
+						"supply": 1544,
+						"demand": 1445
+					}
+				}
+			],
+			"id": 4357,
+			"chat_link": "[&CQURAAA=]",
+			"output": {
+				"name": "Strong Bandit Trident",
+				"buy": 3287,
+				"sell": 10555,
+				"supply": 162,
+				"demand": 269
+			},
+			"totalCost": 2687,
+			"totalRevenue": 3287,
+			"profit": 106.94999999999982,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 3287,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3187,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3087,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 2987,
+					"quantity": 11
+				},
+				{
+					"listings": 1,
+					"unit_price": 2887,
+					"quantity": 15
+				},
+				{
+					"listings": 1,
+					"unit_price": 2787,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 2786,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 2783,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 2682,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 2277,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 1868,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 1856,
+					"quantity": 29
+				},
+				{
+					"listings": 1,
+					"unit_price": 1846,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 1839,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 1835,
+					"quantity": 31
+				},
+				{
+					"listings": 1,
+					"unit_price": 1583,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1547,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 1545,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 1541,
+					"quantity": 55
+				},
+				{
+					"listings": 1,
+					"unit_price": 1533,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1527,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1522,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1513,
+					"quantity": 33
+				},
+				{
+					"listings": 1,
+					"unit_price": 1509,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 808,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 710,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 705,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 675,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 154,
+					"quantity": 7
+				}
+			],
+			"totalProfit": 128.89999999999964,
+			"sellCount": 2
+		}
+	],
+	[
+		"3560",
+		{
+			"type": "Earring",
+			"output_item_id": 13288,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12806,
+					"count": 1,
+					"data": {
+						"name": "Copper Hook",
+						"buy": 24,
+						"sell": 97,
+						"supply": 3032,
+						"demand": 1541
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24483,
+					"count": 1,
+					"data": {
+						"name": "Adorned Garnet Jewel",
+						"buy": 84,
+						"sell": 175,
+						"supply": 1268,
+						"demand": 1210
+					}
+				}
+			],
+			"id": 3560,
+			"chat_link": "[&CegNAAA=]",
+			"output": {
+				"name": "Garnet Copper Stud",
+				"buy": 565,
+				"sell": 1998,
+				"supply": 1434,
+				"demand": 373
+			},
+			"totalCost": 397,
+			"totalRevenue": 565,
+			"profit": 83.25,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 565,
+					"quantity": 22
+				},
+				{
+					"listings": 1,
+					"unit_price": 564,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 561,
+					"quantity": 16
+				},
+				{
+					"listings": 1,
+					"unit_price": 558,
+					"quantity": 16
+				},
+				{
+					"listings": 1,
+					"unit_price": 557,
+					"quantity": 11
+				},
+				{
+					"listings": 1,
+					"unit_price": 552,
+					"quantity": 30
+				},
+				{
+					"listings": 1,
+					"unit_price": 440,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 439,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 427,
+					"quantity": 35
+				},
+				{
+					"listings": 1,
+					"unit_price": 424,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 416,
+					"quantity": 24
+				},
+				{
+					"listings": 2,
+					"unit_price": 408,
+					"quantity": 24
+				},
+				{
+					"listings": 1,
+					"unit_price": 405,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 395,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 390,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 386,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 374,
+					"quantity": 7
+				},
+				{
+					"listings": 2,
+					"unit_price": 359,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 350,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 348,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 347,
+					"quantity": 8
+				},
+				{
+					"listings": 2,
+					"unit_price": 344,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 336,
+					"quantity": 2
+				},
+				{
+					"listings": 3,
+					"unit_price": 328,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 325,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 297,
+					"quantity": 3
+				},
+				{
+					"listings": 2,
+					"unit_price": 285,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 271,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 261,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 238,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 231,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 200,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 199,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 190,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 179,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 165,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 150,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 102,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 100,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 99,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 80,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 75,
+					"quantity": 1
+				},
+				{
+					"listings": 28,
+					"unit_price": 71,
+					"quantity": 47
+				},
+				{
+					"listings": 13,
+					"unit_price": 61,
+					"quantity": 28
+				}
+			],
+			"totalProfit": 471.44999999999993,
+			"sellCount": 6
+		}
+	],
+	[
+		"5403",
+		{
+			"type": "Component",
+			"output_item_id": 12910,
+			"output_item_count": 1,
+			"min_rating": 75,
+			"time_to_craft_ms": 3000,
+			"disciplines": [
+				"Weaponsmith"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19683,
+					"count": 2,
+					"data": {
+						"name": "Iron Ingot",
+						"buy": 202,
+						"sell": 203,
+						"supply": 824124,
+						"demand": 60663
+					}
+				}
+			],
+			"id": 5403,
+			"chat_link": "[&CRsVAAA=]",
+			"output": {
+				"name": "Iron Shield Boss",
+				"buy": 570,
+				"sell": 699,
+				"supply": 1851,
+				"demand": 1688
+			},
+			"totalCost": 406,
+			"totalRevenue": 570,
+			"profit": 78.5,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 570,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 400,
+					"quantity": 9
+				},
+				{
+					"listings": 4,
+					"unit_price": 390,
+					"quantity": 895
+				},
+				{
+					"listings": 2,
+					"unit_price": 389,
+					"quantity": 8
+				},
+				{
+					"listings": 2,
+					"unit_price": 388,
+					"quantity": 18
+				},
+				{
+					"listings": 1,
+					"unit_price": 347,
+					"quantity": 148
+				},
+				{
+					"listings": 1,
+					"unit_price": 345,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 343,
+					"quantity": 178
+				},
+				{
+					"listings": 1,
+					"unit_price": 342,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 241,
+					"quantity": 69
+				},
+				{
+					"listings": 1,
+					"unit_price": 200,
+					"quantity": 15
+				},
+				{
+					"listings": 1,
+					"unit_price": 16,
+					"quantity": 40
+				},
+				{
+					"listings": 1,
+					"unit_price": 15,
+					"quantity": 200
+				},
+				{
+					"listings": 2,
+					"unit_price": 6,
+					"quantity": 12
+				},
+				{
+					"listings": 11,
+					"unit_price": 5,
+					"quantity": 90
+				}
+			],
+			"totalProfit": 78.5,
+			"sellCount": 1
+		}
+	],
+	[
+		"1154",
+		{
+			"type": "Component",
+			"output_item_id": 13067,
+			"output_item_count": 1,
+			"min_rating": 150,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Leatherworker"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19734,
+					"count": 5,
+					"data": {
+						"name": "Cured Coarse Leather Square",
+						"buy": 192,
+						"sell": 208,
+						"supply": 149868,
+						"demand": 100470
+					}
+				},
+				{
+					"item_id": 19794,
+					"count": 2,
+					"data": {
+						"name": "Spool of Cotton Thread",
+						"buy": 21,
+						"sell": 28,
+						"supply": 153303,
+						"demand": 122943
+					}
+				}
+			],
+			"id": 1154,
+			"chat_link": "[&CYIEAAA=]",
+			"output": {
+				"name": "Coarse Longcoat Panel",
+				"buy": 1381,
+				"sell": 2979,
+				"supply": 455,
+				"demand": 1282
+			},
+			"totalCost": 1096,
+			"totalRevenue": 1381,
+			"profit": 77.84999999999991,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 1381,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 1380,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 1103,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1101,
+					"quantity": 39
+				},
+				{
+					"listings": 2,
+					"unit_price": 1065,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 965,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 964,
+					"quantity": 16
+				},
+				{
+					"listings": 1,
+					"unit_price": 957,
+					"quantity": 25
+				},
+				{
+					"listings": 1,
+					"unit_price": 621,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 451,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 390,
+					"quantity": 15
+				},
+				{
+					"listings": 1,
+					"unit_price": 261,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 228,
+					"quantity": 59
+				},
+				{
+					"listings": 1,
+					"unit_price": 154,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 125,
+					"quantity": 25
+				},
+				{
+					"listings": 1,
+					"unit_price": 124,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 102,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 86,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 15,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 12,
+					"quantity": 99
+				},
+				{
+					"listings": 2,
+					"unit_price": 7,
+					"quantity": 253
+				},
+				{
+					"listings": 9,
+					"unit_price": 6,
+					"quantity": 578
+				}
+			],
+			"totalProfit": 154.8499999999999,
+			"sellCount": 2
+		}
+	],
+	[
+		"3475",
+		{
+			"type": "Amulet",
+			"output_item_id": 13283,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12818,
+					"count": 1,
+					"data": {
+						"name": "Copper Chain",
+						"buy": 66,
+						"sell": 138,
+						"supply": 1968,
+						"demand": 5074
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24483,
+					"count": 1,
+					"data": {
+						"name": "Adorned Garnet Jewel",
+						"buy": 84,
+						"sell": 175,
+						"supply": 1268,
+						"demand": 1210
+					}
+				}
+			],
+			"id": 3475,
+			"chat_link": "[&CZMNAAA=]",
+			"output": {
+				"name": "Garnet Copper Amulet",
+				"buy": 603,
+				"sell": 1527,
+				"supply": 595,
+				"demand": 277
+			},
+			"totalCost": 438,
+			"totalRevenue": 603,
+			"profit": 74.54999999999995,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 603,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 602,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 601,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 600,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 597,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 515,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 500,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 497,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 466,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 455,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 452,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 441,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 432,
+					"quantity": 7
+				},
+				{
+					"listings": 1,
+					"unit_price": 428,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 420,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 412,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 399,
+					"quantity": 8
+				},
+				{
+					"listings": 1,
+					"unit_price": 386,
+					"quantity": 12
+				},
+				{
+					"listings": 1,
+					"unit_price": 375,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 371,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 370,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 346,
+					"quantity": 3
+				},
+				{
+					"listings": 2,
+					"unit_price": 289,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 286,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 281,
+					"quantity": 28
+				},
+				{
+					"listings": 1,
+					"unit_price": 279,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 278,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 275,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 271,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 249,
+					"quantity": 4
+				},
+				{
+					"listings": 2,
+					"unit_price": 202,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 195,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 183,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 181,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 125,
+					"quantity": 2
+				},
+				{
+					"listings": 4,
+					"unit_price": 117,
+					"quantity": 77
+				},
+				{
+					"listings": 10,
+					"unit_price": 113,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 105,
+					"quantity": 1
+				},
+				{
+					"listings": 4,
+					"unit_price": 97,
+					"quantity": 4
+				}
+			],
+			"totalProfit": 435.39999999999986,
+			"sellCount": 6
+		}
+	],
+	[
+		"6753",
+		{
+			"type": "Earring",
+			"output_item_id": 38151,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12811,
+					"count": 1,
+					"data": {
+						"name": "Silver Hook",
+						"buy": 25,
+						"sell": 49,
+						"supply": 2745,
+						"demand": 2743
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 35,
+						"sell": 64,
+						"supply": 3532,
+						"demand": 4765
+					}
+				},
+				{
+					"item_id": 38139,
+					"count": 1,
+					"data": {
+						"name": "Intricate Snowflake",
+						"buy": 92,
+						"sell": 189,
+						"supply": 18062,
+						"demand": 1800
+					}
+				}
+			],
+			"id": 6753,
+			"chat_link": "[&CWEaAAA=]",
+			"output": {
+				"name": "Snowflake Silver Earring",
+				"buy": 431,
+				"sell": 747,
+				"supply": 1804,
+				"demand": 51
+			},
+			"totalCost": 302,
+			"totalRevenue": 431,
+			"profit": 64.34999999999997,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 431,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 233,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 229,
+					"quantity": 8
+				},
+				{
+					"listings": 2,
+					"unit_price": 129,
+					"quantity": 39
+				}
+			],
+			"totalProfit": 64.34999999999997,
+			"sellCount": 1
+		}
+	],
+	[
+		"3576",
+		{
+			"type": "Ring",
+			"output_item_id": 13278,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12824,
+					"count": 1,
+					"data": {
+						"name": "Copper Band",
+						"buy": 43,
+						"sell": 159,
+						"supply": 9500,
+						"demand": 3282
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24483,
+					"count": 1,
+					"data": {
+						"name": "Adorned Garnet Jewel",
+						"buy": 84,
+						"sell": 175,
+						"supply": 1268,
+						"demand": 1210
+					}
+				}
+			],
+			"id": 3576,
+			"chat_link": "[&CfgNAAA=]",
+			"output": {
+				"name": "Garnet Copper Ring",
+				"buy": 613,
+				"sell": 1681,
+				"supply": 1260,
+				"demand": 90
+			},
+			"totalCost": 459,
+			"totalRevenue": 613,
+			"profit": 62.049999999999955,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 613,
+					"quantity": 16
+				},
+				{
+					"listings": 2,
+					"unit_price": 612,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 600,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 568,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 500,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 335,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 299,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 273,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 179,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 173,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 151,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 134,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 106,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 100,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 96,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 90,
+					"quantity": 2
+				},
+				{
+					"listings": 22,
+					"unit_price": 85,
+					"quantity": 35
+				},
+				{
+					"listings": 1,
+					"unit_price": 75,
+					"quantity": 2
+				},
+				{
+					"listings": 11,
+					"unit_price": 73,
+					"quantity": 15
+				}
+			],
+			"totalProfit": 259.24999999999983,
+			"sellCount": 5
+		}
+	],
+	[
+		"3534",
+		{
+			"type": "Ring",
+			"output_item_id": 13301,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12829,
+					"count": 1,
+					"data": {
+						"name": "Silver Band",
+						"buy": 36,
+						"sell": 99,
+						"supply": 3075,
+						"demand": 3405
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 35,
+						"sell": 64,
+						"supply": 3532,
+						"demand": 4765
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 69,
+						"sell": 70,
+						"supply": 16058,
+						"demand": 16017
+					}
+				}
+			],
+			"id": 3534,
+			"chat_link": "[&Cc4NAAA=]",
+			"output": {
+				"name": "Carnelian Silver Ring",
+				"buy": 339,
+				"sell": 1436,
+				"supply": 1388,
+				"demand": 396
+			},
+			"totalCost": 233,
+			"totalRevenue": 339,
+			"profit": 55.14999999999998,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 339,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 338,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 290,
+					"quantity": 7
+				},
+				{
+					"listings": 1,
+					"unit_price": 289,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 288,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 286,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 284,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 271,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 270,
+					"quantity": 30
+				},
+				{
+					"listings": 1,
+					"unit_price": 269,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 260,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 258,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 247,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 246,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 243,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 237,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 230,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 210,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 206,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 205,
+					"quantity": 20
+				},
+				{
+					"listings": 3,
+					"unit_price": 110,
+					"quantity": 102
+				},
+				{
+					"listings": 1,
+					"unit_price": 100,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 85,
+					"quantity": 5
+				},
+				{
+					"listings": 2,
+					"unit_price": 80,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 57,
+					"quantity": 2
+				},
+				{
+					"listings": 13,
+					"unit_price": 56,
+					"quantity": 22
+				},
+				{
+					"listings": 10,
+					"unit_price": 48,
+					"quantity": 42
+				}
+			],
+			"totalProfit": 179.39999999999998,
+			"sellCount": 8
+		}
+	],
+	[
+		"431",
+		{
+			"type": "Leggings",
+			"output_item_id": 10282,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Armorsmith"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19799,
+					"count": 1,
+					"data": {
+						"name": "Mighty Embroidered Jute Insignia",
+						"buy": 111,
+						"sell": 175,
+						"supply": 5397,
+						"demand": 3284
+					}
+				},
+				{
+					"item_id": 13100,
+					"count": 1,
+					"data": {
+						"name": "Bronze Chain Leggings Panel",
+						"buy": 76,
+						"sell": 315,
+						"supply": 2183,
+						"demand": 1582
+					}
+				},
+				{
+					"item_id": 13099,
+					"count": 1,
+					"data": {
+						"name": "Bronze Chain Legging Lining",
+						"buy": 96,
+						"sell": 330,
+						"supply": 2006,
+						"demand": 4010
+					}
+				}
+			],
+			"id": 431,
+			"chat_link": "[&Ca8BAAA=]",
+			"output": {
+				"name": "Mighty Chain Legs",
+				"buy": 1013,
+				"sell": 5559,
+				"supply": 114,
+				"demand": 168
+			},
+			"totalCost": 820,
+			"totalRevenue": 1013,
+			"profit": 41.049999999999955,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 1013,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1012,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 813,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 810,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 808,
+					"quantity": 25
+				},
+				{
+					"listings": 1,
+					"unit_price": 807,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 599,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 517,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 500,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 241,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 217,
+					"quantity": 8
+				},
+				{
+					"listings": 1,
+					"unit_price": 203,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 102,
+					"quantity": 50
+				},
+				{
+					"listings": 3,
+					"unit_price": 100,
+					"quantity": 3
+				},
+				{
+					"listings": 2,
+					"unit_price": 99,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 90,
+					"quantity": 2
+				},
+				{
+					"listings": 5,
+					"unit_price": 80,
+					"quantity": 5
+				},
+				{
+					"listings": 15,
+					"unit_price": 69,
+					"quantity": 16
+				}
+			],
+			"totalProfit": 81.24999999999989,
+			"sellCount": 2
+		}
+	],
+	[
+		"3473",
+		{
+			"type": "Amulet",
+			"output_item_id": 13363,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12818,
+					"count": 1,
+					"data": {
+						"name": "Copper Chain",
+						"buy": 66,
+						"sell": 138,
+						"supply": 1968,
+						"demand": 5074
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24477,
+					"count": 1,
+					"data": {
+						"name": "Adorned Amber Jewel",
+						"buy": 0,
+						"sell": 19,
+						"supply": 10731,
+						"demand": 0
+					}
+				}
+			],
+			"id": 3473,
+			"chat_link": "[&CZENAAA=]",
+			"output": {
+				"name": "Amber Copper Amulet",
+				"buy": 371,
+				"sell": 645,
+				"supply": 1011,
+				"demand": 230
+			},
+			"totalCost": 282,
+			"totalRevenue": 371,
+			"profit": 33.349999999999966,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 371,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 225,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 221,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 215,
+					"quantity": 19
+				},
+				{
+					"listings": 1,
+					"unit_price": 214,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 210,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 207,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 202,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 198,
+					"quantity": 24
+				},
+				{
+					"listings": 1,
+					"unit_price": 196,
+					"quantity": 130
+				},
+				{
+					"listings": 1,
+					"unit_price": 191,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 186,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 181,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 125,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 120,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 116,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 97,
+					"quantity": 15
+				}
+			],
+			"totalProfit": 33.349999999999966,
+			"sellCount": 1
+		}
+	],
+	[
+		"299",
+		{
+			"type": "Gloves",
+			"output_item_id": 10276,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Armorsmith"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19799,
+					"count": 1,
+					"data": {
+						"name": "Mighty Embroidered Jute Insignia",
+						"buy": 111,
+						"sell": 175,
+						"supply": 5397,
+						"demand": 3284
+					}
+				},
+				{
+					"item_id": 13110,
+					"count": 1,
+					"data": {
+						"name": "Bronze Chain Glove Panel",
+						"buy": 37,
+						"sell": 136,
+						"supply": 6066,
+						"demand": 916
+					}
+				},
+				{
+					"item_id": 13107,
+					"count": 1,
+					"data": {
+						"name": "Bronze Chain Glove Lining",
+						"buy": 61,
+						"sell": 149,
+						"supply": 1618,
+						"demand": 1055
+					}
+				}
+			],
+			"id": 299,
+			"chat_link": "[&CSsBAAA=]",
+			"output": {
+				"name": "Mighty Chain Gauntlets",
+				"buy": 577,
+				"sell": 3895,
+				"supply": 940,
+				"demand": 294
+			},
+			"totalCost": 460,
+			"totalRevenue": 577,
+			"profit": 30.44999999999999,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 577,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 574,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 572,
+					"quantity": 63
+				},
+				{
+					"listings": 1,
+					"unit_price": 568,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 555,
+					"quantity": 82
+				},
+				{
+					"listings": 1,
+					"unit_price": 552,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 524,
+					"quantity": 21
+				},
+				{
+					"listings": 2,
+					"unit_price": 500,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 492,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 478,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 387,
+					"quantity": 45
+				},
+				{
+					"listings": 2,
+					"unit_price": 375,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 206,
+					"quantity": 1
+				},
+				{
+					"listings": 4,
+					"unit_price": 100,
+					"quantity": 4
+				},
+				{
+					"listings": 5,
+					"unit_price": 52,
+					"quantity": 7
+				},
+				{
+					"listings": 3,
+					"unit_price": 45,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 44,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 128.29999999999995,
+			"sellCount": 6
+		}
+	],
+	[
+		"2057",
+		{
+			"type": "Boots",
+			"output_item_id": 10894,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Tailor"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19799,
+					"count": 1,
+					"data": {
+						"name": "Mighty Embroidered Jute Insignia",
+						"buy": 111,
+						"sell": 175,
+						"supply": 5397,
+						"demand": 3284
+					}
+				},
+				{
+					"item_id": 13021,
+					"count": 1,
+					"data": {
+						"name": "Jute Sandal Upper",
+						"buy": 156,
+						"sell": 327,
+						"supply": 2422,
+						"demand": 6034
+					}
+				},
+				{
+					"item_id": 13022,
+					"count": 2,
+					"data": {
+						"name": "Jute Sandal Sole",
+						"buy": 4,
+						"sell": 13,
+						"supply": 54156,
+						"demand": 23630
+					}
+				}
+			],
+			"id": 2057,
+			"chat_link": "[&CQkIAAA=]",
+			"output": {
+				"name": "Mighty Embroidered Sandals",
+				"buy": 655,
+				"sell": 2986,
+				"supply": 621,
+				"demand": 107
+			},
+			"totalCost": 528,
+			"totalRevenue": 655,
+			"profit": 28.75,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 655,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 653,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 649,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 645,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 644,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 581,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 575,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 568,
+					"quantity": 13
+				},
+				{
+					"listings": 1,
+					"unit_price": 567,
+					"quantity": 14
+				},
+				{
+					"listings": 1,
+					"unit_price": 501,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 168,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 116,
+					"quantity": 16
+				},
+				{
+					"listings": 1,
+					"unit_price": 115,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 110,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 100,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 94,
+					"quantity": 11
+				},
+				{
+					"listings": 2,
+					"unit_price": 57,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 50,
+					"quantity": 1
+				},
+				{
+					"listings": 22,
+					"unit_price": 49,
+					"quantity": 25
+				}
+			],
+			"totalProfit": 119.09999999999991,
+			"sellCount": 5
+		}
+	],
+	[
+		"3569",
+		{
+			"type": "Ring",
+			"output_item_id": 13277,
+			"output_item_count": 1,
+			"min_rating": 0,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12824,
+					"count": 1,
+					"data": {
+						"name": "Copper Band",
+						"buy": 43,
+						"sell": 159,
+						"supply": 9500,
+						"demand": 3282
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24464,
+					"count": 1,
+					"data": {
+						"name": "Garnet Pebble",
+						"buy": 81,
+						"sell": 104,
+						"supply": 6428,
+						"demand": 15915
+					}
+				}
+			],
+			"id": 3569,
+			"chat_link": "[&CfENAAA=]",
+			"output": {
+				"name": "Garnet Copper Ring",
+				"buy": 478,
+				"sell": 1153,
+				"supply": 1617,
+				"demand": 1490
+			},
+			"totalCost": 388,
+			"totalRevenue": 478,
+			"profit": 18.30000000000001,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 478,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 477,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 472,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 470,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 368,
+					"quantity": 55
+				},
+				{
+					"listings": 1,
+					"unit_price": 367,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 363,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 355,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 250,
+					"quantity": 100
+				},
+				{
+					"listings": 1,
+					"unit_price": 241,
+					"quantity": 19
+				},
+				{
+					"listings": 1,
+					"unit_price": 240,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 228,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 200,
+					"quantity": 3
+				},
+				{
+					"listings": 5,
+					"unit_price": 144,
+					"quantity": 5
+				},
+				{
+					"listings": 3,
+					"unit_price": 139,
+					"quantity": 3
+				},
+				{
+					"listings": 5,
+					"unit_price": 138,
+					"quantity": 9
+				},
+				{
+					"listings": 2,
+					"unit_price": 137,
+					"quantity": 3
+				},
+				{
+					"listings": 3,
+					"unit_price": 133,
+					"quantity": 6
+				},
+				{
+					"listings": 2,
+					"unit_price": 130,
+					"quantity": 2
+				},
+				{
+					"listings": 6,
+					"unit_price": 128,
+					"quantity": 8
+				},
+				{
+					"listings": 1,
+					"unit_price": 127,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 126,
+					"quantity": 4
+				},
+				{
+					"listings": 2,
+					"unit_price": 125,
+					"quantity": 3
+				},
+				{
+					"listings": 3,
+					"unit_price": 124,
+					"quantity": 4
+				},
+				{
+					"listings": 3,
+					"unit_price": 123,
+					"quantity": 3
+				},
+				{
+					"listings": 3,
+					"unit_price": 122,
+					"quantity": 4
+				},
+				{
+					"listings": 5,
+					"unit_price": 121,
+					"quantity": 8
+				},
+				{
+					"listings": 10,
+					"unit_price": 119,
+					"quantity": 14
+				},
+				{
+					"listings": 1,
+					"unit_price": 118,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 117,
+					"quantity": 2
+				},
+				{
+					"listings": 9,
+					"unit_price": 116,
+					"quantity": 18
+				},
+				{
+					"listings": 9,
+					"unit_price": 114,
+					"quantity": 12
+				},
+				{
+					"listings": 7,
+					"unit_price": 100,
+					"quantity": 9
+				},
+				{
+					"listings": 2,
+					"unit_price": 94,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 72,
+					"quantity": 49
+				},
+				{
+					"listings": 3,
+					"unit_price": 71,
+					"quantity": 253
+				},
+				{
+					"listings": 1,
+					"unit_price": 66,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 65,
+					"quantity": 4
+				},
+				{
+					"listings": 2,
+					"unit_price": 52,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 50,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 45,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 40,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 38,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 31,
+					"quantity": 458
+				},
+				{
+					"listings": 2,
+					"unit_price": 30,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 29,
+					"quantity": 1
+				},
+				{
+					"listings": 27,
+					"unit_price": 28,
+					"quantity": 42
+				},
+				{
+					"listings": 15,
+					"unit_price": 24,
+					"quantity": 348
+				},
+				{
+					"listings": 2,
+					"unit_price": 23,
+					"quantity": 3
+				}
+			],
+			"totalProfit": 60.44999999999999,
+			"sellCount": 4
+		}
+	],
+	[
+		"3510",
+		{
+			"type": "Earring",
+			"output_item_id": 13307,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12811,
+					"count": 1,
+					"data": {
+						"name": "Silver Hook",
+						"buy": 25,
+						"sell": 49,
+						"supply": 2745,
+						"demand": 2743
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 35,
+						"sell": 64,
+						"supply": 3532,
+						"demand": 4765
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 69,
+						"sell": 70,
+						"supply": 16058,
+						"demand": 16017
+					}
+				}
+			],
+			"id": 3510,
+			"chat_link": "[&CbYNAAA=]",
+			"output": {
+				"name": "Carnelian Silver Stud",
+				"buy": 235,
+				"sell": 635,
+				"supply": 480,
+				"demand": 181
+			},
+			"totalCost": 183,
+			"totalRevenue": 235,
+			"profit": 16.75,
+			"buys": [
+				{
+					"listings": 2,
+					"unit_price": 235,
+					"quantity": 12
+				},
+				{
+					"listings": 1,
+					"unit_price": 234,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 232,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 180,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 176,
+					"quantity": 5
+				},
+				{
+					"listings": 2,
+					"unit_price": 150,
+					"quantity": 3
+				},
+				{
+					"listings": 2,
+					"unit_price": 140,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 139,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 100,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 47,
+					"quantity": 100
+				},
+				{
+					"listings": 10,
+					"unit_price": 46,
+					"quantity": 25
+				},
+				{
+					"listings": 1,
+					"unit_price": 40,
+					"quantity": 20
+				}
+			],
+			"totalProfit": 63.599999999999994,
+			"sellCount": 4
+		}
+	],
+	[
+		"3539",
+		{
+			"type": "Ring",
+			"output_item_id": 13302,
+			"output_item_count": 1,
+			"min_rating": 125,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12829,
+					"count": 1,
+					"data": {
+						"name": "Silver Band",
+						"buy": 36,
+						"sell": 99,
+						"supply": 3075,
+						"demand": 3405
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 35,
+						"sell": 64,
+						"supply": 3532,
+						"demand": 4765
+					}
+				},
+				{
+					"item_id": 24478,
+					"count": 1,
+					"data": {
+						"name": "Intricate Carnelian Jewel",
+						"buy": 0,
+						"sell": 81,
+						"supply": 3560,
+						"demand": 0
+					}
+				}
+			],
+			"id": 3539,
+			"chat_link": "[&CdMNAAA=]",
+			"output": {
+				"name": "Carnelian Silver Ring",
+				"buy": 302,
+				"sell": 1201,
+				"supply": 586,
+				"demand": 172
+			},
+			"totalCost": 244,
+			"totalRevenue": 302,
+			"profit": 12.699999999999989,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 302,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 301,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 300,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 297,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 295,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 294,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 284,
+					"quantity": 111
+				},
+				{
+					"listings": 1,
+					"unit_price": 283,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 183,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 181,
+					"quantity": 14
+				},
+				{
+					"listings": 1,
+					"unit_price": 174,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 122,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 120,
+					"quantity": 2
+				},
+				{
+					"listings": 3,
+					"unit_price": 103,
+					"quantity": 5
+				}
+			],
+			"totalProfit": 56.64999999999998,
+			"sellCount": 6
+		}
+	],
+	[
+		"3562",
+		{
+			"type": "Earring",
+			"output_item_id": 13290,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12806,
+					"count": 1,
+					"data": {
+						"name": "Copper Hook",
+						"buy": 24,
+						"sell": 97,
+						"supply": 3032,
+						"demand": 1541
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24480,
+					"count": 1,
+					"data": {
+						"name": "Adorned Malachite Jewel",
+						"buy": 0,
+						"sell": 52,
+						"supply": 5772,
+						"demand": 0
+					}
+				}
+			],
+			"id": 3562,
+			"chat_link": "[&CeoNAAA=]",
+			"output": {
+				"name": "Malachite Copper Stud",
+				"buy": 337,
+				"sell": 756,
+				"supply": 1103,
+				"demand": 13
+			},
+			"totalCost": 274,
+			"totalRevenue": 337,
+			"profit": 12.449999999999989,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 337,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 250,
+					"quantity": 1
+				},
+				{
+					"listings": 5,
+					"unit_price": 71,
+					"quantity": 8
+				},
+				{
+					"listings": 1,
+					"unit_price": 60,
+					"quantity": 2
+				}
+			],
+			"totalProfit": 12.449999999999989,
+			"sellCount": 1
+		}
+	],
+	[
+		"1170",
+		{
+			"type": "Leggings",
+			"output_item_id": 11598,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Leatherworker"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19799,
+					"count": 1,
+					"data": {
+						"name": "Mighty Embroidered Jute Insignia",
+						"buy": 111,
+						"sell": 175,
+						"supply": 5397,
+						"demand": 3284
+					}
+				},
+				{
+					"item_id": 13088,
+					"count": 1,
+					"data": {
+						"name": "Rawhide Legging Panel",
+						"buy": 318,
+						"sell": 591,
+						"supply": 733,
+						"demand": 3747
+					}
+				},
+				{
+					"item_id": 13087,
+					"count": 1,
+					"data": {
+						"name": "Rawhide Legging Strap",
+						"buy": 4,
+						"sell": 20,
+						"supply": 7886,
+						"demand": 648
+					}
+				}
+			],
+			"id": 1170,
+			"chat_link": "[&CZIEAAA=]",
+			"output": {
+				"name": "Mighty Seeker Pants",
+				"buy": 935,
+				"sell": 2926,
+				"supply": 572,
+				"demand": 87
+			},
+			"totalCost": 786,
+			"totalRevenue": 935,
+			"profit": 8.75,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 935,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 934,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 933,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 931,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 732,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 728,
+					"quantity": 27
+				},
+				{
+					"listings": 1,
+					"unit_price": 699,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 532,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 519,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 499,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 368,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 310,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 300,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 286,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 211,
+					"quantity": 5
+				},
+				{
+					"listings": 2,
+					"unit_price": 208,
+					"quantity": 19
+				},
+				{
+					"listings": 2,
+					"unit_price": 169,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 143,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 130,
+					"quantity": 2
+				},
+				{
+					"listings": 4,
+					"unit_price": 80,
+					"quantity": 4
+				},
+				{
+					"listings": 5,
+					"unit_price": 69,
+					"quantity": 10
+				}
+			],
+			"totalProfit": 36.94999999999993,
+			"sellCount": 5
+		}
+	],
+	[
+		"2845",
+		{
+			"type": "Seasoning",
+			"output_item_id": 12178,
+			"output_item_count": 1,
+			"min_rating": 0,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Chef"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 12153,
+					"count": 1,
+					"data": {
+						"name": "Packet of Salt",
+						"buy": 8,
+						"sell": 11,
+						"supply": 181540,
+						"demand": 162839
+					}
+				},
+				{
+					"item_id": 12236,
+					"count": 1,
+					"data": {
+						"name": "Black Peppercorn",
+						"buy": 16,
+						"sell": 19,
+						"supply": 186333,
+						"demand": 46460
+					}
+				}
+			],
+			"id": 2845,
+			"chat_link": "[&CR0LAAA=]",
+			"output": {
+				"name": "Pile of Salt and Pepper",
+				"buy": 44,
+				"sell": 60,
+				"supply": 92854,
+				"demand": 17318
+			},
+			"totalCost": 30,
+			"totalRevenue": 44,
+			"profit": 7.399999999999999,
+			"buys": [
+				{
+					"listings": 4,
+					"unit_price": 44,
+					"quantity": 990
+				},
+				{
+					"listings": 4,
+					"unit_price": 43,
+					"quantity": 926
+				},
+				{
+					"listings": 4,
+					"unit_price": 41,
+					"quantity": 956
+				},
+				{
+					"listings": 4,
+					"unit_price": 40,
+					"quantity": 911
+				},
+				{
+					"listings": 4,
+					"unit_price": 38,
+					"quantity": 1000
+				},
+				{
+					"listings": 4,
+					"unit_price": 37,
+					"quantity": 752
+				},
+				{
+					"listings": 1,
+					"unit_price": 36,
+					"quantity": 50
+				},
+				{
+					"listings": 2,
+					"unit_price": 35,
+					"quantity": 492
+				},
+				{
+					"listings": 2,
+					"unit_price": 30,
+					"quantity": 484
+				},
+				{
+					"listings": 3,
+					"unit_price": 27,
+					"quantity": 66
+				},
+				{
+					"listings": 5,
+					"unit_price": 25,
+					"quantity": 159
+				},
+				{
+					"listings": 1,
+					"unit_price": 24,
+					"quantity": 68
+				},
+				{
+					"listings": 1,
+					"unit_price": 23,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 20,
+					"quantity": 30
+				},
+				{
+					"listings": 1,
+					"unit_price": 18,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 17,
+					"quantity": 60
+				},
+				{
+					"listings": 6,
+					"unit_price": 15,
+					"quantity": 112
+				},
+				{
+					"listings": 1,
+					"unit_price": 12,
+					"quantity": 20
+				},
+				{
+					"listings": 6,
+					"unit_price": 11,
+					"quantity": 1005
+				},
+				{
+					"listings": 8,
+					"unit_price": 10,
+					"quantity": 412
+				},
+				{
+					"listings": 7,
+					"unit_price": 8,
+					"quantity": 464
+				},
+				{
+					"listings": 3,
+					"unit_price": 6,
+					"quantity": 210
+				},
+				{
+					"listings": 24,
+					"unit_price": 5,
+					"quantity": 1613
+				},
+				{
+					"listings": 8,
+					"unit_price": 4,
+					"quantity": 202
+				},
+				{
+					"listings": 13,
+					"unit_price": 3,
+					"quantity": 1720
+				},
+				{
+					"listings": 47,
+					"unit_price": 2,
+					"quantity": 3028
+				},
+				{
+					"listings": 61,
+					"unit_price": 1,
+					"quantity": 1537
+				}
+			],
+			"totalProfit": 106.79999999999997,
+			"sellCount": 25
+		}
+	],
+	[
+		"3486",
+		{
+			"type": "Amulet",
+			"output_item_id": 13304,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12823,
+					"count": 1,
+					"data": {
+						"name": "Silver Chain",
+						"buy": 40,
+						"sell": 120,
+						"supply": 4702,
+						"demand": 6352
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 35,
+						"sell": 64,
+						"supply": 3532,
+						"demand": 4765
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 69,
+						"sell": 70,
+						"supply": 16058,
+						"demand": 16017
+					}
+				}
+			],
+			"id": 3486,
+			"chat_link": "[&CZ4NAAA=]",
+			"output": {
+				"name": "Carnelian Silver Amulet",
+				"buy": 307,
+				"sell": 1316,
+				"supply": 704,
+				"demand": 293
+			},
+			"totalCost": 254,
+			"totalRevenue": 307,
+			"profit": 6.949999999999989,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 307,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 306,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 283,
+					"quantity": 17
+				},
+				{
+					"listings": 1,
+					"unit_price": 282,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 281,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 280,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 276,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 259,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 195,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 131,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 129,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 127,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 97,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 94,
+					"quantity": 204
+				},
+				{
+					"listings": 2,
+					"unit_price": 73,
+					"quantity": 3
+				},
+				{
+					"listings": 2,
+					"unit_price": 63,
+					"quantity": 2
+				}
+			],
+			"totalProfit": 13.049999999999955,
+			"sellCount": 2
+		}
+	],
+	[
+		"3398",
+		{
+			"type": "Component",
+			"output_item_id": 12815,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 2000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19685,
+					"count": 2,
+					"data": {
+						"name": "Orichalcum Ingot",
+						"buy": 277,
+						"sell": 301,
+						"supply": 265630,
+						"demand": 61984
+					}
+				}
+			],
+			"id": 3398,
+			"chat_link": "[&CUYNAAA=]",
+			"output": {
+				"name": "Orichalcum Setting",
+				"buy": 716,
+				"sell": 936,
+				"supply": 4151,
+				"demand": 2476
+			},
+			"totalCost": 602,
+			"totalRevenue": 716,
+			"profit": 6.600000000000023,
+			"buys": [
+				{
+					"listings": 2,
+					"unit_price": 716,
+					"quantity": 34
+				},
+				{
+					"listings": 1,
+					"unit_price": 715,
+					"quantity": 39
+				},
+				{
+					"listings": 1,
+					"unit_price": 713,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 712,
+					"quantity": 249
+				},
+				{
+					"listings": 2,
+					"unit_price": 711,
+					"quantity": 117
+				},
+				{
+					"listings": 1,
+					"unit_price": 685,
+					"quantity": 60
+				},
+				{
+					"listings": 1,
+					"unit_price": 684,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 671,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 648,
+					"quantity": 145
+				},
+				{
+					"listings": 1,
+					"unit_price": 646,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 628,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 604,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 560,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 537,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 513,
+					"quantity": 100
+				},
+				{
+					"listings": 1,
+					"unit_price": 472,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 469,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 467,
+					"quantity": 8
+				},
+				{
+					"listings": 1,
+					"unit_price": 452,
+					"quantity": 37
+				},
+				{
+					"listings": 1,
+					"unit_price": 435,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 363,
+					"quantity": 147
+				},
+				{
+					"listings": 1,
+					"unit_price": 340,
+					"quantity": 42
+				},
+				{
+					"listings": 1,
+					"unit_price": 300,
+					"quantity": 73
+				},
+				{
+					"listings": 1,
+					"unit_price": 295,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 290,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 271,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 244,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 243,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 179,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 172,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 119,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 84,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 80,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 75,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 64,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 55,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 50,
+					"quantity": 56
+				},
+				{
+					"listings": 1,
+					"unit_price": 11,
+					"quantity": 250
+				},
+				{
+					"listings": 9,
+					"unit_price": 10,
+					"quantity": 285
+				},
+				{
+					"listings": 3,
+					"unit_price": 9,
+					"quantity": 105
+				}
+			],
+			"totalProfit": 30.899999999999977,
+			"sellCount": 7
+		}
+	],
+	[
+		"3577",
+		{
+			"type": "Ring",
+			"output_item_id": 13281,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12824,
+					"count": 1,
+					"data": {
+						"name": "Copper Band",
+						"buy": 43,
+						"sell": 159,
+						"supply": 9500,
+						"demand": 3282
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 42,
+						"sell": 125,
+						"supply": 5357,
+						"demand": 4448
+					}
+				},
+				{
+					"item_id": 24488,
+					"count": 1,
+					"data": {
+						"name": "Adorned Tiger's Eye Jewel",
+						"buy": 67,
+						"sell": 127,
+						"supply": 781,
+						"demand": 277
+					}
+				}
+			],
+			"id": 3577,
+			"chat_link": "[&CfkNAAA=]",
+			"output": {
+				"name": "Tiger's Eye Copper Ring",
+				"buy": 489,
+				"sell": 1292,
+				"supply": 1236,
+				"demand": 80
+			},
+			"totalCost": 411,
+			"totalRevenue": 489,
+			"profit": 4.649999999999977,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 489,
+					"quantity": 8
+				},
+				{
+					"listings": 1,
+					"unit_price": 488,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 333,
+					"quantity": 24
+				},
+				{
+					"listings": 1,
+					"unit_price": 286,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 282,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 280,
+					"quantity": 7
+				},
+				{
+					"listings": 1,
+					"unit_price": 273,
+					"quantity": 1
+				},
+				{
+					"listings": 6,
+					"unit_price": 85,
+					"quantity": 7
+				},
+				{
+					"listings": 1,
+					"unit_price": 80,
+					"quantity": 1
+				},
+				{
+					"listings": 13,
+					"unit_price": 73,
+					"quantity": 22
+				}
+			],
+			"totalProfit": 8.449999999999989,
+			"sellCount": 2
+		}
+	],
+	[
+		"5110",
+		{
+			"type": "Component",
+			"output_item_id": 12936,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 3000,
+			"disciplines": [
+				"Huntsman"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19685,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Ingot",
+						"buy": 277,
+						"sell": 301,
+						"supply": 265630,
+						"demand": 61984
+					}
+				},
+				{
+					"item_id": 19712,
+					"count": 2,
+					"data": {
+						"name": "Ancient Wood Plank",
+						"buy": 302,
+						"sell": 368,
+						"supply": 176239,
+						"demand": 51558
+					}
+				}
+			],
+			"id": 5110,
+			"chat_link": "[&CfYTAAA=]",
+			"output": {
+				"name": "Orichalcum Horn",
+				"buy": 1225,
+				"sell": 2088,
+				"supply": 3032,
+				"demand": 1085
+			},
+			"totalCost": 1037,
+			"totalRevenue": 1225,
+			"profit": 4.25,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 1225,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 1224,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 1110,
+					"quantity": 16
+				},
+				{
+					"listings": 1,
+					"unit_price": 1032,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 1016,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 996,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 985,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 949,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 947,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 921,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 916,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 896,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 890,
+					"quantity": 30
+				},
+				{
+					"listings": 1,
+					"unit_price": 860,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 800,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 667,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 654,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 548,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 514,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 511,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 509,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 308,
+					"quantity": 54
+				},
+				{
+					"listings": 1,
+					"unit_price": 155,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 151,
+					"quantity": 250
+				},
+				{
+					"listings": 2,
+					"unit_price": 10,
+					"quantity": 252
+				},
+				{
+					"listings": 1,
+					"unit_price": 9,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 7.649999999999864,
+			"sellCount": 2
+		}
+	],
+	[
+		"3156",
+		{
+			"type": "Dessert",
+			"output_item_id": 12458,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Chef"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12128,
+					"count": 1,
+					"data": {
+						"name": "Omnomberry",
+						"buy": 58,
+						"sell": 67,
+						"supply": 427455,
+						"demand": 153365
+					}
+				},
+				{
+					"item_id": 12155,
+					"count": 1,
+					"data": {
+						"name": "Bag of Sugar",
+						"buy": 6,
+						"sell": 10,
+						"supply": 127354,
+						"demand": 31582
+					}
+				}
+			],
+			"id": 3156,
+			"chat_link": "[&CVQMAAA=]",
+			"output": {
+				"name": "Omnomberry Compote",
+				"buy": 94,
+				"sell": 122,
+				"supply": 42586,
+				"demand": 16854
+			},
+			"totalCost": 77,
+			"totalRevenue": 94,
+			"profit": 2.8999999999999915,
+			"buys": [
+				{
+					"listings": 5,
+					"unit_price": 94,
+					"quantity": 955
+				},
+				{
+					"listings": 1,
+					"unit_price": 93,
+					"quantity": 249
+				},
+				{
+					"listings": 1,
+					"unit_price": 91,
+					"quantity": 62
+				},
+				{
+					"listings": 2,
+					"unit_price": 88,
+					"quantity": 86
+				},
+				{
+					"listings": 2,
+					"unit_price": 87,
+					"quantity": 500
+				},
+				{
+					"listings": 2,
+					"unit_price": 86,
+					"quantity": 250
+				},
+				{
+					"listings": 4,
+					"unit_price": 82,
+					"quantity": 726
+				},
+				{
+					"listings": 1,
+					"unit_price": 81,
+					"quantity": 206
+				},
+				{
+					"listings": 2,
+					"unit_price": 80,
+					"quantity": 500
+				},
+				{
+					"listings": 6,
+					"unit_price": 75,
+					"quantity": 1265
+				},
+				{
+					"listings": 4,
+					"unit_price": 74,
+					"quantity": 691
+				},
+				{
+					"listings": 1,
+					"unit_price": 69,
+					"quantity": 150
+				},
+				{
+					"listings": 2,
+					"unit_price": 67,
+					"quantity": 500
+				},
+				{
+					"listings": 3,
+					"unit_price": 66,
+					"quantity": 716
+				},
+				{
+					"listings": 3,
+					"unit_price": 64,
+					"quantity": 750
+				},
+				{
+					"listings": 1,
+					"unit_price": 62,
+					"quantity": 107
+				},
+				{
+					"listings": 1,
+					"unit_price": 52,
+					"quantity": 43
+				},
+				{
+					"listings": 1,
+					"unit_price": 50,
+					"quantity": 30
+				},
+				{
+					"listings": 4,
+					"unit_price": 49,
+					"quantity": 1000
+				},
+				{
+					"listings": 2,
+					"unit_price": 48,
+					"quantity": 500
+				},
+				{
+					"listings": 5,
+					"unit_price": 47,
+					"quantity": 1089
+				},
+				{
+					"listings": 13,
+					"unit_price": 42,
+					"quantity": 3171
+				},
+				{
+					"listings": 4,
+					"unit_price": 41,
+					"quantity": 883
+				},
+				{
+					"listings": 1,
+					"unit_price": 36,
+					"quantity": 156
+				},
+				{
+					"listings": 1,
+					"unit_price": 33,
+					"quantity": 100
+				},
+				{
+					"listings": 1,
+					"unit_price": 31,
+					"quantity": 134
+				},
+				{
+					"listings": 1,
+					"unit_price": 18,
+					"quantity": 5
+				},
+				{
+					"listings": 3,
+					"unit_price": 13,
+					"quantity": 654
+				},
+				{
+					"listings": 1,
+					"unit_price": 10,
+					"quantity": 100
+				},
+				{
+					"listings": 4,
+					"unit_price": 6,
+					"quantity": 957
+				},
+				{
+					"listings": 4,
+					"unit_price": 2,
+					"quantity": 66
+				},
+				{
+					"listings": 4,
+					"unit_price": 1,
+					"quantity": 253
+				}
+			],
+			"totalProfit": 16.89999999999995,
+			"sellCount": 7
+		}
+	],
+	[
+		"11250",
+		{
+			"type": "Refinement",
+			"output_item_id": 75857,
+			"output_item_count": 1,
+			"min_rating": 150,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71428,
+					"count": 3,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 5,
+						"sell": 6,
+						"supply": 9207386,
+						"demand": 378162
+					}
+				}
+			],
+			"id": 11250,
+			"chat_link": "[&CfIrAAA=]",
+			"output": {
+				"name": "Resonating Fragment",
+				"buy": 24,
+				"sell": 38,
+				"supply": 79528,
+				"demand": 19051
+			},
+			"totalCost": 18,
+			"totalRevenue": 24,
+			"profit": 2.3999999999999986,
+			"buys": [
+				{
+					"listings": 3,
+					"unit_price": 24,
+					"quantity": 750
+				},
+				{
+					"listings": 1,
+					"unit_price": 23,
+					"quantity": 250
+				},
+				{
+					"listings": 25,
+					"unit_price": 20,
+					"quantity": 5794
+				},
+				{
+					"listings": 4,
+					"unit_price": 19,
+					"quantity": 975
+				},
+				{
+					"listings": 1,
+					"unit_price": 18,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 16,
+					"quantity": 50
+				},
+				{
+					"listings": 6,
+					"unit_price": 15,
+					"quantity": 1421
+				},
+				{
+					"listings": 2,
+					"unit_price": 14,
+					"quantity": 284
+				},
+				{
+					"listings": 4,
+					"unit_price": 12,
+					"quantity": 862
+				},
+				{
+					"listings": 10,
+					"unit_price": 9,
+					"quantity": 2204
+				},
+				{
+					"listings": 20,
+					"unit_price": 8,
+					"quantity": 5000
+				},
+				{
+					"listings": 6,
+					"unit_price": 7,
+					"quantity": 1211
+				}
+			],
+			"totalProfit": 8.749999999999996,
+			"sellCount": 4
+		}
+	],
+	[
+		"3778",
+		{
+			"type": "Earring",
+			"output_item_id": 13554,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12807,
+					"count": 1,
+					"data": {
+						"name": "Gold Hook",
+						"buy": 35,
+						"sell": 79,
+						"supply": 2929,
+						"demand": 2135
+					}
+				},
+				{
+					"item_id": 12813,
+					"count": 1,
+					"data": {
+						"name": "Gold Setting",
+						"buy": 48,
+						"sell": 89,
+						"supply": 5904,
+						"demand": 3565
+					}
+				},
+				{
+					"item_id": 24907,
+					"count": 3,
+					"data": {
+						"name": "Embellished Gilded Lapis Jewel",
+						"buy": 113,
+						"sell": 208,
+						"supply": 674,
+						"demand": 15
+					}
+				}
+			],
+			"id": 3778,
+			"chat_link": "[&CcIOAAA=]",
+			"output": {
+				"name": "Lapis Gold Earring",
+				"buy": 934,
+				"sell": 3685,
+				"supply": 1309,
+				"demand": 422
+			},
+			"totalCost": 792,
+			"totalRevenue": 934,
+			"profit": 1.8999999999999773,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 934,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 933,
+					"quantity": 19
+				},
+				{
+					"listings": 1,
+					"unit_price": 932,
+					"quantity": 21
+				},
+				{
+					"listings": 1,
+					"unit_price": 930,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 895,
+					"quantity": 15
+				},
+				{
+					"listings": 1,
+					"unit_price": 595,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 574,
+					"quantity": 42
+				},
+				{
+					"listings": 1,
+					"unit_price": 553,
+					"quantity": 30
+				},
+				{
+					"listings": 1,
+					"unit_price": 550,
+					"quantity": 34
+				},
+				{
+					"listings": 1,
+					"unit_price": 500,
+					"quantity": 53
+				},
+				{
+					"listings": 1,
+					"unit_price": 396,
+					"quantity": 167
+				},
+				{
+					"listings": 1,
+					"unit_price": 395,
+					"quantity": 28
+				},
+				{
+					"listings": 3,
+					"unit_price": 199,
+					"quantity": 7
+				},
+				{
+					"listings": 1,
+					"unit_price": 170,
+					"quantity": 1
+				}
+			],
+			"totalProfit": 3.1499999999998636,
+			"sellCount": 3
+		}
+	],
+	[
+		"5838",
+		{
+			"type": "Hammer",
+			"output_item_id": 15512,
+			"output_item_count": 1,
+			"min_rating": 375,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Weaponsmith"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19902,
+					"count": 1,
+					"data": {
+						"name": "Knight's Mithril Imbued Inscription",
+						"buy": 2403,
+						"sell": 2899,
+						"supply": 946,
+						"demand": 2604
+					}
+				},
+				{
+					"item_id": 12863,
+					"count": 1,
+					"data": {
+						"name": "Mithril Hammer Head",
+						"buy": 378,
+						"sell": 777,
+						"supply": 4282,
+						"demand": 3073
+					}
+				},
+				{
+					"item_id": 12896,
+					"count": 1,
+					"data": {
+						"name": "Large Elder Haft",
+						"buy": 305,
+						"sell": 805,
+						"supply": 22873,
+						"demand": 1998
+					}
+				}
+			],
+			"id": 5838,
+			"chat_link": "[&Cc4WAAA=]",
+			"output": {
+				"name": "Knight's Krait Warhammer",
+				"buy": 5273,
+				"sell": 6126,
+				"supply": 2176,
+				"demand": 585
+			},
+			"totalCost": 4481,
+			"totalRevenue": 5273,
+			"profit": 1.050000000000182,
+			"buys": [
+				{
+					"listings": 3,
+					"unit_price": 5273,
+					"quantity": 4
+				},
+				{
+					"listings": 2,
+					"unit_price": 4673,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4672,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 4671,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 4670,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4669,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4668,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 4667,
+					"quantity": 10
+				},
+				{
+					"listings": 2,
+					"unit_price": 4666,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 4665,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 4664,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 4663,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 4662,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 4661,
+					"quantity": 9
+				},
+				{
+					"listings": 1,
+					"unit_price": 4560,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 4559,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4344,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 4341,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 4328,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 4325,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4322,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 4310,
+					"quantity": 15
+				},
+				{
+					"listings": 1,
+					"unit_price": 4309,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 4298,
+					"quantity": 3
+				},
+				{
+					"listings": 1,
+					"unit_price": 4293,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 4286,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 4285,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4279,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 4271,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 4269,
+					"quantity": 10
+				},
+				{
+					"listings": 1,
+					"unit_price": 4259,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4257,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 4216,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 4215,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 4078,
+					"quantity": 4
+				},
+				{
+					"listings": 2,
+					"unit_price": 4076,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 4000,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3853,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3713,
+					"quantity": 30
+				},
+				{
+					"listings": 2,
+					"unit_price": 3686,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 3093,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 3030,
+					"quantity": 29
+				},
+				{
+					"listings": 1,
+					"unit_price": 3000,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 2882,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 2530,
+					"quantity": 5
+				},
+				{
+					"listings": 1,
+					"unit_price": 2093,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 2063,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1290,
+					"quantity": 1
+				},
+				{
+					"listings": 3,
+					"unit_price": 1265,
+					"quantity": 35
+				},
+				{
+					"listings": 1,
+					"unit_price": 1036,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 1001,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 1000,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 967,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 622,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 595,
+					"quantity": 2
+				},
+				{
+					"listings": 2,
+					"unit_price": 590,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 584,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 571,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 570,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 558,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 550,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 549,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 544,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 500,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 444,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 436,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 404,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 403,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 401,
+					"quantity": 1
+				},
+				{
+					"listings": 4,
+					"unit_price": 400,
+					"quantity": 4
+				},
+				{
+					"listings": 1,
+					"unit_price": 397,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 392,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 390,
+					"quantity": 2
+				},
+				{
+					"listings": 1,
+					"unit_price": 386,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 376,
+					"quantity": 1
+				},
+				{
+					"listings": 6,
+					"unit_price": 350,
+					"quantity": 255
+				}
+			],
+			"totalProfit": 3.1500000000005457,
+			"sellCount": 3
+		}
+	],
+	[
+		"19",
+		{
+			"type": "Refinement",
+			"output_item_id": 19683,
+			"output_item_count": 1,
+			"min_rating": 75,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Leatherworker",
+				"Armorsmith",
+				"Tailor",
+				"Artificer",
+				"Weaponsmith",
+				"Scribe",
+				"Huntsman"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19699,
+					"count": 3,
+					"data": {
+						"name": "Iron Ore",
+						"buy": 56,
+						"sell": 57,
+						"supply": 4813355,
+						"demand": 2044158
+					}
+				}
+			],
+			"id": 19,
+			"chat_link": "[&CRMAAAA=]",
+			"output": {
+				"name": "Iron Ingot",
+				"buy": 202,
+				"sell": 203,
+				"supply": 824124,
+				"demand": 60663
+			},
+			"totalCost": 171,
+			"totalRevenue": 202,
+			"profit": 0.6999999999999886,
+			"buys": [
+				{
+					"listings": 1,
+					"unit_price": 154,
+					"quantity": 80
+				},
+				{
+					"listings": 1,
+					"unit_price": 153,
+					"quantity": 54
+				},
+				{
+					"listings": 3,
+					"unit_price": 152,
+					"quantity": 560
+				},
+				{
+					"listings": 2,
+					"unit_price": 151,
+					"quantity": 368
+				},
+				{
+					"listings": 6,
+					"unit_price": 150,
+					"quantity": 1299
+				},
+				{
+					"listings": 6,
+					"unit_price": 149,
+					"quantity": 1421
+				},
+				{
+					"listings": 2,
+					"unit_price": 148,
+					"quantity": 251
+				},
+				{
+					"listings": 4,
+					"unit_price": 146,
+					"quantity": 857
+				},
+				{
+					"listings": 65,
+					"unit_price": 145,
+					"quantity": 15884
+				},
+				{
+					"listings": 3,
+					"unit_price": 141,
+					"quantity": 600
+				},
+				{
+					"listings": 10,
+					"unit_price": 140,
+					"quantity": 2500
+				},
+				{
+					"listings": 1,
+					"unit_price": 135,
+					"quantity": 100
+				},
+				{
+					"listings": 1,
+					"unit_price": 132,
+					"quantity": 60
+				},
+				{
+					"listings": 1,
+					"unit_price": 130,
+					"quantity": 222
+				},
+				{
+					"listings": 1,
+					"unit_price": 129,
+					"quantity": 200
+				},
+				{
+					"listings": 13,
+					"unit_price": 128,
+					"quantity": 3045
+				},
+				{
+					"listings": 3,
+					"unit_price": 125,
+					"quantity": 535
+				},
+				{
+					"listings": 1,
+					"unit_price": 124,
+					"quantity": 250
+				},
+				{
+					"listings": 5,
+					"unit_price": 123,
+					"quantity": 1025
+				},
+				{
+					"listings": 2,
+					"unit_price": 110,
+					"quantity": 35
+				},
+				{
+					"listings": 4,
+					"unit_price": 108,
+					"quantity": 760
+				},
+				{
+					"listings": 1,
+					"unit_price": 107,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 105,
+					"quantity": 1
+				},
+				{
+					"listings": 1,
+					"unit_price": 103,
+					"quantity": 200
+				},
+				{
+					"listings": 4,
+					"unit_price": 102,
+					"quantity": 1000
+				},
+				{
+					"listings": 1,
+					"unit_price": 101,
+					"quantity": 250
+				},
+				{
+					"listings": 13,
+					"unit_price": 100,
+					"quantity": 1376
+				},
+				{
+					"listings": 3,
+					"unit_price": 98,
+					"quantity": 111
+				},
+				{
+					"listings": 1,
+					"unit_price": 96,
+					"quantity": 11
+				},
+				{
+					"listings": 1,
+					"unit_price": 88,
+					"quantity": 15
+				},
+				{
+					"listings": 3,
+					"unit_price": 85,
+					"quantity": 78
+				},
+				{
+					"listings": 1,
+					"unit_price": 80,
+					"quantity": 49
+				},
+				{
+					"listings": 1,
+					"unit_price": 79,
+					"quantity": 19
+				},
+				{
+					"listings": 1,
+					"unit_price": 75,
+					"quantity": 49
+				},
+				{
+					"listings": 1,
+					"unit_price": 69,
+					"quantity": 1
+				},
+				{
+					"listings": 2,
+					"unit_price": 68,
+					"quantity": 110
+				},
+				{
+					"listings": 1,
+					"unit_price": 65,
+					"quantity": 6
+				},
+				{
+					"listings": 1,
+					"unit_price": 60,
+					"quantity": 100
+				},
+				{
+					"listings": 1,
+					"unit_price": 58,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 56,
+					"quantity": 50
+				},
+				{
+					"listings": 2,
+					"unit_price": 55,
+					"quantity": 162
+				},
+				{
+					"listings": 9,
+					"unit_price": 52,
+					"quantity": 2095
+				},
+				{
+					"listings": 5,
+					"unit_price": 50,
+					"quantity": 304
+				},
+				{
+					"listings": 1,
+					"unit_price": 46,
+					"quantity": 250
+				},
+				{
+					"listings": 1,
+					"unit_price": 44,
+					"quantity": 50
+				},
+				{
+					"listings": 1,
+					"unit_price": 40,
+					"quantity": 247
+				},
+				{
+					"listings": 1,
+					"unit_price": 39,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 37,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 36,
+					"quantity": 50
+				},
+				{
+					"listings": 3,
+					"unit_price": 35,
+					"quantity": 281
+				},
+				{
+					"listings": 1,
+					"unit_price": 34,
+					"quantity": 25
+				},
+				{
+					"listings": 1,
+					"unit_price": 33,
+					"quantity": 60
+				},
+				{
+					"listings": 1,
+					"unit_price": 32,
+					"quantity": 15
+				},
+				{
+					"listings": 1,
+					"unit_price": 30,
+					"quantity": 20
+				},
+				{
+					"listings": 1,
+					"unit_price": 29,
+					"quantity": 250
+				},
+				{
+					"listings": 6,
+					"unit_price": 27,
+					"quantity": 1008
+				},
+				{
+					"listings": 4,
+					"unit_price": 25,
+					"quantity": 314
+				},
+				{
+					"listings": 1,
+					"unit_price": 24,
+					"quantity": 20
+				},
+				{
+					"listings": 2,
+					"unit_price": 20,
+					"quantity": 47
+				},
+				{
+					"listings": 1,
+					"unit_price": 17,
+					"quantity": 100
+				},
+				{
+					"listings": 1,
+					"unit_price": 16,
+					"quantity": 49
+				},
+				{
+					"listings": 6,
+					"unit_price": 15,
+					"quantity": 526
+				},
+				{
+					"listings": 2,
+					"unit_price": 14,
+					"quantity": 450
+				},
+				{
+					"listings": 1,
+					"unit_price": 13,
+					"quantity": 200
+				},
+				{
+					"listings": 2,
+					"unit_price": 12,
+					"quantity": 101
+				},
+				{
+					"listings": 1,
+					"unit_price": 11,
+					"quantity": 250
+				},
+				{
+					"listings": 13,
+					"unit_price": 10,
+					"quantity": 1690
+				},
+				{
+					"listings": 3,
+					"unit_price": 9,
+					"quantity": 320
+				},
+				{
+					"listings": 3,
+					"unit_price": 8,
+					"quantity": 480
+				},
+				{
+					"listings": 1,
+					"unit_price": 7,
+					"quantity": 150
+				},
+				{
+					"listings": 149,
+					"unit_price": 6,
+					"quantity": 11788
+				},
+				{
+					"listings": 131,
+					"unit_price": 5,
+					"quantity": 5502
+				}
+			],
+			"totalProfit": 0,
+			"sellCount": 0
+		}
+	]
+]

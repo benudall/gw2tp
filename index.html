@@ -1,0 +1,143 @@
+<title>GW2 TP</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.js"></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-sanitize.js'></script>
+<style>
+	thead {
+		position: sticky;
+		top: 0;
+		background: white;
+	}
+
+	tbody:hover {
+		background: #dddddd;
+	}
+
+	td {
+		padding: 5px;
+		text-align: center;
+	}
+
+	td:nth-child(9) {
+		background: lightgreen;
+	}
+
+	td:nth-child(10),
+	td:nth-child(11) {
+		background: pink;
+	}
+
+	span {
+		text-align: right;
+	}
+</style>
+<script>
+	var app = angular.module("myApp", ['ngSanitize']);
+	app
+		.filter("coin", () => {
+			return (input) => {
+				var negative = input < 0;
+				var coins = Math.abs(input).toFixed(0).toString().split("").reverse().join("").match(/.{1,2}/g).map(x => x.split("").reverse().join("")).reverse();
+				if (coins.length >= 3) {
+					var copper = "<span class=copper>" + coins.pop() + "</span>" + "<img src='https://wiki.guildwars2.com/images/e/eb/Copper_coin.png'>";
+					var silver = "<span class=silver>" + coins.pop() + "</span>" + "<img src='https://wiki.guildwars2.com/images/3/3c/Silver_coin.png'>";
+					var gold = "<span class=gold>" + coins.join("") + "</span>" + "<img src='https://wiki.guildwars2.com/images/d/d1/Gold_coin.png'>";
+					return "<div class=neg" + negative + ">" + (negative ? "-" : "") + gold + silver + copper + "</div>";
+				}
+				if (coins.length == 2) {
+					var silver = "<span class=silver>" + coins[0] + "</span>" + "<img src='https://wiki.guildwars2.com/images/3/3c/Silver_coin.png'>";
+					var copper = "<span class=copper>" + coins[1] + "</span>" + "<img src='https://wiki.guildwars2.com/images/e/eb/Copper_coin.png'>";
+					return "<div class=neg" + negative + ">" + (negative ? "-" : "") + silver + copper + "</div>";
+				}
+				if (coins.length == 1) {
+					var copper = "<span class=copper>" + coins[0] + "</span>" + "<img src='https://wiki.guildwars2.com/images/e/eb/Copper_coin.png'>";
+					return "<div class=neg" + negative + ">" + (negative ? "-" : "") + copper + "</div>";
+				}
+			}
+		})
+		.controller('MainController', ['$scope', '$http', function ($scope, $http) {
+			$scope.labels = {};
+
+			$scope.filteredRecipes = () => {
+				$http.get("/get/filteredRecipes")
+					.then(res => {
+						$scope.recipes = res.data;
+						$scope.labels["filteredRecipes"] = new Date();
+						$scope.$apply();
+					})
+			}
+			$scope.filteredRecipes();
+
+			intverval = setInterval(() => {
+				$scope.fetch('/get/listings', 'listings');
+				$scope.filteredRecipes();
+			}, 300000)
+
+
+			$scope.fetch = (url, label) => {
+				$http.get(url)
+					.then(res => {
+						$scope.labels[label] = new Date();
+					})
+			}
+		}]);
+</script>
+
+<body ng-app="myApp">
+	<div ng-controller="MainController" class="controller">
+		<button ng-click="fetch('/get/itemNames','itemNames')">Refresh ItemNames</button>{{labels.itemNames}}
+		<br>
+		<button ng-click="fetch('/get/listings','listings')">Refresh Listings</button>{{labels.listings}}
+		<br>
+		<button ng-click="filteredRecipes()">Recalc Profits</button>{{labels.filteredRecipes}}
+		<table border>
+			<thead>
+				<tr>
+					<th colspan=2>Requirements</th>
+					<th colspan=3>Ingredients</th>
+					<th colspan=6>Output</th>
+					<th rowspan=2>Links</th>
+				</tr>
+				<tr>
+					<th>Crafting</th>
+					<th>Level</th>
+					<th>Name</th>
+					<th>Count</th>
+					<th>Cost</th>
+					<th>Name</th>
+					<th>Total Cost</th>
+					<th>Sell Price</th>
+					<th>Profit</th>
+					<th>Sell Count</th>
+					<th>Total Profit</th>
+				</tr>
+			</thead>
+			<tbody ng-repeat="recipe in recipes | filter:{disciplines: '!Scribe'}">
+				<tr>
+					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-repeat="discipline in recipe[1].disciplines">{{discipline}}<br></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].min_rating}}</td>
+					<td>{{recipe[1].ingredients[0].data.name}}</td>
+					<td>{{recipe[1].ingredients[0].count}}</td>
+					<td><span ng-bind-html="recipe[1].ingredients[0].data.sell | coin">{{recipe[1].ingredients[0].data.sell}}</span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].output.name}}</td>
+					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalCost | coin"></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalRevenue | coin"></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].profit | coin"></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].sellCount"></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalProfit | coin"></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}">
+						<a href="https://wiki.guildwars2.com/index.php?search={{recipe[1].output.name}}">wiki</a>
+						<br>
+						<a href="https://www.gw2tp.com/item/{{recipe[1].output_item_id}}">gw2tp</a>
+						<br>
+						<a href="https://www.gw2craftgold.com/recipe-details-{{recipe[1].id}}">gw2craftgold</a>
+					</td>
+				</tr>
+				<tr ng-repeat="ingredient in recipe[1].ingredients" ng-if="$index > 0">
+					<td>{{ingredient.data.name}}</td>
+					<td>{{ingredient.count}}</td>
+					<td><span ng-bind-html="ingredient.data.sell | coin"></span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
