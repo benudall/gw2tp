@@ -60,7 +60,9 @@
 			},
 			"totalCost": 3292,
 			"totalRevenue": 85600,
-			"profit": 69468
+			"profit": 69468,
+			"totalProfit": 2551992.400000002,
+			"sellCount": 50
 		}
 	],
 	[
@@ -124,7 +126,9 @@
 			},
 			"totalCost": 1984,
 			"totalRevenue": 10138,
-			"profit": 6633.299999999999
+			"profit": 6633.299999999999,
+			"totalProfit": 6592.299999999999,
+			"sellCount": 1
 		}
 	],
 	[
@@ -188,7 +192,9 @@
 			},
 			"totalCost": 2851,
 			"totalRevenue": 10346,
-			"profit": 5943.1
+			"profit": 5943.1,
+			"totalProfit": 6417.1,
+			"sellCount": 1
 		}
 	],
 	[
@@ -252,7 +258,9 @@
 			},
 			"totalCost": 2718,
 			"totalRevenue": 10136,
-			"profit": 5897.6
+			"profit": 5897.6,
+			"totalProfit": 5880.6,
+			"sellCount": 1
 		}
 	],
 	[
@@ -316,7 +324,9 @@
 			},
 			"totalCost": 2857,
 			"totalRevenue": 10235,
-			"profit": 5842.75
+			"profit": 5842.75,
+			"totalProfit": 6295.75,
+			"sellCount": 1
 		}
 	],
 	[
@@ -380,7 +390,9 @@
 			},
 			"totalCost": 4167,
 			"totalRevenue": 10118,
-			"profit": 4433.299999999999
+			"profit": 4433.299999999999,
+			"totalProfit": 4428.299999999999,
+			"sellCount": 1
 		}
 	],
 	[
@@ -441,7 +453,9 @@
 			},
 			"totalCost": 5670,
 			"totalRevenue": 9945,
-			"profit": 2783.25
+			"profit": 2783.25,
+			"totalProfit": 2781.25,
+			"sellCount": 1
 		}
 	],
 	[
@@ -516,7 +530,9 @@
 			},
 			"totalCost": 6212,
 			"totalRevenue": 10306,
-			"profit": 2548.1000000000004
+			"profit": 2548.1000000000004,
+			"totalProfit": 3294.1000000000004,
+			"sellCount": 1
 		}
 	],
 	[
@@ -580,7 +596,9 @@
 			},
 			"totalCost": 7959,
 			"totalRevenue": 10711,
-			"profit": 1145.3500000000004
+			"profit": 1145.3500000000004,
+			"totalProfit": 1185.3500000000004,
+			"sellCount": 1
 		}
 	],
 	[
@@ -641,7 +659,9 @@
 			},
 			"totalCost": 994,
 			"totalRevenue": 1800,
-			"profit": 536
+			"profit": 536,
+			"totalProfit": 527,
+			"sellCount": 1
 		}
 	],
 	[
@@ -682,7 +702,9 @@
 			},
 			"totalCost": 1476,
 			"totalRevenue": 2095,
-			"profit": 304.75
+			"profit": 304.75,
+			"totalProfit": 625.5,
+			"sellCount": 2
 		}
 	],
 	[
@@ -743,7 +765,9 @@
 			},
 			"totalCost": 779,
 			"totalRevenue": 1251,
-			"profit": 284.3499999999999
+			"profit": 284.3499999999999,
+			"totalProfit": 833.9499999999998,
+			"sellCount": 5
 		}
 	],
 	[
@@ -804,7 +828,9 @@
 			},
 			"totalCost": 2687,
 			"totalRevenue": 3387,
-			"profit": 191.94999999999982
+			"profit": 191.94999999999982,
+			"totalProfit": 1457.5499999999984,
+			"sellCount": 9
 		}
 	],
 	[
@@ -845,7 +871,9 @@
 			},
 			"totalCost": 306,
 			"totalRevenue": 570,
-			"profit": 178.5
+			"profit": 178.5,
+			"totalProfit": 165,
+			"sellCount": 2
 		}
 	],
 	[
@@ -906,7 +934,9 @@
 			},
 			"totalCost": 2993,
 			"totalRevenue": 3721,
-			"profit": 169.8499999999999
+			"profit": 169.8499999999999,
+			"totalProfit": 1903.85,
+			"sellCount": 19
 		}
 	],
 	[
@@ -967,7 +997,9 @@
 			},
 			"totalCost": 517,
 			"totalRevenue": 801,
-			"profit": 163.85000000000002
+			"profit": 163.85000000000002,
+			"totalProfit": 1703.6999999999998,
+			"sellCount": 12
 		}
 	],
 	[
@@ -1008,7 +1040,9 @@
 			},
 			"totalCost": 738,
 			"totalRevenue": 1025,
-			"profit": 133.25
+			"profit": 133.25,
+			"totalProfit": 274.5,
+			"sellCount": 2
 		}
 	],
 	[
@@ -1049,7 +1083,9 @@
 			},
 			"totalCost": 459,
 			"totalRevenue": 651,
-			"profit": 94.35000000000002
+			"profit": 94.35000000000002,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -1090,7 +1126,9 @@
 			},
 			"totalCost": 459,
 			"totalRevenue": 639,
-			"profit": 84.14999999999998
+			"profit": 84.14999999999998,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -1142,7 +1180,9 @@
 			},
 			"totalCost": 1101,
 			"totalRevenue": 1381,
-			"profit": 72.84999999999991
+			"profit": 72.84999999999991,
+			"totalProfit": 805.0999999999995,
+			"sellCount": 10
 		}
 	],
 	[
@@ -1183,7 +1223,9 @@
 			},
 			"totalCost": 612,
 			"totalRevenue": 802,
-			"profit": 69.69999999999993
+			"profit": 69.69999999999993,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -1224,7 +1266,9 @@
 			},
 			"totalCost": 459,
 			"totalRevenue": 622,
-			"profit": 69.69999999999993
+			"profit": 69.69999999999993,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -1265,7 +1309,9 @@
 			},
 			"totalCost": 765,
 			"totalRevenue": 982,
-			"profit": 69.69999999999993
+			"profit": 69.69999999999993,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -1326,7 +1372,9 @@
 			},
 			"totalCost": 302,
 			"totalRevenue": 431,
-			"profit": 64.34999999999997
+			"profit": 64.34999999999997,
+			"totalProfit": 64.34999999999997,
+			"sellCount": 1
 		}
 	],
 	[
@@ -1367,7 +1415,9 @@
 			},
 			"totalCost": 459,
 			"totalRevenue": 605,
-			"profit": 55.25
+			"profit": 55.25,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -1428,7 +1478,9 @@
 			},
 			"totalCost": 233,
 			"totalRevenue": 339,
-			"profit": 55.14999999999998
+			"profit": 55.14999999999998,
+			"totalProfit": 643.950000000001,
+			"sellCount": 66
 		}
 	],
 	[
@@ -1489,7 +1541,9 @@
 			},
 			"totalCost": 437,
 			"totalRevenue": 565,
-			"profit": 43.25
+			"profit": 43.25,
+			"totalProfit": 819.2999999999997,
+			"sellCount": 34
 		}
 	],
 	[
@@ -1550,7 +1604,9 @@
 			},
 			"totalCost": 820,
 			"totalRevenue": 1013,
-			"profit": 41.049999999999955
+			"profit": 41.049999999999955,
+			"totalProfit": 37.049999999999955,
+			"sellCount": 1
 		}
 	],
 	[
@@ -1611,7 +1667,9 @@
 			},
 			"totalCost": 478,
 			"totalRevenue": 603,
-			"profit": 34.549999999999955
+			"profit": 34.549999999999955,
+			"totalProfit": 313.7499999999997,
+			"sellCount": 10
 		}
 	],
 	[
@@ -1672,7 +1730,9 @@
 			},
 			"totalCost": 282,
 			"totalRevenue": 371,
-			"profit": 33.349999999999966
+			"profit": 33.349999999999966,
+			"totalProfit": 31.349999999999966,
+			"sellCount": 1
 		}
 	],
 	[
@@ -1733,7 +1793,9 @@
 			},
 			"totalCost": 460,
 			"totalRevenue": 577,
-			"profit": 30.44999999999999
+			"profit": 30.44999999999999,
+			"totalProfit": 188.19999999999982,
+			"sellCount": 12
 		}
 	],
 	[
@@ -1794,7 +1856,9 @@
 			},
 			"totalCost": 528,
 			"totalRevenue": 655,
-			"profit": 28.75
+			"profit": 28.75,
+			"totalProfit": 242.79999999999973,
+			"sellCount": 15
 		}
 	],
 	[
@@ -1855,7 +1919,9 @@
 			},
 			"totalCost": 499,
 			"totalRevenue": 613,
-			"profit": 22.049999999999955
+			"profit": 22.049999999999955,
+			"totalProfit": 320.39999999999907,
+			"sellCount": 19
 		}
 	],
 	[
@@ -1916,7 +1982,9 @@
 			},
 			"totalCost": 387,
 			"totalRevenue": 478,
-			"profit": 19.30000000000001
+			"profit": 19.30000000000001,
+			"totalProfit": 112.89999999999998,
+			"sellCount": 8
 		}
 	],
 	[
@@ -1977,7 +2045,9 @@
 			},
 			"totalCost": 183,
 			"totalRevenue": 235,
-			"profit": 16.75
+			"profit": 16.75,
+			"totalProfit": 226,
+			"sellCount": 15
 		}
 	],
 	[
@@ -2038,7 +2108,9 @@
 			},
 			"totalCost": 244,
 			"totalRevenue": 302,
-			"profit": 12.699999999999989
+			"profit": 12.699999999999989,
+			"totalProfit": 119.89999999999995,
+			"sellCount": 17
 		}
 	],
 	[
@@ -2099,7 +2171,9 @@
 			},
 			"totalCost": 274,
 			"totalRevenue": 337,
-			"profit": 12.449999999999989
+			"profit": 12.449999999999989,
+			"totalProfit": 2.8999999999999773,
+			"sellCount": 2
 		}
 	],
 	[
@@ -2160,7 +2234,9 @@
 			},
 			"totalCost": 786,
 			"totalRevenue": 935,
-			"profit": 8.75
+			"profit": 8.75,
+			"totalProfit": 16.949999999999932,
+			"sellCount": 5
 		}
 	],
 	[
@@ -2212,7 +2288,9 @@
 			},
 			"totalCost": 30,
 			"totalRevenue": 44,
-			"profit": 7.399999999999999
+			"profit": 7.399999999999999,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -2273,7 +2351,9 @@
 			},
 			"totalCost": 254,
 			"totalRevenue": 307,
-			"profit": 6.949999999999989
+			"profit": 6.949999999999989,
+			"totalProfit": 13.049999999999955,
+			"sellCount": 2
 		}
 	],
 	[
@@ -2314,7 +2394,9 @@
 			},
 			"totalCost": 459,
 			"totalRevenue": 547,
-			"profit": 5.949999999999989
+			"profit": 5.949999999999989,
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
@@ -2364,7 +2446,9 @@
 			},
 			"totalCost": 75,
 			"totalRevenue": 94,
-			"profit": 4.8999999999999915
+			"profit": 4.8999999999999915,
+			"totalProfit": 791.849999999971,
+			"sellCount": 1115
 		}
 	],
 	[
@@ -2425,7 +2509,9 @@
 			},
 			"totalCost": 411,
 			"totalRevenue": 489,
-			"profit": 4.649999999999977
+			"profit": 4.649999999999977,
+			"totalProfit": 15.99999999999983,
+			"sellCount": 9
 		}
 	],
 	[
@@ -2466,7 +2552,9 @@
 			},
 			"totalCost": 604,
 			"totalRevenue": 716,
-			"profit": 4.600000000000023
+			"profit": 4.600000000000023,
+			"totalProfit": 115.54999999999995,
+			"sellCount": 67
 		}
 	],
 	[
@@ -2507,7 +2595,9 @@
 			},
 			"totalCost": 18,
 			"totalRevenue": 24,
-			"profit": 2.3999999999999986
+			"profit": 2.3999999999999986,
+			"totalProfit": 2187.500000000032,
+			"sellCount": 1000
 		}
 	],
 	[
@@ -2568,7 +2658,9 @@
 			},
 			"totalCost": 792,
 			"totalRevenue": 934,
-			"profit": 1.8999999999999773
+			"profit": 1.8999999999999773,
+			"totalProfit": 1.8999999999999773,
+			"sellCount": 1
 		}
 	],
 	[
@@ -2620,7 +2712,9 @@
 			},
 			"totalCost": 1040,
 			"totalRevenue": 1225,
-			"profit": 1.25
+			"profit": 1.25,
+			"totalProfit": 23.799999999999727,
+			"sellCount": 6
 		}
 	],
 	[
@@ -2681,7 +2775,9 @@
 			},
 			"totalCost": 4481,
 			"totalRevenue": 5273,
-			"profit": 1.050000000000182
+			"profit": 1.050000000000182,
+			"totalProfit": 1.050000000000182,
+			"sellCount": 1
 		}
 	]
 ]

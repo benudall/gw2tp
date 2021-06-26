@@ -59,8 +59,6 @@ var server = http.createServer(async (request, result) => {
             })
     }
     else if (request.url == '/get/filteredRecipes') {
-
-
         var recipes = JSON.parse(fs.readFileSync("data/recipes.json"));
         var listings = JSON.parse(fs.readFileSync("data/listings.json"));
         var tradable = {};
@@ -115,36 +113,67 @@ var server = http.createServer(async (request, result) => {
 
         console.log("profitableRecipes has length:", Object.keys(profitableRecipes).length);
 
-
-        var recipesWithTotalProfit = {}
-        await fetch("https://api.guildwars2.com/v2/commerce/listings?ids=" + Object.entries(profitableRecipes).map(recipe => recipe[1].output_item_id).join(","))
-            .then(res => res.json()
-                .catch(err => {
-                    console.error(err);
-                }))
-            .then(fullListings => {
-                fullListings.forEach(fullListing => {
-                    var recipe = Object.entries(profitableRecipes).filter(recipe => recipe[1].output_item_id == fullListing.id)[0];
-                    recipe[1].buys = fullListing.buys;
-                    // profitableRecipes[fullListing.id].sells = fullListing.sells;
-                    var totalProfit = 0;
-                    var sellCount = 0;
-                    // fullListing.buys.forEach(listing => {
-                    fullListing.buys.forEach(buy => {
-                        if (buy.unit_price * 0.85 <= recipe[1].totalCost) { return }
-                        totalProfit += (buy.unit_price * 0.85 - recipe[1].totalCost) * buy.listings;
-                        sellCount += buy.listings;
-                    });
-                    recipe[1].totalProfit = totalProfit;
-                    recipe[1].sellCount = sellCount;
-                    recipesWithTotalProfit[recipe[0]] = recipe[1];
-                });
-            });
-
-        var sortedRecipes = Object.entries(recipesWithTotalProfit).sort((a, b) => b[1].profit - a[1].profit);
-
+        var sortedRecipes = Object.entries(profitableRecipes).sort((a, b) => b[1].profit - a[1].profit);
 
         fs.writeFileSync("data/filteredRecipes.json", JSON.stringify(sortedRecipes, null, "\t"));
+        result.end(JSON.stringify(sortedRecipes));
+    }
+    else if (request.url == '/get/totalProfits') {
+        var profitableRecipes = JSON.parse(fs.readFileSync("data/filteredRecipes.json"));
+        var totalProfitRecipes = {};
+        for await (var recipe of profitableRecipes) {
+            await fetch("https://api.guildwars2.com/v2/commerce/listings?ids=" + recipe[1].output_item_id + "," + recipe[1].ingredients.map(ingredient => ingredient.item_id).join(","))
+                .then(res => res.json()
+                    .catch(err => {
+                        console.error(err);
+                    }))
+                .then(fullListings => {
+
+                    var ingredientsSells = {};
+                    recipe[1].ingredients.forEach(ingredient => {
+                        var ingredientListing = fullListings.filter(listing => ingredient.item_id == listing.id)[0];
+                        var sells = [];
+                        ingredientListing.sells.forEach(sell => {
+                            for (count = 0; count < sell.quantity; count++) {
+                                sells.push(sell.unit_price)
+                            }
+                        })
+                        ingredientsSells[ingredient.item_id] = sells;
+                    });
+
+                    var outputListing = fullListings.filter(listing => recipe[1].output_item_id == listing.id)[0];
+                    var outputBuys = [];
+                    outputListing.buys.forEach(buy => {
+                        for (count = 0; count < buy.quantity; count++) {
+                            outputBuys.push(buy.unit_price)
+                        }
+                    })
+
+                    var minAvailablity = Math.min(outputBuys.length, ...Object.values(ingredientsSells).map(ingredientSells => ingredientSells.length));
+                    recipe[1].totalProfit = 0;
+                    recipe[1].sellCount = 0;
+                    for (i = 0; i < minAvailablity; i++) {
+                        var cost = 0;
+                        recipe[1].ingredients.forEach(ingredient => {
+                            for (var i = 0; i < ingredient.count; i++) {
+                                cost += ingredientsSells[ingredient.item_id].shift();
+                            }
+                        });
+                        var revenue = outputBuys[i];
+                        var profit = revenue * 0.85 - cost;
+                        if (profit <= 0) { break }
+                        recipe[1].totalProfit += profit;
+                        recipe[1].sellCount += 1;
+                    }
+
+                    totalProfitRecipes[recipe[1].id] = recipe[1];
+                    console.log("Finished counting total profit for", recipe[1].output.name)
+                });
+        };
+
+        var sortedRecipes = Object.entries(totalProfitRecipes).sort((a, b) => b[1].profit - a[1].profit);
+
+        fs.writeFileSync("data/totalProfitRecipes.json", JSON.stringify(sortedRecipes, null, "\t"));
         result.end(JSON.stringify(sortedRecipes));
     }
     else if (request.url == '/data/rawListings') {
@@ -173,6 +202,12 @@ var server = http.createServer(async (request, result) => {
     }
     else if (request.url == '/data/filteredRecipes') {
         fs.readFile('data/filteredRecipes.json', function (error, data) {
+            if (error) { console.log(error); result.end('Error: cannot return page') }
+            else { result.end(data) }
+        });
+    }
+    else if (request.url == '/data/totalProfits') {
+        fs.readFile('data/totalProfitRecipes.json', function (error, data) {
             if (error) { console.log(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
