@@ -19,10 +19,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -30,10 +30,10 @@
 					"count": 3,
 					"data": {
 						"name": "Catapult Blueprints",
-						"buy": 407,
-						"sell": 499,
-						"supply": 67017,
-						"demand": 42066
+						"buy": 400,
+						"sell": 408,
+						"supply": 65133,
+						"demand": 41897
 					}
 				},
 				{
@@ -42,9 +42,9 @@
 					"data": {
 						"name": "Mithril Reinforcing Plate",
 						"buy": 174,
-						"sell": 478,
-						"supply": 7411,
-						"demand": 9982
+						"sell": 475,
+						"supply": 7481,
+						"demand": 10078
 					}
 				}
 			],
@@ -53,14 +53,14 @@
 			"chat_link": "[&CdgoAAA=]",
 			"output": {
 				"name": "Guild Catapult",
-				"buy": 85600,
+				"buy": 85601,
 				"sell": 24999999,
 				"supply": 2,
-				"demand": 102
+				"demand": 103
 			},
-			"totalCost": 3292,
-			"totalRevenue": 85600,
-			"profit": 69468
+			"totalCost": 2997,
+			"totalRevenue": 85601,
+			"profit": 69763.84999999999
 		}
 	],
 	[
@@ -83,10 +83,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -94,10 +94,10 @@
 					"count": 3,
 					"data": {
 						"name": "Flame Ram Blueprints",
-						"buy": 40,
-						"sell": 63,
-						"supply": 245607,
-						"demand": 416909
+						"buy": 37,
+						"sell": 38,
+						"supply": 246374,
+						"demand": 413126
 					}
 				},
 				{
@@ -106,9 +106,9 @@
 					"data": {
 						"name": "Mithril Reinforcing Plate",
 						"buy": 174,
-						"sell": 478,
-						"supply": 7411,
-						"demand": 9982
+						"sell": 475,
+						"supply": 7481,
+						"demand": 10078
 					}
 				}
 			],
@@ -122,9 +122,9 @@
 				"supply": 0,
 				"demand": 390
 			},
-			"totalCost": 1984,
+			"totalCost": 1887,
 			"totalRevenue": 10138,
-			"profit": 6633.299999999999
+			"profit": 6730.299999999999
 		}
 	],
 	[
@@ -147,10 +147,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -158,10 +158,10 @@
 					"count": 3,
 					"data": {
 						"name": "Arrow Cart Blueprints",
-						"buy": 2,
-						"sell": 3,
-						"supply": 927395,
-						"demand": 4918
+						"buy": 1,
+						"sell": 2,
+						"supply": 928916,
+						"demand": 906
 					}
 				},
 				{
@@ -169,10 +169,10 @@
 					"count": 1,
 					"data": {
 						"name": "Steel Reinforcing Plate",
-						"buy": 446,
-						"sell": 1525,
-						"supply": 2228,
-						"demand": 3826
+						"buy": 452,
+						"sell": 1514,
+						"supply": 2662,
+						"demand": 3834
 					}
 				}
 			],
@@ -186,9 +186,9 @@
 				"supply": 0,
 				"demand": 408
 			},
-			"totalCost": 2851,
+			"totalCost": 2818,
 			"totalRevenue": 10346,
-			"profit": 5943.1
+			"profit": 5976.1
 		}
 	],
 	[
@@ -211,10 +211,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -222,10 +222,10 @@
 					"count": 3,
 					"data": {
 						"name": "Trebuchet Blueprints",
-						"buy": 4,
-						"sell": 6,
-						"supply": 320565,
-						"demand": 36808
+						"buy": 5,
+						"sell": 8,
+						"supply": 321601,
+						"demand": 34375
 					}
 				},
 				{
@@ -234,8 +234,8 @@
 					"data": {
 						"name": "Orichalcum Reinforcing Plate",
 						"buy": 696,
-						"sell": 1383,
-						"supply": 2741,
+						"sell": 1379,
+						"supply": 2795,
 						"demand": 4750
 					}
 				}
@@ -250,9 +250,9 @@
 				"supply": 0,
 				"demand": 320
 			},
-			"totalCost": 2718,
+			"totalCost": 2701,
 			"totalRevenue": 10136,
-			"profit": 5897.6
+			"profit": 5914.6
 		}
 	],
 	[
@@ -275,10 +275,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -286,10 +286,10 @@
 					"count": 3,
 					"data": {
 						"name": "Ballista Blueprints",
-						"buy": 2,
-						"sell": 5,
-						"supply": 737103,
-						"demand": 54757
+						"buy": 3,
+						"sell": 6,
+						"supply": 737819,
+						"demand": 54483
 					}
 				},
 				{
@@ -297,10 +297,10 @@
 					"count": 1,
 					"data": {
 						"name": "Steel Reinforcing Plate",
-						"buy": 446,
-						"sell": 1525,
-						"supply": 2228,
-						"demand": 3826
+						"buy": 452,
+						"sell": 1514,
+						"supply": 2662,
+						"demand": 3834
 					}
 				}
 			],
@@ -314,9 +314,9 @@
 				"supply": 0,
 				"demand": 593
 			},
-			"totalCost": 2857,
+			"totalCost": 2830,
 			"totalRevenue": 10235,
-			"profit": 5842.75
+			"profit": 5869.75
 		}
 	],
 	[
@@ -339,10 +339,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -351,9 +351,9 @@
 					"data": {
 						"name": "Shield Generator Blueprint",
 						"buy": 367,
-						"sell": 489,
-						"supply": 26447,
-						"demand": 28148
+						"sell": 443,
+						"supply": 26443,
+						"demand": 27901
 					}
 				},
 				{
@@ -362,8 +362,8 @@
 					"data": {
 						"name": "Orichalcum Reinforcing Plate",
 						"buy": 696,
-						"sell": 1383,
-						"supply": 2741,
+						"sell": 1379,
+						"supply": 2795,
 						"demand": 4750
 					}
 				}
@@ -378,70 +378,9 @@
 				"supply": 0,
 				"demand": 576
 			},
-			"totalCost": 4167,
+			"totalCost": 4006,
 			"totalRevenue": 10118,
-			"profit": 4433.299999999999
-		}
-	],
-	[
-		"6759",
-		{
-			"type": "Earring",
-			"output_item_id": 38154,
-			"output_item_count": 1,
-			"min_rating": 375,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 38142,
-					"count": 3,
-					"data": {
-						"name": "Brilliant Snowflake",
-						"buy": 875,
-						"sell": 1761,
-						"supply": 1626,
-						"demand": 6112
-					}
-				},
-				{
-					"item_id": 12808,
-					"count": 1,
-					"data": {
-						"name": "Mithril Hook",
-						"buy": 106,
-						"sell": 191,
-						"supply": 1089,
-						"demand": 2622
-					}
-				},
-				{
-					"item_id": 12814,
-					"count": 1,
-					"data": {
-						"name": "Mithril Setting",
-						"buy": 73,
-						"sell": 196,
-						"supply": 2919,
-						"demand": 2201
-					}
-				}
-			],
-			"id": 6759,
-			"chat_link": "[&CWcaAAA=]",
-			"output": {
-				"name": "Snowflake Mithril Earring",
-				"buy": 9945,
-				"sell": 9949,
-				"supply": 166,
-				"demand": 843
-			},
-			"totalCost": 5670,
-			"totalRevenue": 9945,
-			"profit": 2783.25
+			"profit": 4594.299999999999
 		}
 	],
 	[
@@ -464,10 +403,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -477,8 +416,8 @@
 						"name": "Resonating Sliver",
 						"buy": 5,
 						"sell": 6,
-						"supply": 9208299,
-						"demand": 371633
+						"supply": 9223998,
+						"demand": 269359
 					}
 				},
 				{
@@ -487,9 +426,9 @@
 					"data": {
 						"name": "Box of Banner Supplies",
 						"buy": 55,
-						"sell": 89,
-						"supply": 31348,
-						"demand": 621
+						"sell": 94,
+						"supply": 31520,
+						"demand": 512
 					}
 				},
 				{
@@ -497,10 +436,10 @@
 					"count": 1,
 					"data": {
 						"name": "Bag of Incandescent Energy",
-						"buy": 2747,
-						"sell": 4800,
-						"supply": 1764,
-						"demand": 1283
+						"buy": 2751,
+						"sell": 4799,
+						"supply": 1770,
+						"demand": 1291
 					}
 				}
 			],
@@ -514,9 +453,9 @@
 				"supply": 0,
 				"demand": 512
 			},
-			"totalCost": 6212,
+			"totalCost": 6197,
 			"totalRevenue": 10306,
-			"profit": 2548.1000000000004
+			"profit": 2563.1000000000004
 		}
 	],
 	[
@@ -539,10 +478,10 @@
 					"count": 1,
 					"data": {
 						"name": "Badge of Tribute",
-						"buy": 1102,
-						"sell": 1317,
-						"supply": 47473,
-						"demand": 26476
+						"buy": 1121,
+						"sell": 1298,
+						"supply": 47498,
+						"demand": 24100
 					}
 				},
 				{
@@ -550,10 +489,10 @@
 					"count": 3,
 					"data": {
 						"name": "Alpha Siege Golem Blueprints",
-						"buy": 1330,
-						"sell": 1753,
-						"supply": 19649,
-						"demand": 23256
+						"buy": 1318,
+						"sell": 1697,
+						"supply": 19554,
+						"demand": 24363
 					}
 				},
 				{
@@ -562,8 +501,8 @@
 					"data": {
 						"name": "Orichalcum Reinforcing Plate",
 						"buy": 696,
-						"sell": 1383,
-						"supply": 2741,
+						"sell": 1379,
+						"supply": 2795,
 						"demand": 4750
 					}
 				}
@@ -578,146 +517,33 @@
 				"supply": 0,
 				"demand": 494
 			},
-			"totalCost": 7959,
+			"totalCost": 7768,
 			"totalRevenue": 10711,
-			"profit": 1145.3500000000004
+			"profit": 1336.3500000000004
 		}
 	],
 	[
-		"3669",
-		{
-			"type": "Ring",
-			"output_item_id": 13383,
-			"output_item_count": 1,
-			"min_rating": 250,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 24873,
-					"count": 1,
-					"data": {
-						"name": "Ruby Shard",
-						"buy": 66,
-						"sell": 67,
-						"supply": 37525,
-						"demand": 13117
-					}
-				},
-				{
-					"item_id": 12828,
-					"count": 1,
-					"data": {
-						"name": "Platinum Band",
-						"buy": 271,
-						"sell": 563,
-						"supply": 1595,
-						"demand": 2175
-					}
-				},
-				{
-					"item_id": 12816,
-					"count": 1,
-					"data": {
-						"name": "Platinum Setting",
-						"buy": 256,
-						"sell": 364,
-						"supply": 2709,
-						"demand": 3699
-					}
-				}
-			],
-			"id": 3669,
-			"chat_link": "[&CVUOAAA=]",
-			"output": {
-				"name": "Ruby Platinum Ring",
-				"buy": 1800,
-				"sell": 3436,
-				"supply": 943,
-				"demand": 331
-			},
-			"totalCost": 994,
-			"totalRevenue": 1800,
-			"profit": 536
-		}
-	],
-	[
-		"3841",
-		{
-			"type": "Component",
-			"output_item_id": 12973,
-			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Artificer"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19712,
-					"count": 4,
-					"data": {
-						"name": "Ancient Wood Plank",
-						"buy": 305,
-						"sell": 369,
-						"supply": 176139,
-						"demand": 53766
-					}
-				}
-			],
-			"id": 3841,
-			"chat_link": "[&CQEPAAA=]",
-			"output": {
-				"name": "Ancient Staff Shaft",
-				"buy": 2095,
-				"sell": 2297,
-				"supply": 8944,
-				"demand": 1005
-			},
-			"totalCost": 1476,
-			"totalRevenue": 2095,
-			"profit": 304.75
-		}
-	],
-	[
-		"3627",
+		"3780",
 		{
 			"type": "Earring",
-			"output_item_id": 13425,
+			"output_item_id": 13556,
 			"output_item_count": 1,
-			"min_rating": 250,
+			"min_rating": 275,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
 				"Jeweler"
 			],
 			"flags": [],
 			"ingredients": [
-				{
-					"item_id": 24873,
-					"count": 1,
-					"data": {
-						"name": "Ruby Shard",
-						"buy": 66,
-						"sell": 67,
-						"supply": 37525,
-						"demand": 13117
-					}
-				},
 				{
 					"item_id": 12810,
 					"count": 1,
 					"data": {
 						"name": "Platinum Hook",
 						"buy": 205,
-						"sell": 348,
-						"supply": 1688,
-						"demand": 2439
+						"sell": 347,
+						"supply": 1769,
+						"demand": 2345
 					}
 				},
 				{
@@ -725,60 +551,71 @@
 					"count": 1,
 					"data": {
 						"name": "Platinum Setting",
-						"buy": 256,
-						"sell": 364,
-						"supply": 2709,
-						"demand": 3699
+						"buy": 257,
+						"sell": 480,
+						"supply": 2701,
+						"demand": 3499
+					}
+				},
+				{
+					"item_id": 24918,
+					"count": 3,
+					"data": {
+						"name": "Embellished Ornate Sapphire Jewel",
+						"buy": 0,
+						"sell": 166,
+						"supply": 2519,
+						"demand": 0
 					}
 				}
 			],
-			"id": 3627,
-			"chat_link": "[&CSsOAAA=]",
+			"id": 3780,
+			"chat_link": "[&CcQOAAA=]",
 			"output": {
-				"name": "Ruby Platinum Earring",
-				"buy": 1251,
-				"sell": 2388,
-				"supply": 1206,
-				"demand": 198
+				"name": "Sapphire Platinum Earring",
+				"buy": 2000,
+				"sell": 3290,
+				"supply": 953,
+				"demand": 136
 			},
-			"totalCost": 779,
-			"totalRevenue": 1251,
-			"profit": 284.3499999999999
+			"totalCost": 1325,
+			"totalRevenue": 2000,
+			"profit": 375
 		}
 	],
 	[
-		"4357",
+		"6112",
 		{
-			"type": "Trident",
-			"output_item_id": 14074,
+			"type": "Axe",
+			"output_item_id": 15691,
 			"output_item_count": 1,
 			"min_rating": 125,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
-				"Artificer"
+				"Weaponsmith"
 			],
 			"flags": [],
 			"ingredients": [
 				{
-					"item_id": 13002,
+					"item_id": 12850,
 					"count": 1,
 					"data": {
-						"name": "Iron Trident Head",
-						"buy": 50,
-						"sell": 163,
-						"supply": 5284,
-						"demand": 3967
+						"name": "Iron Axe Blade",
+						"buy": 327,
+						"sell": 649,
+						"supply": 1755,
+						"demand": 1439
 					}
 				},
 				{
-					"item_id": 13251,
+					"item_id": 12890,
 					"count": 1,
 					"data": {
-						"name": "Soft Trident Shaft",
-						"buy": 43,
-						"sell": 108,
-						"supply": 1946,
-						"demand": 486
+						"name": "Small Soft Haft",
+						"buy": 35,
+						"sell": 98,
+						"supply": 1860,
+						"demand": 676
 					}
 				},
 				{
@@ -787,65 +624,24 @@
 					"data": {
 						"name": "Strong Iron Imbued Inscription",
 						"buy": 1529,
-						"sell": 2416,
-						"supply": 1544,
-						"demand": 1445
+						"sell": 2415,
+						"supply": 1549,
+						"demand": 1440
 					}
 				}
 			],
-			"id": 4357,
-			"chat_link": "[&CQURAAA=]",
+			"id": 6112,
+			"chat_link": "[&CeAXAAA=]",
 			"output": {
-				"name": "Strong Bandit Trident",
-				"buy": 3387,
-				"sell": 10555,
-				"supply": 162,
-				"demand": 276
+				"name": "Strong Bandit Cleaver",
+				"buy": 4100,
+				"sell": 9000,
+				"supply": 281,
+				"demand": 69
 			},
-			"totalCost": 2687,
-			"totalRevenue": 3387,
-			"profit": 191.94999999999982
-		}
-	],
-	[
-		"5403",
-		{
-			"type": "Component",
-			"output_item_id": 12910,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 2,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 5403,
-			"chat_link": "[&CRsVAAA=]",
-			"output": {
-				"name": "Iron Shield Boss",
-				"buy": 570,
-				"sell": 699,
-				"supply": 1851,
-				"demand": 1688
-			},
-			"totalCost": 306,
-			"totalRevenue": 570,
-			"profit": 178.5
+			"totalCost": 3162,
+			"totalRevenue": 4100,
+			"profit": 323
 		}
 	],
 	[
@@ -867,8 +663,8 @@
 					"data": {
 						"name": "Thin Glove Strap",
 						"buy": 173,
-						"sell": 378,
-						"supply": 1386,
+						"sell": 398,
+						"supply": 1335,
 						"demand": 2539
 					}
 				},
@@ -878,8 +674,8 @@
 					"data": {
 						"name": "Thin Glove Lining",
 						"buy": 124,
-						"sell": 515,
-						"supply": 1386,
+						"sell": 450,
+						"supply": 1370,
 						"demand": 2541
 					}
 				},
@@ -891,7 +687,7 @@
 						"buy": 1624,
 						"sell": 2100,
 						"supply": 267,
-						"demand": 1097
+						"demand": 1085
 					}
 				}
 			],
@@ -899,14 +695,75 @@
 			"chat_link": "[&CdwGAAA=]",
 			"output": {
 				"name": "Honed Noble Gloves",
-				"buy": 3721,
-				"sell": 10072,
-				"supply": 258,
-				"demand": 127
+				"buy": 3720,
+				"sell": 10071,
+				"supply": 259,
+				"demand": 126
 			},
-			"totalCost": 2993,
-			"totalRevenue": 3721,
-			"profit": 169.8499999999999
+			"totalCost": 2948,
+			"totalRevenue": 3720,
+			"profit": 214
+		}
+	],
+	[
+		"2627",
+		{
+			"type": "Shoulders",
+			"output_item_id": 11382,
+			"output_item_count": 1,
+			"min_rating": 125,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Tailor"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 13038,
+					"count": 1,
+					"data": {
+						"name": "Wool Epaulet Panel",
+						"buy": 17,
+						"sell": 104,
+						"supply": 7628,
+						"demand": 385
+					}
+				},
+				{
+					"item_id": 13037,
+					"count": 1,
+					"data": {
+						"name": "Wool Epaulet Padding",
+						"buy": 663,
+						"sell": 664,
+						"supply": 763,
+						"demand": 1071
+					}
+				},
+				{
+					"item_id": 19957,
+					"count": 1,
+					"data": {
+						"name": "Honed Intricate Wool Insignia",
+						"buy": 1624,
+						"sell": 2100,
+						"supply": 267,
+						"demand": 1085
+					}
+				}
+			],
+			"id": 2627,
+			"chat_link": "[&CUMKAAA=]",
+			"output": {
+				"name": "Honed Masquerade Mantle",
+				"buy": 3530,
+				"sell": 9999,
+				"supply": 197,
+				"demand": 165
+			},
+			"totalCost": 2868,
+			"totalRevenue": 3530,
+			"profit": 132.5
 		}
 	],
 	[
@@ -929,7 +786,7 @@
 						"name": "Brilliant Ruby Jewel",
 						"buy": 127,
 						"sell": 130,
-						"supply": 2100,
+						"supply": 2110,
 						"demand": 1274
 					}
 				},
@@ -939,9 +796,9 @@
 					"data": {
 						"name": "Mithril Hook",
 						"buy": 106,
-						"sell": 191,
-						"supply": 1089,
-						"demand": 2622
+						"sell": 213,
+						"supply": 1105,
+						"demand": 2570
 					}
 				},
 				{
@@ -949,10 +806,10 @@
 					"count": 1,
 					"data": {
 						"name": "Mithril Setting",
-						"buy": 73,
-						"sell": 196,
-						"supply": 2919,
-						"demand": 2201
+						"buy": 74,
+						"sell": 214,
+						"supply": 2797,
+						"demand": 2189
 					}
 				}
 			],
@@ -960,55 +817,299 @@
 			"chat_link": "[&CT4OAAA=]",
 			"output": {
 				"name": "Ruby Mithril Earring",
-				"buy": 801,
+				"buy": 802,
 				"sell": 1595,
-				"supply": 568,
-				"demand": 209
+				"supply": 559,
+				"demand": 211
 			},
-			"totalCost": 517,
-			"totalRevenue": 801,
-			"profit": 163.85000000000002
+			"totalCost": 557,
+			"totalRevenue": 802,
+			"profit": 124.69999999999993
 		}
 	],
 	[
-		"3903",
+		"5339",
 		{
 			"type": "Component",
-			"output_item_id": 13261,
+			"output_item_id": 12856,
 			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 1000,
+			"min_rating": 75,
+			"time_to_craft_ms": 3000,
 			"disciplines": [
-				"Artificer"
+				"Weaponsmith"
 			],
 			"flags": [
 				"AutoLearned"
 			],
 			"ingredients": [
 				{
-					"item_id": 19712,
-					"count": 2,
+					"item_id": 19683,
+					"count": 3,
 					"data": {
-						"name": "Ancient Wood Plank",
-						"buy": 305,
-						"sell": 369,
-						"supply": 176139,
-						"demand": 53766
+						"name": "Iron Ingot",
+						"buy": 174,
+						"sell": 210,
+						"supply": 809286,
+						"demand": 54083
 					}
 				}
 			],
-			"id": 3903,
-			"chat_link": "[&CT8PAAA=]",
+			"id": 5339,
+			"chat_link": "[&CdsUAAA=]",
 			"output": {
-				"name": "Ancient Staff Head",
-				"buy": 1025,
-				"sell": 1298,
-				"supply": 15063,
-				"demand": 1521
+				"name": "Iron Dagger Blade",
+				"buy": 831,
+				"sell": 1425,
+				"supply": 5155,
+				"demand": 2901
 			},
-			"totalCost": 738,
-			"totalRevenue": 1025,
-			"profit": 133.25
+			"totalCost": 630,
+			"totalRevenue": 831,
+			"profit": 76.35000000000002
+		}
+	],
+	[
+		"6753",
+		{
+			"type": "Earring",
+			"output_item_id": 38151,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12811,
+					"count": 1,
+					"data": {
+						"name": "Silver Hook",
+						"buy": 26,
+						"sell": 47,
+						"supply": 2764,
+						"demand": 2897
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 37,
+						"sell": 60,
+						"supply": 3521,
+						"demand": 4973
+					}
+				},
+				{
+					"item_id": 38139,
+					"count": 1,
+					"data": {
+						"name": "Intricate Snowflake",
+						"buy": 93,
+						"sell": 189,
+						"supply": 18086,
+						"demand": 1829
+					}
+				}
+			],
+			"id": 6753,
+			"chat_link": "[&CWEaAAA=]",
+			"output": {
+				"name": "Snowflake Silver Earring",
+				"buy": 431,
+				"sell": 630,
+				"supply": 1806,
+				"demand": 51
+			},
+			"totalCost": 296,
+			"totalRevenue": 431,
+			"profit": 70.34999999999997
+		}
+	],
+	[
+		"1209",
+		{
+			"type": "Boots",
+			"output_item_id": 11509,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Leatherworker"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19802,
+					"count": 1,
+					"data": {
+						"name": "Vital Embroidered Jute Insignia",
+						"buy": 72,
+						"sell": 196,
+						"supply": 1802,
+						"demand": 609
+					}
+				},
+				{
+					"item_id": 13091,
+					"count": 1,
+					"data": {
+						"name": "Rawhide Boot Upper",
+						"buy": 17,
+						"sell": 215,
+						"supply": 1370,
+						"demand": 1530
+					}
+				},
+				{
+					"item_id": 13096,
+					"count": 2,
+					"data": {
+						"name": "Rawhide Boot Sole",
+						"buy": 8,
+						"sell": 76,
+						"supply": 5024,
+						"demand": 12879
+					}
+				}
+			],
+			"id": 1209,
+			"chat_link": "[&CbkEAAA=]",
+			"output": {
+				"name": "Vital Seeker Boots",
+				"buy": 744,
+				"sell": 745,
+				"supply": 675,
+				"demand": 891
+			},
+			"totalCost": 563,
+			"totalRevenue": 744,
+			"profit": 69.39999999999998
+		}
+	],
+	[
+		"3534",
+		{
+			"type": "Ring",
+			"output_item_id": 13301,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12829,
+					"count": 1,
+					"data": {
+						"name": "Silver Band",
+						"buy": 38,
+						"sell": 99,
+						"supply": 3080,
+						"demand": 3692
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 37,
+						"sell": 60,
+						"supply": 3521,
+						"demand": 4973
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 71,
+						"sell": 72,
+						"supply": 16272,
+						"demand": 17142
+					}
+				}
+			],
+			"id": 3534,
+			"chat_link": "[&Cc4NAAA=]",
+			"output": {
+				"name": "Carnelian Silver Ring",
+				"buy": 341,
+				"sell": 1429,
+				"supply": 1398,
+				"demand": 398
+			},
+			"totalCost": 231,
+			"totalRevenue": 341,
+			"profit": 58.849999999999966
+		}
+	],
+	[
+		"3793",
+		{
+			"type": "Ring",
+			"output_item_id": 13527,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12825,
+					"count": 1,
+					"data": {
+						"name": "Gold Band",
+						"buy": 96,
+						"sell": 244,
+						"supply": 2164,
+						"demand": 1997
+					}
+				},
+				{
+					"item_id": 12813,
+					"count": 1,
+					"data": {
+						"name": "Gold Setting",
+						"buy": 48,
+						"sell": 86,
+						"supply": 5898,
+						"demand": 3088
+					}
+				},
+				{
+					"item_id": 24911,
+					"count": 3,
+					"data": {
+						"name": "Embellished Gilded Topaz Jewel",
+						"buy": 121,
+						"sell": 220,
+						"supply": 673,
+						"demand": 560
+					}
+				}
+			],
+			"id": 3793,
+			"chat_link": "[&CdEOAAA=]",
+			"output": {
+				"name": "Topaz Gold Ring",
+				"buy": 1230,
+				"sell": 3999,
+				"supply": 1512,
+				"demand": 502
+			},
+			"totalCost": 990,
+			"totalRevenue": 1230,
+			"profit": 55.5
 		}
 	],
 	[
@@ -1031,10 +1132,10 @@
 					"count": 3,
 					"data": {
 						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
+						"buy": 174,
+						"sell": 210,
+						"supply": 809286,
+						"demand": 54083
 					}
 				}
 			],
@@ -1042,515 +1143,14 @@
 			"chat_link": "[&CesUAAA=]",
 			"output": {
 				"name": "Iron Greatsword Blade",
-				"buy": 651,
-				"sell": 995,
-				"supply": 8729,
-				"demand": 1054
+				"buy": 801,
+				"sell": 988,
+				"supply": 8690,
+				"demand": 1058
 			},
-			"totalCost": 459,
-			"totalRevenue": 651,
-			"profit": 94.35000000000002
-		}
-	],
-	[
-		"5391",
-		{
-			"type": "Component",
-			"output_item_id": 12844,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 3,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 5391,
-			"chat_link": "[&CQ8VAAA=]",
-			"output": {
-				"name": "Iron Sword Hilt",
-				"buy": 639,
-				"sell": 1449,
-				"supply": 3945,
-				"demand": 3242
-			},
-			"totalCost": 459,
-			"totalRevenue": 639,
-			"profit": 84.14999999999998
-		}
-	],
-	[
-		"1154",
-		{
-			"type": "Component",
-			"output_item_id": 13067,
-			"output_item_count": 1,
-			"min_rating": 150,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Leatherworker"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19734,
-					"count": 5,
-					"data": {
-						"name": "Cured Coarse Leather Square",
-						"buy": 193,
-						"sell": 209,
-						"supply": 149427,
-						"demand": 102816
-					}
-				},
-				{
-					"item_id": 19794,
-					"count": 2,
-					"data": {
-						"name": "Spool of Cotton Thread",
-						"buy": 21,
-						"sell": 28,
-						"supply": 152875,
-						"demand": 122234
-					}
-				}
-			],
-			"id": 1154,
-			"chat_link": "[&CYIEAAA=]",
-			"output": {
-				"name": "Coarse Longcoat Panel",
-				"buy": 1381,
-				"sell": 2979,
-				"supply": 455,
-				"demand": 1282
-			},
-			"totalCost": 1101,
-			"totalRevenue": 1381,
-			"profit": 72.84999999999991
-		}
-	],
-	[
-		"272",
-		{
-			"type": "Component",
-			"output_item_id": 13121,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Armorsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 4,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 272,
-			"chat_link": "[&CRABAAA=]",
-			"output": {
-				"name": "Iron Scale Legging Panel",
-				"buy": 802,
-				"sell": 2124,
-				"supply": 2620,
-				"demand": 1532
-			},
-			"totalCost": 612,
-			"totalRevenue": 802,
-			"profit": 69.69999999999993
-		}
-	],
-	[
-		"5360",
-		{
-			"type": "Component",
-			"output_item_id": 12886,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 3,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 5360,
-			"chat_link": "[&CfAUAAA=]",
-			"output": {
-				"name": "Iron Greatsword Hilt",
-				"buy": 622,
-				"sell": 1273,
-				"supply": 9454,
-				"demand": 3187
-			},
-			"totalCost": 459,
-			"totalRevenue": 622,
-			"profit": 69.69999999999993
-		}
-	],
-	[
-		"9631",
-		{
-			"type": "Component",
-			"output_item_id": 62950,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 5,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 9631,
-			"chat_link": "[&CZ8lAAA=]",
-			"output": {
-				"name": "Sturdy Weaponsmith's Tools",
-				"buy": 982,
-				"sell": 1497,
-				"supply": 2917,
-				"demand": 1767
-			},
-			"totalCost": 765,
-			"totalRevenue": 982,
-			"profit": 69.69999999999993
-		}
-	],
-	[
-		"6753",
-		{
-			"type": "Earring",
-			"output_item_id": 38151,
-			"output_item_count": 1,
-			"min_rating": 100,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12811,
-					"count": 1,
-					"data": {
-						"name": "Silver Hook",
-						"buy": 25,
-						"sell": 49,
-						"supply": 2745,
-						"demand": 2743
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 35,
-						"sell": 64,
-						"supply": 3532,
-						"demand": 4765
-					}
-				},
-				{
-					"item_id": 38139,
-					"count": 1,
-					"data": {
-						"name": "Intricate Snowflake",
-						"buy": 92,
-						"sell": 189,
-						"supply": 18082,
-						"demand": 1800
-					}
-				}
-			],
-			"id": 6753,
-			"chat_link": "[&CWEaAAA=]",
-			"output": {
-				"name": "Snowflake Silver Earring",
-				"buy": 431,
-				"sell": 747,
-				"supply": 1804,
-				"demand": 51
-			},
-			"totalCost": 302,
-			"totalRevenue": 431,
-			"profit": 64.34999999999997
-		}
-	],
-	[
-		"5385",
-		{
-			"type": "Component",
-			"output_item_id": 12868,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 3,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 5385,
-			"chat_link": "[&CQkVAAA=]",
-			"output": {
-				"name": "Iron Sword Blade",
-				"buy": 605,
-				"sell": 1438,
-				"supply": 6244,
-				"demand": 2049
-			},
-			"totalCost": 459,
-			"totalRevenue": 605,
-			"profit": 55.25
-		}
-	],
-	[
-		"3534",
-		{
-			"type": "Ring",
-			"output_item_id": 13301,
-			"output_item_count": 1,
-			"min_rating": 100,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12829,
-					"count": 1,
-					"data": {
-						"name": "Silver Band",
-						"buy": 36,
-						"sell": 99,
-						"supply": 3075,
-						"demand": 3405
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 35,
-						"sell": 64,
-						"supply": 3532,
-						"demand": 4765
-					}
-				},
-				{
-					"item_id": 24469,
-					"count": 1,
-					"data": {
-						"name": "Carnelian Nugget",
-						"buy": 69,
-						"sell": 70,
-						"supply": 15998,
-						"demand": 15961
-					}
-				}
-			],
-			"id": 3534,
-			"chat_link": "[&Cc4NAAA=]",
-			"output": {
-				"name": "Carnelian Silver Ring",
-				"buy": 339,
-				"sell": 1436,
-				"supply": 1388,
-				"demand": 396
-			},
-			"totalCost": 233,
-			"totalRevenue": 339,
-			"profit": 55.14999999999998
-		}
-	],
-	[
-		"3560",
-		{
-			"type": "Earring",
-			"output_item_id": 13288,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12806,
-					"count": 1,
-					"data": {
-						"name": "Copper Hook",
-						"buy": 24,
-						"sell": 97,
-						"supply": 3016,
-						"demand": 1541
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
-					}
-				},
-				{
-					"item_id": 24483,
-					"count": 1,
-					"data": {
-						"name": "Adorned Garnet Jewel",
-						"buy": 84,
-						"sell": 215,
-						"supply": 1266,
-						"demand": 1210
-					}
-				}
-			],
-			"id": 3560,
-			"chat_link": "[&CegNAAA=]",
-			"output": {
-				"name": "Garnet Copper Stud",
-				"buy": 565,
-				"sell": 1995,
-				"supply": 1436,
-				"demand": 373
-			},
-			"totalCost": 437,
-			"totalRevenue": 565,
-			"profit": 43.25
-		}
-	],
-	[
-		"431",
-		{
-			"type": "Leggings",
-			"output_item_id": 10282,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Armorsmith"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 19799,
-					"count": 1,
-					"data": {
-						"name": "Mighty Embroidered Jute Insignia",
-						"buy": 112,
-						"sell": 175,
-						"supply": 5389,
-						"demand": 3286
-					}
-				},
-				{
-					"item_id": 13100,
-					"count": 1,
-					"data": {
-						"name": "Bronze Chain Leggings Panel",
-						"buy": 76,
-						"sell": 315,
-						"supply": 2165,
-						"demand": 1582
-					}
-				},
-				{
-					"item_id": 13099,
-					"count": 1,
-					"data": {
-						"name": "Bronze Chain Legging Lining",
-						"buy": 96,
-						"sell": 330,
-						"supply": 1997,
-						"demand": 4010
-					}
-				}
-			],
-			"id": 431,
-			"chat_link": "[&Ca8BAAA=]",
-			"output": {
-				"name": "Mighty Chain Legs",
-				"buy": 1013,
-				"sell": 3998,
-				"supply": 294,
-				"demand": 168
-			},
-			"totalCost": 820,
-			"totalRevenue": 1013,
-			"profit": 41.049999999999955
+			"totalCost": 630,
+			"totalRevenue": 801,
+			"profit": 50.85000000000002
 		}
 	],
 	[
@@ -1571,10 +1171,10 @@
 					"count": 1,
 					"data": {
 						"name": "Copper Chain",
-						"buy": 66,
-						"sell": 138,
-						"supply": 1968,
-						"demand": 5074
+						"buy": 64,
+						"sell": 125,
+						"supply": 1994,
+						"demand": 5127
 					}
 				},
 				{
@@ -1582,10 +1182,10 @@
 					"count": 1,
 					"data": {
 						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
+						"buy": 43,
+						"sell": 169,
+						"supply": 5189,
+						"demand": 4260
 					}
 				},
 				{
@@ -1593,10 +1193,10 @@
 					"count": 1,
 					"data": {
 						"name": "Adorned Garnet Jewel",
-						"buy": 84,
-						"sell": 215,
-						"supply": 1266,
-						"demand": 1210
+						"buy": 85,
+						"sell": 173,
+						"supply": 1287,
+						"demand": 1235
 					}
 				}
 			],
@@ -1605,20 +1205,81 @@
 			"output": {
 				"name": "Garnet Copper Amulet",
 				"buy": 603,
-				"sell": 1527,
-				"supply": 595,
+				"sell": 1098,
+				"supply": 586,
 				"demand": 277
 			},
-			"totalCost": 478,
+			"totalCost": 467,
 			"totalRevenue": 603,
-			"profit": 34.549999999999955
+			"profit": 45.549999999999955
 		}
 	],
 	[
-		"3473",
+		"3772",
 		{
-			"type": "Amulet",
-			"output_item_id": 13363,
+			"type": "Earring",
+			"output_item_id": 13548,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12807,
+					"count": 1,
+					"data": {
+						"name": "Gold Hook",
+						"buy": 35,
+						"sell": 73,
+						"supply": 2970,
+						"demand": 1843
+					}
+				},
+				{
+					"item_id": 12813,
+					"count": 1,
+					"data": {
+						"name": "Gold Setting",
+						"buy": 48,
+						"sell": 86,
+						"supply": 5898,
+						"demand": 3088
+					}
+				},
+				{
+					"item_id": 24911,
+					"count": 3,
+					"data": {
+						"name": "Embellished Gilded Topaz Jewel",
+						"buy": 121,
+						"sell": 220,
+						"supply": 673,
+						"demand": 560
+					}
+				}
+			],
+			"id": 3772,
+			"chat_link": "[&CbwOAAA=]",
+			"output": {
+				"name": "Topaz Gold Earring",
+				"buy": 1001,
+				"sell": 3488,
+				"supply": 945,
+				"demand": 1114
+			},
+			"totalCost": 819,
+			"totalRevenue": 1001,
+			"profit": 31.850000000000023
+		}
+	],
+	[
+		"3560",
+		{
+			"type": "Earring",
+			"output_item_id": 13288,
 			"output_item_count": 1,
 			"min_rating": 50,
 			"time_to_craft_ms": 1000,
@@ -1628,14 +1289,14 @@
 			"flags": [],
 			"ingredients": [
 				{
-					"item_id": 12818,
+					"item_id": 12806,
 					"count": 1,
 					"data": {
-						"name": "Copper Chain",
-						"buy": 66,
-						"sell": 138,
-						"supply": 1968,
-						"demand": 5074
+						"name": "Copper Hook",
+						"buy": 25,
+						"sell": 109,
+						"supply": 2784,
+						"demand": 1793
 					}
 				},
 				{
@@ -1643,158 +1304,97 @@
 					"count": 1,
 					"data": {
 						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
+						"buy": 43,
+						"sell": 169,
+						"supply": 5189,
+						"demand": 4260
 					}
 				},
 				{
-					"item_id": 24477,
+					"item_id": 24483,
 					"count": 1,
 					"data": {
-						"name": "Adorned Amber Jewel",
-						"buy": 0,
-						"sell": 19,
-						"supply": 10727,
-						"demand": 0
+						"name": "Adorned Garnet Jewel",
+						"buy": 85,
+						"sell": 173,
+						"supply": 1287,
+						"demand": 1235
 					}
 				}
 			],
-			"id": 3473,
-			"chat_link": "[&CZENAAA=]",
+			"id": 3560,
+			"chat_link": "[&CegNAAA=]",
 			"output": {
-				"name": "Amber Copper Amulet",
-				"buy": 371,
-				"sell": 645,
-				"supply": 1011,
-				"demand": 230
+				"name": "Garnet Copper Stud",
+				"buy": 565,
+				"sell": 1993,
+				"supply": 1419,
+				"demand": 333
 			},
-			"totalCost": 282,
-			"totalRevenue": 371,
-			"profit": 33.349999999999966
+			"totalCost": 451,
+			"totalRevenue": 565,
+			"profit": 29.25
 		}
 	],
 	[
-		"299",
+		"3778",
 		{
-			"type": "Gloves",
-			"output_item_id": 10276,
+			"type": "Earring",
+			"output_item_id": 13554,
 			"output_item_count": 1,
-			"min_rating": 50,
+			"min_rating": 200,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
-				"Armorsmith"
+				"Jeweler"
 			],
 			"flags": [],
 			"ingredients": [
 				{
-					"item_id": 19799,
+					"item_id": 12807,
 					"count": 1,
 					"data": {
-						"name": "Mighty Embroidered Jute Insignia",
-						"buy": 112,
-						"sell": 175,
-						"supply": 5389,
-						"demand": 3286
+						"name": "Gold Hook",
+						"buy": 35,
+						"sell": 73,
+						"supply": 2970,
+						"demand": 1843
 					}
 				},
 				{
-					"item_id": 13110,
+					"item_id": 12813,
 					"count": 1,
 					"data": {
-						"name": "Bronze Chain Glove Panel",
-						"buy": 38,
-						"sell": 136,
-						"supply": 6061,
-						"demand": 917
+						"name": "Gold Setting",
+						"buy": 48,
+						"sell": 86,
+						"supply": 5898,
+						"demand": 3088
 					}
 				},
 				{
-					"item_id": 13107,
-					"count": 1,
+					"item_id": 24907,
+					"count": 3,
 					"data": {
-						"name": "Bronze Chain Glove Lining",
-						"buy": 62,
-						"sell": 149,
-						"supply": 1618,
-						"demand": 1056
+						"name": "Embellished Gilded Lapis Jewel",
+						"buy": 120,
+						"sell": 203,
+						"supply": 687,
+						"demand": 45
 					}
 				}
 			],
-			"id": 299,
-			"chat_link": "[&CSsBAAA=]",
+			"id": 3778,
+			"chat_link": "[&CcIOAAA=]",
 			"output": {
-				"name": "Mighty Chain Gauntlets",
-				"buy": 577,
-				"sell": 3895,
-				"supply": 939,
-				"demand": 293
+				"name": "Lapis Gold Earring",
+				"buy": 934,
+				"sell": 3685,
+				"supply": 1325,
+				"demand": 403
 			},
-			"totalCost": 460,
-			"totalRevenue": 577,
-			"profit": 30.44999999999999
-		}
-	],
-	[
-		"2057",
-		{
-			"type": "Boots",
-			"output_item_id": 10894,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Tailor"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 19799,
-					"count": 1,
-					"data": {
-						"name": "Mighty Embroidered Jute Insignia",
-						"buy": 112,
-						"sell": 175,
-						"supply": 5389,
-						"demand": 3286
-					}
-				},
-				{
-					"item_id": 13021,
-					"count": 1,
-					"data": {
-						"name": "Jute Sandal Upper",
-						"buy": 156,
-						"sell": 327,
-						"supply": 2422,
-						"demand": 6034
-					}
-				},
-				{
-					"item_id": 13022,
-					"count": 2,
-					"data": {
-						"name": "Jute Sandal Sole",
-						"buy": 4,
-						"sell": 13,
-						"supply": 54152,
-						"demand": 23630
-					}
-				}
-			],
-			"id": 2057,
-			"chat_link": "[&CQkIAAA=]",
-			"output": {
-				"name": "Mighty Embroidered Sandals",
-				"buy": 655,
-				"sell": 2986,
-				"supply": 621,
-				"demand": 107
-			},
-			"totalCost": 528,
-			"totalRevenue": 655,
-			"profit": 28.75
+			"totalCost": 768,
+			"totalRevenue": 934,
+			"profit": 25.899999999999977
 		}
 	],
 	[
@@ -1815,10 +1415,10 @@
 					"count": 1,
 					"data": {
 						"name": "Copper Band",
-						"buy": 43,
-						"sell": 159,
-						"supply": 9500,
-						"demand": 3282
+						"buy": 44,
+						"sell": 155,
+						"supply": 9608,
+						"demand": 3473
 					}
 				},
 				{
@@ -1826,10 +1426,10 @@
 					"count": 1,
 					"data": {
 						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
+						"buy": 43,
+						"sell": 169,
+						"supply": 5189,
+						"demand": 4260
 					}
 				},
 				{
@@ -1837,10 +1437,10 @@
 					"count": 1,
 					"data": {
 						"name": "Adorned Garnet Jewel",
-						"buy": 84,
-						"sell": 215,
-						"supply": 1266,
-						"demand": 1210
+						"buy": 85,
+						"sell": 173,
+						"supply": 1287,
+						"demand": 1235
 					}
 				}
 			],
@@ -1849,74 +1449,13 @@
 			"output": {
 				"name": "Garnet Copper Ring",
 				"buy": 613,
-				"sell": 1681,
-				"supply": 1258,
+				"sell": 1679,
+				"supply": 1242,
 				"demand": 90
 			},
-			"totalCost": 499,
+			"totalCost": 497,
 			"totalRevenue": 613,
-			"profit": 22.049999999999955
-		}
-	],
-	[
-		"3569",
-		{
-			"type": "Ring",
-			"output_item_id": 13277,
-			"output_item_count": 1,
-			"min_rating": 0,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12824,
-					"count": 1,
-					"data": {
-						"name": "Copper Band",
-						"buy": 43,
-						"sell": 159,
-						"supply": 9500,
-						"demand": 3282
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
-					}
-				},
-				{
-					"item_id": 24464,
-					"count": 1,
-					"data": {
-						"name": "Garnet Pebble",
-						"buy": 81,
-						"sell": 103,
-						"supply": 6432,
-						"demand": 15860
-					}
-				}
-			],
-			"id": 3569,
-			"chat_link": "[&CfENAAA=]",
-			"output": {
-				"name": "Garnet Copper Ring",
-				"buy": 478,
-				"sell": 1153,
-				"supply": 1617,
-				"demand": 1490
-			},
-			"totalCost": 387,
-			"totalRevenue": 478,
-			"profit": 19.30000000000001
+			"profit": 24.049999999999955
 		}
 	],
 	[
@@ -1937,10 +1476,10 @@
 					"count": 1,
 					"data": {
 						"name": "Silver Hook",
-						"buy": 25,
-						"sell": 49,
-						"supply": 2745,
-						"demand": 2743
+						"buy": 26,
+						"sell": 47,
+						"supply": 2764,
+						"demand": 2897
 					}
 				},
 				{
@@ -1948,10 +1487,10 @@
 					"count": 1,
 					"data": {
 						"name": "Silver Setting",
-						"buy": 35,
-						"sell": 64,
-						"supply": 3532,
-						"demand": 4765
+						"buy": 37,
+						"sell": 60,
+						"supply": 3521,
+						"demand": 4973
 					}
 				},
 				{
@@ -1959,10 +1498,10 @@
 					"count": 1,
 					"data": {
 						"name": "Carnelian Nugget",
-						"buy": 69,
-						"sell": 70,
-						"supply": 15998,
-						"demand": 15961
+						"buy": 71,
+						"sell": 72,
+						"supply": 16272,
+						"demand": 17142
 					}
 				}
 			],
@@ -1970,14 +1509,14 @@
 			"chat_link": "[&CbYNAAA=]",
 			"output": {
 				"name": "Carnelian Silver Stud",
-				"buy": 235,
-				"sell": 635,
-				"supply": 478,
-				"demand": 181
+				"buy": 237,
+				"sell": 630,
+				"supply": 479,
+				"demand": 183
 			},
-			"totalCost": 183,
-			"totalRevenue": 235,
-			"profit": 16.75
+			"totalCost": 179,
+			"totalRevenue": 237,
+			"profit": 22.44999999999999
 		}
 	],
 	[
@@ -1998,10 +1537,10 @@
 					"count": 1,
 					"data": {
 						"name": "Silver Band",
-						"buy": 36,
+						"buy": 38,
 						"sell": 99,
-						"supply": 3075,
-						"demand": 3405
+						"supply": 3080,
+						"demand": 3692
 					}
 				},
 				{
@@ -2009,10 +1548,10 @@
 					"count": 1,
 					"data": {
 						"name": "Silver Setting",
-						"buy": 35,
-						"sell": 64,
-						"supply": 3532,
-						"demand": 4765
+						"buy": 37,
+						"sell": 60,
+						"supply": 3521,
+						"demand": 4973
 					}
 				},
 				{
@@ -2021,8 +1560,8 @@
 					"data": {
 						"name": "Intricate Carnelian Jewel",
 						"buy": 0,
-						"sell": 81,
-						"supply": 3560,
+						"sell": 80,
+						"supply": 3576,
 						"demand": 0
 					}
 				}
@@ -2032,86 +1571,25 @@
 			"output": {
 				"name": "Carnelian Silver Ring",
 				"buy": 302,
-				"sell": 1201,
-				"supply": 586,
+				"sell": 1101,
+				"supply": 608,
 				"demand": 172
 			},
-			"totalCost": 244,
+			"totalCost": 239,
 			"totalRevenue": 302,
-			"profit": 12.699999999999989
+			"profit": 17.69999999999999
 		}
 	],
 	[
-		"3562",
+		"2057",
 		{
-			"type": "Earring",
-			"output_item_id": 13290,
+			"type": "Boots",
+			"output_item_id": 10894,
 			"output_item_count": 1,
 			"min_rating": 50,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12806,
-					"count": 1,
-					"data": {
-						"name": "Copper Hook",
-						"buy": 24,
-						"sell": 97,
-						"supply": 3016,
-						"demand": 1541
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
-					}
-				},
-				{
-					"item_id": 24480,
-					"count": 1,
-					"data": {
-						"name": "Adorned Malachite Jewel",
-						"buy": 0,
-						"sell": 52,
-						"supply": 5773,
-						"demand": 0
-					}
-				}
-			],
-			"id": 3562,
-			"chat_link": "[&CeoNAAA=]",
-			"output": {
-				"name": "Malachite Copper Stud",
-				"buy": 337,
-				"sell": 756,
-				"supply": 1103,
-				"demand": 13
-			},
-			"totalCost": 274,
-			"totalRevenue": 337,
-			"profit": 12.449999999999989
-		}
-	],
-	[
-		"1170",
-		{
-			"type": "Leggings",
-			"output_item_id": 11598,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Leatherworker"
+				"Tailor"
 			],
 			"flags": [],
 			"ingredients": [
@@ -2120,99 +1598,47 @@
 					"count": 1,
 					"data": {
 						"name": "Mighty Embroidered Jute Insignia",
-						"buy": 112,
-						"sell": 175,
-						"supply": 5389,
-						"demand": 3286
+						"buy": 111,
+						"sell": 189,
+						"supply": 5178,
+						"demand": 3247
 					}
 				},
 				{
-					"item_id": 13088,
+					"item_id": 13021,
 					"count": 1,
 					"data": {
-						"name": "Rawhide Legging Panel",
-						"buy": 318,
-						"sell": 591,
-						"supply": 733,
-						"demand": 3747
+						"name": "Jute Sandal Upper",
+						"buy": 156,
+						"sell": 327,
+						"supply": 2414,
+						"demand": 6031
 					}
 				},
 				{
-					"item_id": 13087,
-					"count": 1,
+					"item_id": 13022,
+					"count": 2,
 					"data": {
-						"name": "Rawhide Legging Strap",
+						"name": "Jute Sandal Sole",
 						"buy": 4,
-						"sell": 20,
-						"supply": 7886,
-						"demand": 648
+						"sell": 14,
+						"supply": 54673,
+						"demand": 22717
 					}
 				}
 			],
-			"id": 1170,
-			"chat_link": "[&CZIEAAA=]",
+			"id": 2057,
+			"chat_link": "[&CQkIAAA=]",
 			"output": {
-				"name": "Mighty Seeker Pants",
-				"buy": 935,
-				"sell": 2926,
-				"supply": 572,
-				"demand": 87
+				"name": "Mighty Embroidered Sandals",
+				"buy": 656,
+				"sell": 2979,
+				"supply": 625,
+				"demand": 110
 			},
-			"totalCost": 786,
-			"totalRevenue": 935,
-			"profit": 8.75
-		}
-	],
-	[
-		"2845",
-		{
-			"type": "Seasoning",
-			"output_item_id": 12178,
-			"output_item_count": 1,
-			"min_rating": 0,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Chef"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 12153,
-					"count": 1,
-					"data": {
-						"name": "Packet of Salt",
-						"buy": 8,
-						"sell": 11,
-						"supply": 181110,
-						"demand": 162835
-					}
-				},
-				{
-					"item_id": 12236,
-					"count": 1,
-					"data": {
-						"name": "Black Peppercorn",
-						"buy": 14,
-						"sell": 19,
-						"supply": 186152,
-						"demand": 46391
-					}
-				}
-			],
-			"id": 2845,
-			"chat_link": "[&CR0LAAA=]",
-			"output": {
-				"name": "Pile of Salt and Pepper",
-				"buy": 44,
-				"sell": 61,
-				"supply": 92802,
-				"demand": 17318
-			},
-			"totalCost": 30,
-			"totalRevenue": 44,
-			"profit": 7.399999999999999
+			"totalCost": 544,
+			"totalRevenue": 656,
+			"profit": 13.600000000000023
 		}
 	],
 	[
@@ -2233,10 +1659,10 @@
 					"count": 1,
 					"data": {
 						"name": "Silver Chain",
-						"buy": 40,
-						"sell": 120,
-						"supply": 4702,
-						"demand": 6351
+						"buy": 39,
+						"sell": 119,
+						"supply": 4715,
+						"demand": 6520
 					}
 				},
 				{
@@ -2244,10 +1670,10 @@
 					"count": 1,
 					"data": {
 						"name": "Silver Setting",
-						"buy": 35,
-						"sell": 64,
-						"supply": 3532,
-						"demand": 4765
+						"buy": 37,
+						"sell": 60,
+						"supply": 3521,
+						"demand": 4973
 					}
 				},
 				{
@@ -2255,10 +1681,10 @@
 					"count": 1,
 					"data": {
 						"name": "Carnelian Nugget",
-						"buy": 69,
-						"sell": 70,
-						"supply": 15998,
-						"demand": 15961
+						"buy": 71,
+						"sell": 72,
+						"supply": 16272,
+						"demand": 17142
 					}
 				}
 			],
@@ -2266,207 +1692,14 @@
 			"chat_link": "[&CZ4NAAA=]",
 			"output": {
 				"name": "Carnelian Silver Amulet",
-				"buy": 307,
-				"sell": 1316,
+				"buy": 309,
+				"sell": 1311,
 				"supply": 703,
-				"demand": 293
+				"demand": 294
 			},
-			"totalCost": 254,
-			"totalRevenue": 307,
-			"profit": 6.949999999999989
-		}
-	],
-	[
-		"5367",
-		{
-			"type": "Component",
-			"output_item_id": 12862,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 3,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 152,
-						"sell": 153,
-						"supply": 825089,
-						"demand": 59982
-					}
-				}
-			],
-			"id": 5367,
-			"chat_link": "[&CfcUAAA=]",
-			"output": {
-				"name": "Iron Hammer Head",
-				"buy": 547,
-				"sell": 645,
-				"supply": 1697,
-				"demand": 2906
-			},
-			"totalCost": 459,
-			"totalRevenue": 547,
-			"profit": 5.949999999999989
-		}
-	],
-	[
-		"3156",
-		{
-			"type": "Dessert",
-			"output_item_id": 12458,
-			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Chef"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12128,
-					"count": 1,
-					"data": {
-						"name": "Omnomberry",
-						"buy": 60,
-						"sell": 65,
-						"supply": 427718,
-						"demand": 152590
-					}
-				},
-				{
-					"item_id": 12155,
-					"count": 1,
-					"data": {
-						"name": "Bag of Sugar",
-						"buy": 6,
-						"sell": 10,
-						"supply": 127265,
-						"demand": 31582
-					}
-				}
-			],
-			"id": 3156,
-			"chat_link": "[&CVQMAAA=]",
-			"output": {
-				"name": "Omnomberry Compote",
-				"buy": 94,
-				"sell": 122,
-				"supply": 42586,
-				"demand": 16854
-			},
-			"totalCost": 75,
-			"totalRevenue": 94,
-			"profit": 4.8999999999999915
-		}
-	],
-	[
-		"3577",
-		{
-			"type": "Ring",
-			"output_item_id": 13281,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12824,
-					"count": 1,
-					"data": {
-						"name": "Copper Band",
-						"buy": 43,
-						"sell": 159,
-						"supply": 9500,
-						"demand": 3282
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 42,
-						"sell": 125,
-						"supply": 5349,
-						"demand": 4448
-					}
-				},
-				{
-					"item_id": 24488,
-					"count": 1,
-					"data": {
-						"name": "Adorned Tiger's Eye Jewel",
-						"buy": 67,
-						"sell": 127,
-						"supply": 781,
-						"demand": 277
-					}
-				}
-			],
-			"id": 3577,
-			"chat_link": "[&CfkNAAA=]",
-			"output": {
-				"name": "Tiger's Eye Copper Ring",
-				"buy": 489,
-				"sell": 1292,
-				"supply": 1236,
-				"demand": 80
-			},
-			"totalCost": 411,
-			"totalRevenue": 489,
-			"profit": 4.649999999999977
-		}
-	],
-	[
-		"3398",
-		{
-			"type": "Component",
-			"output_item_id": 12815,
-			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 2000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19685,
-					"count": 2,
-					"data": {
-						"name": "Orichalcum Ingot",
-						"buy": 277,
-						"sell": 302,
-						"supply": 265355,
-						"demand": 61651
-					}
-				}
-			],
-			"id": 3398,
-			"chat_link": "[&CUYNAAA=]",
-			"output": {
-				"name": "Orichalcum Setting",
-				"buy": 716,
-				"sell": 936,
-				"supply": 4148,
-				"demand": 2476
-			},
-			"totalCost": 604,
-			"totalRevenue": 716,
-			"profit": 4.600000000000023
+			"totalCost": 251,
+			"totalRevenue": 309,
+			"profit": 11.649999999999977
 		}
 	],
 	[
@@ -2491,8 +1724,8 @@
 						"name": "Resonating Sliver",
 						"buy": 5,
 						"sell": 6,
-						"supply": 9208299,
-						"demand": 371633
+						"supply": 9223998,
+						"demand": 269359
 					}
 				}
 			],
@@ -2500,23 +1733,136 @@
 			"chat_link": "[&CfIrAAA=]",
 			"output": {
 				"name": "Resonating Fragment",
-				"buy": 24,
-				"sell": 38,
-				"supply": 79528,
-				"demand": 19051
+				"buy": 28,
+				"sell": 50,
+				"supply": 75487,
+				"demand": 17686
 			},
 			"totalCost": 18,
-			"totalRevenue": 24,
-			"profit": 2.3999999999999986
+			"totalRevenue": 28,
+			"profit": 5.800000000000001
 		}
 	],
 	[
-		"3778",
+		"2845",
 		{
-			"type": "Earring",
-			"output_item_id": 13554,
+			"type": "Seasoning",
+			"output_item_id": 12178,
 			"output_item_count": 1,
-			"min_rating": 200,
+			"min_rating": 0,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Chef"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 12153,
+					"count": 1,
+					"data": {
+						"name": "Packet of Salt",
+						"buy": 9,
+						"sell": 10,
+						"supply": 191577,
+						"demand": 166980
+					}
+				},
+				{
+					"item_id": 12236,
+					"count": 1,
+					"data": {
+						"name": "Black Peppercorn",
+						"buy": 18,
+						"sell": 19,
+						"supply": 184571,
+						"demand": 54858
+					}
+				}
+			],
+			"id": 2845,
+			"chat_link": "[&CR0LAAA=]",
+			"output": {
+				"name": "Pile of Salt and Pepper",
+				"buy": 38,
+				"sell": 53,
+				"supply": 93860,
+				"demand": 13595
+			},
+			"totalCost": 29,
+			"totalRevenue": 38,
+			"profit": 3.299999999999997
+		}
+	],
+	[
+		"4354",
+		{
+			"type": "Staff",
+			"output_item_id": 14057,
+			"output_item_count": 1,
+			"min_rating": 125,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Artificer"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 13266,
+					"count": 1,
+					"data": {
+						"name": "Soft Staff Head",
+						"buy": 44,
+						"sell": 175,
+						"supply": 3496,
+						"demand": 2348
+					}
+				},
+				{
+					"item_id": 12974,
+					"count": 1,
+					"data": {
+						"name": "Soft Staff Shaft",
+						"buy": 159,
+						"sell": 382,
+						"supply": 4796,
+						"demand": 2793
+					}
+				},
+				{
+					"item_id": 19940,
+					"count": 1,
+					"data": {
+						"name": "Hearty Iron Imbued Inscription",
+						"buy": 1401,
+						"sell": 1990,
+						"supply": 1071,
+						"demand": 1022
+					}
+				}
+			],
+			"id": 4354,
+			"chat_link": "[&CQIRAAA=]",
+			"output": {
+				"name": "Hearty Bandit Spire",
+				"buy": 3000,
+				"sell": 9000,
+				"supply": 389,
+				"demand": 106
+			},
+			"totalCost": 2547,
+			"totalRevenue": 3000,
+			"profit": 3
+		}
+	],
+	[
+		"3473",
+		{
+			"type": "Amulet",
+			"output_item_id": 13363,
+			"output_item_count": 1,
+			"min_rating": 50,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
 				"Jeweler"
@@ -2524,164 +1870,51 @@
 			"flags": [],
 			"ingredients": [
 				{
-					"item_id": 12807,
+					"item_id": 12818,
 					"count": 1,
 					"data": {
-						"name": "Gold Hook",
-						"buy": 35,
-						"sell": 79,
-						"supply": 2929,
-						"demand": 2135
+						"name": "Copper Chain",
+						"buy": 64,
+						"sell": 125,
+						"supply": 1994,
+						"demand": 5127
 					}
 				},
 				{
-					"item_id": 12813,
+					"item_id": 12812,
 					"count": 1,
 					"data": {
-						"name": "Gold Setting",
-						"buy": 48,
-						"sell": 89,
-						"supply": 5904,
-						"demand": 3565
+						"name": "Copper Setting",
+						"buy": 43,
+						"sell": 169,
+						"supply": 5189,
+						"demand": 4260
 					}
 				},
 				{
-					"item_id": 24907,
-					"count": 3,
+					"item_id": 24477,
+					"count": 1,
 					"data": {
-						"name": "Embellished Gilded Lapis Jewel",
-						"buy": 113,
-						"sell": 208,
-						"supply": 674,
-						"demand": 15
+						"name": "Adorned Amber Jewel",
+						"buy": 0,
+						"sell": 19,
+						"supply": 11053,
+						"demand": 0
 					}
 				}
 			],
-			"id": 3778,
-			"chat_link": "[&CcIOAAA=]",
+			"id": 3473,
+			"chat_link": "[&CZENAAA=]",
 			"output": {
-				"name": "Lapis Gold Earring",
-				"buy": 934,
-				"sell": 3685,
-				"supply": 1309,
-				"demand": 422
+				"name": "Amber Copper Amulet",
+				"buy": 371,
+				"sell": 599,
+				"supply": 999,
+				"demand": 230
 			},
-			"totalCost": 792,
-			"totalRevenue": 934,
-			"profit": 1.8999999999999773
-		}
-	],
-	[
-		"5110",
-		{
-			"type": "Component",
-			"output_item_id": 12936,
-			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Huntsman"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19685,
-					"count": 1,
-					"data": {
-						"name": "Orichalcum Ingot",
-						"buy": 277,
-						"sell": 302,
-						"supply": 265355,
-						"demand": 61651
-					}
-				},
-				{
-					"item_id": 19712,
-					"count": 2,
-					"data": {
-						"name": "Ancient Wood Plank",
-						"buy": 305,
-						"sell": 369,
-						"supply": 176139,
-						"demand": 53766
-					}
-				}
-			],
-			"id": 5110,
-			"chat_link": "[&CfYTAAA=]",
-			"output": {
-				"name": "Orichalcum Horn",
-				"buy": 1225,
-				"sell": 2088,
-				"supply": 3032,
-				"demand": 1085
-			},
-			"totalCost": 1040,
-			"totalRevenue": 1225,
-			"profit": 1.25
-		}
-	],
-	[
-		"5838",
-		{
-			"type": "Hammer",
-			"output_item_id": 15512,
-			"output_item_count": 1,
-			"min_rating": 375,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 19902,
-					"count": 1,
-					"data": {
-						"name": "Knight's Mithril Imbued Inscription",
-						"buy": 2403,
-						"sell": 2899,
-						"supply": 946,
-						"demand": 2604
-					}
-				},
-				{
-					"item_id": 12863,
-					"count": 1,
-					"data": {
-						"name": "Mithril Hammer Head",
-						"buy": 378,
-						"sell": 777,
-						"supply": 4282,
-						"demand": 3073
-					}
-				},
-				{
-					"item_id": 12896,
-					"count": 1,
-					"data": {
-						"name": "Large Elder Haft",
-						"buy": 305,
-						"sell": 805,
-						"supply": 22873,
-						"demand": 1998
-					}
-				}
-			],
-			"id": 5838,
-			"chat_link": "[&Cc4WAAA=]",
-			"output": {
-				"name": "Knight's Krait Warhammer",
-				"buy": 5273,
-				"sell": 6125,
-				"supply": 2173,
-				"demand": 598
-			},
-			"totalCost": 4481,
-			"totalRevenue": 5273,
-			"profit": 1.050000000000182
+			"totalCost": 313,
+			"totalRevenue": 371,
+			"profit": 2.349999999999966
 		}
 	]
 ]

@@ -2,33 +2,60 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.js"></script>
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-sanitize.js'></script>
 <style>
+	button {
+		width: 200px;
+	}
+
+	input[type=checkbox] {
+		display: none;
+	}
+
+	input[type=checkbox]+label {
+		background: red;
+		color: white;
+		border-radius: 0.5em;
+		padding: 5px;
+	}
+
+	input[type=checkbox]:checked+label {
+		background: lightgreen;
+		color: black;
+	}
+
 	thead {
 		position: sticky;
 		top: 0;
 		background: white;
 	}
 
+	tr:first-child > * {
+		border-top: 5px solid black;
+	}
+	table{
+		border-left: 5px solid black;
+		border-right: 5px solid black;
+	}
+
 	tbody:hover {
 		background: #dddddd;
 	}
 
+	th,
 	td {
 		padding: 5px;
 		text-align: center;
-	}
-
-	td:nth-child(9) {
-		background: lightgreen;
+		border: 1px solid black;
 	}
 
 	td:nth-child(10),
-	td:nth-child(11) {
-		background: pink;
+	td:nth-child(12) {
+		background: lightgreen;
 	}
 
 	span {
 		text-align: right;
 	}
+
 </style>
 <script>
 	var app = angular.module("myApp", ['ngSanitize']);
@@ -54,23 +81,68 @@
 				}
 			}
 		})
+		.filter("disciplineFilter", () => {
+			return (input, $scope) => {
+				if (input == undefined) { return }
+				return input.filter(recipe => {
+					var validDiscipline = false;
+					recipe[1].disciplines.forEach(discipline => {
+						if ($scope.filter.disciplines[discipline] == true) { validDiscipline = true }
+					})
+					if (validDiscipline) { return true }
+				})
+			}
+		})
+		.filter("sortByColumn", () => {
+			return (input, $scope) => {
+				if (input == undefined) { return }
+				var output = input.sort((a, b) => {
+					return $scope.sort.split('.').reduce((m, n) => m[n], b[1]) - $scope.sort.split('.').reduce((m, n) => m[n], a[1])
+				})
+				console.log(output)
+				return output
+			}
+		})
 		.controller('MainController', ['$scope', '$http', function ($scope, $http) {
 			$scope.labels = {};
 
-			$scope.filteredRecipes = () => {
-				$http.get("/get/filteredRecipes")
+			$scope.filter = {
+				disciplines: {
+					"Armorsmith": true,
+					"Artificer": true,
+					"Chef": true,
+					"Huntsman": true,
+					"Jeweler": true,
+					"Leatherworker": true,
+					"Scribe": false,
+					"Tailor": true,
+					"Weaponsmith": true
+				}
+			}
+
+			$scope.sort = "profit";
+
+			$scope.setSort = sort => {
+				$scope.sort = sort;
+				console.log("sort set to", $scope.sort)
+			}
+
+			$scope.totalProfits = () => {
+				$http.get("/data/totalProfits")
 					.then(res => {
 						$scope.recipes = res.data;
-						$scope.labels["filteredRecipes"] = new Date();
-						$scope.$apply();
+						$scope.labels["final"] = new Date();
+						$scope.safeApply();
 					})
 			}
-			$scope.filteredRecipes();
+			$scope.totalProfits();
 
-			intverval = setInterval(() => {
-				$scope.fetch('/get/listings', 'listings');
-				$scope.filteredRecipes();
-			}, 300000)
+			// intverval = setInterval(async () => {
+			// 	await $scope.fetch('/get/listings', 'listings');
+			// 	await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
+			// 	await $scope.fetch('/get/totalProfits', 'totalProfits');
+			// 	$scope.totalProfits();
+			// }, 300000)
 
 
 			$scope.fetch = (url, label) => {
@@ -79,6 +151,17 @@
 						$scope.labels[label] = new Date();
 					})
 			}
+
+			$scope.safeApply = function (fn) {
+				var phase = this.$root.$$phase;
+				if (phase == '$apply' || phase == '$digest') {
+					if (fn && (typeof (fn) === 'function')) {
+						fn();
+					}
+				} else {
+					this.$apply(fn);
+				}
+			};
 		}]);
 </script>
 
@@ -88,47 +171,92 @@
 		<br>
 		<button ng-click="fetch('/get/listings','listings')">Refresh Listings</button>{{labels.listings}}
 		<br>
-		<button ng-click="filteredRecipes()">Recalc Profits</button>{{labels.filteredRecipes}}
-		<table border>
+		<button ng-click="fetch('/get/filteredRecipes','filteredRecipes')()">Recalc Profitable</button>{{labels.filteredRecipes}}
+		<br>
+		<button ng-click="fetch('/get/totalProfits','totalProfits')()">Recalc Total Profits</button>{{labels.totalProfits}}
+		<br>
+		<button ng-click="totalProfits()">Update page</button>{{labels.final}}
+		<br>
+		<br>
+		<input type="checkbox" id="Armorsmith" ng-model="filter.disciplines.Armorsmith"><label for="Armorsmith">Armorsmith</label>
+		<input type="checkbox" id="Artificer" ng-model="filter.disciplines.Artificer"><label for="Artificer">Artificer</label>
+		<input type="checkbox" id="Chef" ng-model="filter.disciplines.Chef"><label for="Chef">Chef</label>
+		<input type="checkbox" id="Huntsman" ng-model="filter.disciplines.Huntsman"><label for="Huntsman">Huntsman</label>
+		<input type="checkbox" id="Jeweler" ng-model="filter.disciplines.Jeweler"><label for="Jeweler">Jeweler</label>
+		<input type="checkbox" id="Leatherworker" ng-model="filter.disciplines.Leatherworker"><label for="Leatherworker">Leatherworker</label>
+		<input type="checkbox" id="Scribe" ng-model="filter.disciplines.Scribe"><label for="Scribe">Scribe</label>
+		<input type="checkbox" id="Tailor" ng-model="filter.disciplines.Tailor"><label for="Tailor">Tailor</label>
+		<input type="checkbox" id="Weaponsmith" ng-model="filter.disciplines.Weaponsmith"><label for="Weaponsmith">Weaponsmith</label>
+		<br>
+		<br>
+		<table cellspacing=0>
 			<thead>
 				<tr>
 					<th colspan=2>Requirements</th>
 					<th colspan=3>Ingredients</th>
-					<th colspan=6>Output</th>
+					<th colspan=7>Output</th>
 					<th rowspan=2>Links</th>
 				</tr>
 				<tr>
 					<th>Crafting</th>
 					<th>Level</th>
+
 					<th>Name</th>
 					<th>Count</th>
 					<th>Cost</th>
+					<th>Links</th>
+
 					<th>Name</th>
-					<th>Total Cost</th>
-					<th>Sell Price</th>
-					<th>Profit</th>
-					<th>Sell Count</th>
-					<th>Total Profit</th>
+					<th ng-click="setSort('totalCost')">
+						Total Cost
+						<span ng-if="sort == 'totalCost'">&#9660;</span>
+						<span ng-if="sort != 'totalCost'">&#9661;</span>
+					</th>
+					<th ng-click="setSort('totalRevenue')">
+						Sell Price
+						<span ng-if="sort == 'totalRevenue'">&#9660;</span>
+						<span ng-if="sort != 'totalRevenue'">&#9661;</span>
+					</th>
+					<th ng-click="setSort('profit')">
+						Profit
+						<span ng-if="sort == 'profit'">&#9660;</span>
+						<span ng-if="sort != 'profit'">&#9661;</span>
+					</th>
+					<th ng-click="setSort('sellCount')">
+						Sell Count
+						<span ng-if="sort == 'sellCount'">&#9660;</span>
+						<span ng-if="sort != 'sellCount'">&#9661;</span>
+					</th>
+					<th ng-click="setSort('totalProfit')">
+						Total Profit
+						<span ng-if="sort == 'totalProfit'">&#9660;</span>
+						<span ng-if="sort != 'totalProfit'">&#9661;</span>
+					</th>
 				</tr>
 			</thead>
-			<tbody ng-repeat="recipe in recipes | filter:{disciplines: '!Scribe'}">
+			<tbody ng-repeat="recipe in recipes | disciplineFilter:this | sortByColumn:this">
 				<tr>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-repeat="discipline in recipe[1].disciplines">{{discipline}}<br></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].min_rating}}</td>
+
 					<td>{{recipe[1].ingredients[0].data.name}}</td>
 					<td>{{recipe[1].ingredients[0].count}}</td>
 					<td><span ng-bind-html="recipe[1].ingredients[0].data.sell | coin">{{recipe[1].ingredients[0].data.sell}}</span></td>
+					<td>
+						<a href="https://wiki.guildwars2.com/index.php?search={{recipe[1].ingredients[0].data.name}}">wiki</a>
+						<a href="https://www.gw2tp.com/item/{{recipe[1].ingredients[0].item_id}}">gw2tp</a>
+					</td>
+
 					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].output.name}}</td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalCost | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalRevenue | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].profit | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].sellCount"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalProfit | coin"></span></td>
+
 					<td rowspan="{{recipe[1].ingredients.length}}">
 						<a href="https://wiki.guildwars2.com/index.php?search={{recipe[1].output.name}}">wiki</a>
-						<br>
 						<a href="https://www.gw2tp.com/item/{{recipe[1].output_item_id}}">gw2tp</a>
-						<br>
 						<a href="https://www.gw2craftgold.com/recipe-details-{{recipe[1].id}}">gw2craftgold</a>
 					</td>
 				</tr>
@@ -136,6 +264,10 @@
 					<td>{{ingredient.data.name}}</td>
 					<td>{{ingredient.count}}</td>
 					<td><span ng-bind-html="ingredient.data.sell | coin"></span></td>
+					<td>
+						<a href="https://wiki.guildwars2.com/index.php?search={{ingredient.data.name}}">wiki</a>
+						<a href="https://www.gw2tp.com/item/{{ingredient.item_id}}">gw2tp</a>
+					</td>
 				</tr>
 			</tbody>
 		</table>
