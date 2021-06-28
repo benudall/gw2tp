@@ -137,12 +137,12 @@
 			}
 			$scope.totalProfits();
 
-			// intverval = setInterval(async () => {
-			// 	await $scope.fetch('/get/listings', 'listings');
-			// 	await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
-			// 	await $scope.fetch('/get/totalProfits', 'totalProfits');
-			// 	$scope.totalProfits();
-			// }, 300000)
+			intverval = setInterval(async () => {
+				await $scope.fetch('/get/listings', 'listings');
+				await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
+				await $scope.fetch('/get/totalProfits', 'totalProfits');
+				$scope.totalProfits();
+			}, 300000)
 
 
 			$scope.fetch = (url, label) => {
