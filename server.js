@@ -178,42 +178,42 @@ var server = http.createServer(async (request, result) => {
     }
     else if (request.url == '/data/rawListings') {
         fs.readFile('data/rawListings.json', function (error, data) {
-            if (error) { console.log(error); result.end('Error: cannot return page') }
+            if (error) { console.error(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
     }
     else if (request.url == '/data/listings') {
         fs.readFile('data/listings.json', function (error, data) {
-            if (error) { console.log(error); result.end('Error: cannot return page') }
+            if (error) { console.error(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
     }
     else if (request.url == '/data/itemNames') {
         fs.readFile('data/itemNames.json', function (error, data) {
-            if (error) { console.log(error); result.end('Error: cannot return page') }
+            if (error) { console.error(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
     }
     else if (request.url == '/data/recipes') {
         fs.readFile('data/recipes.json', function (error, data) {
-            if (error) { console.log(error); result.end('Error: cannot return page') }
+            if (error) { console.error(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
     }
     else if (request.url == '/data/filteredRecipes') {
         fs.readFile('data/filteredRecipes.json', function (error, data) {
-            if (error) { console.log(error); result.end('Error: cannot return page') }
+            if (error) { console.error(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
     }
     else if (request.url == '/data/totalProfits') {
         fs.readFile('data/totalProfitRecipes.json', function (error, data) {
-            if (error) { console.log(error); result.end('Error: cannot return page') }
+            if (error) { console.error(error); result.end('Error: cannot return page') }
             else { result.end(data) }
         });
     }
     else {
-        console.log("404")
+        console.error("404")
         result.writeHead("404");
         result.end("404 Error");
     }
