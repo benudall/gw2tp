@@ -3,6 +3,10 @@ const http = require('http');
 const fetch = require('node-fetch');
 const fs = require('fs');
 
+delay = ms => {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 var server = http.createServer(async (request, result) => {
     console.log((new Date()).toLocaleTimeString() + ' RECEIVED ' + request.method + " " + request.url);
 
@@ -60,6 +64,9 @@ var server = http.createServer(async (request, result) => {
     }
     else if (request.url == '/get/filteredRecipes') {
         var recipes = JSON.parse(fs.readFileSync("data/recipes.json"));
+
+        console.log("recipes has length:", Object.keys(recipes).length);
+
         var listings = JSON.parse(fs.readFileSync("data/listings.json"));
         var tradable = {};
         Object.entries(recipes).forEach(recipe => {
@@ -75,7 +82,6 @@ var server = http.createServer(async (request, result) => {
             if (!tradableIngredients) { return }
             tradable[recipe[1].id] = recipe[1];
         });
-        console.log("recipes has length:", Object.keys(recipes).length);
         console.log("tradable has length:", Object.keys(tradable).length);
 
         var recipesNotFromItems = {};
@@ -105,6 +111,8 @@ var server = http.createServer(async (request, result) => {
             recipesFullyAvailable[recipe[1].id] = recipe[1];
         });
 
+        console.log("recipesFullyAvailable has length:", Object.keys(recipesFullyAvailable).length);
+
         var profitableRecipes = {}
         Object.entries(recipesFullyAvailable).forEach(recipe => {
             if (recipe[1].profit <= 0) { return }
@@ -121,14 +129,15 @@ var server = http.createServer(async (request, result) => {
     else if (request.url == '/get/totalProfits') {
         var profitableRecipes = JSON.parse(fs.readFileSync("data/filteredRecipes.json"));
         var totalProfitRecipes = {};
-        for await (var recipe of profitableRecipes) {
-            await fetch("https://api.guildwars2.com/v2/commerce/listings?ids=" + recipe[1].output_item_id + "," + recipe[1].ingredients.map(ingredient => ingredient.item_id).join(","))
+        var progress = 0;
+ 
+        profitableRecipes.forEach(recipe => {
+            fetch("https://api.guildwars2.com/v2/commerce/listings?ids=" + recipe[1].output_item_id + "," + recipe[1].ingredients.map(ingredient => ingredient.item_id).join(","))
                 .then(res => res.json()
                     .catch(err => {
                         console.error(err);
                     }))
                 .then(fullListings => {
-
                     var ingredientsSells = {};
                     recipe[1].ingredients.forEach(ingredient => {
                         var ingredientListing = fullListings.filter(listing => ingredient.item_id == listing.id)[0];
@@ -141,6 +150,7 @@ var server = http.createServer(async (request, result) => {
                         ingredientsSells[ingredient.item_id] = sells;
                     });
 
+
                     var outputListing = fullListings.filter(listing => recipe[1].output_item_id == listing.id)[0];
                     var outputBuys = [];
                     outputListing.buys.forEach(buy => {
@@ -152,14 +162,15 @@ var server = http.createServer(async (request, result) => {
                     var minAvailablity = Math.min(outputBuys.length, ...Object.values(ingredientsSells).map(ingredientSells => ingredientSells.length));
                     recipe[1].totalProfit = 0;
                     recipe[1].sellCount = 0;
-                    for (i = 0; i < minAvailablity; i++) {
+                    for (var j = 0; j < minAvailablity; j++) {
                         var cost = 0;
                         recipe[1].ingredients.forEach(ingredient => {
                             for (var i = 0; i < ingredient.count; i++) {
-                                cost += ingredientsSells[ingredient.item_id].shift();
+                                var index = j * ingredient.count + i;
+                                cost += ingredientsSells[ingredient.item_id][index];
                             }
                         });
-                        var revenue = outputBuys[i];
+                        var revenue = outputBuys[j];
                         var profit = revenue * 0.85 - cost;
                         if (profit <= 0) { break }
                         recipe[1].totalProfit += profit;
@@ -167,10 +178,15 @@ var server = http.createServer(async (request, result) => {
                     }
 
                     totalProfitRecipes[recipe[1].id] = recipe[1];
-                    console.log("Finished counting total profit for", recipe[1].output.name)
+                    console.log(++progress, "/", profitableRecipes.length, "Finished counting total profit for", recipe[1].output.name)
                 });
-        };
+        });
 
+        while (progress < profitableRecipes.length) {
+            await delay(1000);
+        }
+
+        console.log("Finished counting all total profits");
         var sortedRecipes = Object.entries(totalProfitRecipes).sort((a, b) => b[1].profit - a[1].profit);
 
         fs.writeFileSync("data/totalProfitRecipes.json", JSON.stringify(sortedRecipes, null, "\t"));
