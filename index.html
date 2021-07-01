@@ -6,21 +6,35 @@
 		width: 200px;
 	}
 
-	input[type=checkbox] {
+	.discipline {
+		display: inline-block;
+		margin: 1px;
+	}
+
+	.discipline input[type=checkbox] {
 		display: none;
 	}
 
-	input[type=checkbox]+label {
-		background: red;
-		color: white;
-		border-radius: 0.5em;
-		padding: 5px;
-	}
-
-	input[type=checkbox]:checked+label {
+	.discipline input[type=checkbox]:checked+label {
 		background: lightgreen;
 		color: black;
 	}
+
+	.discipline label {
+		display: block;
+		background: red;
+		color: white;
+		border-radius: 15px 15px 0 0;
+		padding: 5px;
+		width: 90px;
+		text-align: center;
+	}
+
+	.discipline input[type=number] {
+		width: 100px;
+		text-align: center;
+	}
+
 
 	thead {
 		position: sticky;
@@ -28,10 +42,11 @@
 		background: white;
 	}
 
-	tr:first-child > * {
+	tr:first-child>* {
 		border-top: 5px solid black;
 	}
-	table{
+
+	table {
 		border-left: 5px solid black;
 		border-right: 5px solid black;
 	}
@@ -55,7 +70,6 @@
 	span {
 		text-align: right;
 	}
-
 </style>
 <script>
 	var app = angular.module("myApp", ['ngSanitize']);
@@ -87,7 +101,7 @@
 				return input.filter(recipe => {
 					var validDiscipline = false;
 					recipe[1].disciplines.forEach(discipline => {
-						if ($scope.filter.disciplines[discipline] == true) { validDiscipline = true }
+						if ($scope.filter.disciplines[discipline].active == true && $scope.filter.disciplines[discipline].value >= recipe[1].min_rating) { validDiscipline = true }
 					})
 					if (validDiscipline) { return true }
 				})
@@ -108,24 +122,26 @@
 
 			$scope.filter = {
 				disciplines: {
-					"Armorsmith": true,
-					"Artificer": true,
-					"Chef": true,
-					"Huntsman": true,
-					"Jeweler": true,
-					"Leatherworker": true,
-					"Scribe": false,
-					"Tailor": true,
-					"Weaponsmith": true
+					"Armorsmith": { active: true, value: 500 },
+					"Artificer": { active: true, value: 500 },
+					"Chef": { active: true, value: 500 },
+					"Huntsman": { active: true, value: 500 },
+					"Jeweler": { active: true, value: 500 },
+					"Leatherworker": { active: true, value: 500 },
+					"Scribe": { active: true, value: 400 },
+					"Tailor": { active: true, value: 500 },
+					"Weaponsmith": { active: true, value: 500 }
 				}
 			}
 
-			$scope.sort = "profit";
+			$scope.sort = "totalProfit";
 
 			$scope.setSort = sort => {
 				$scope.sort = sort;
 				console.log("sort set to", $scope.sort)
 			}
+
+			$scope.autoRefresh = false;
 
 			$scope.totalProfits = () => {
 				$http.get("/data/totalProfits")
@@ -138,10 +154,12 @@
 			$scope.totalProfits();
 
 			intverval = setInterval(async () => {
-				await $scope.fetch('/get/listings', 'listings');
-				await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
-				await $scope.fetch('/get/totalProfits', 'totalProfits');
-				$scope.totalProfits();
+				if ($scope.autoRefresh) {
+					await $scope.fetch('/get/listings', 'listings');
+					await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
+					await $scope.fetch('/get/totalProfits', 'totalProfits');
+					$scope.totalProfits();
+				}
 			}, 300000)
 
 
@@ -167,6 +185,8 @@
 
 <body ng-app="myApp">
 	<div ng-controller="MainController" class="controller">
+		<input type="checkbox" ng-model="autoRefresh" id="autoRefresh"><label for="autoRefresh">Auto refresh</label>
+		<br>
 		<button ng-click="fetch('/get/itemNames','itemNames')">Refresh ItemNames</button>{{labels.itemNames}}
 		<br>
 		<button ng-click="fetch('/get/listings','listings')">Refresh Listings</button>{{labels.listings}}
@@ -178,15 +198,11 @@
 		<button ng-click="totalProfits()">Update page</button>{{labels.final}}
 		<br>
 		<br>
-		<input type="checkbox" id="Armorsmith" ng-model="filter.disciplines.Armorsmith"><label for="Armorsmith">Armorsmith</label>
-		<input type="checkbox" id="Artificer" ng-model="filter.disciplines.Artificer"><label for="Artificer">Artificer</label>
-		<input type="checkbox" id="Chef" ng-model="filter.disciplines.Chef"><label for="Chef">Chef</label>
-		<input type="checkbox" id="Huntsman" ng-model="filter.disciplines.Huntsman"><label for="Huntsman">Huntsman</label>
-		<input type="checkbox" id="Jeweler" ng-model="filter.disciplines.Jeweler"><label for="Jeweler">Jeweler</label>
-		<input type="checkbox" id="Leatherworker" ng-model="filter.disciplines.Leatherworker"><label for="Leatherworker">Leatherworker</label>
-		<input type="checkbox" id="Scribe" ng-model="filter.disciplines.Scribe"><label for="Scribe">Scribe</label>
-		<input type="checkbox" id="Tailor" ng-model="filter.disciplines.Tailor"><label for="Tailor">Tailor</label>
-		<input type="checkbox" id="Weaponsmith" ng-model="filter.disciplines.Weaponsmith"><label for="Weaponsmith">Weaponsmith</label>
+		<div class="discipline" ng-repeat="(discipline,value) in filter.disciplines">
+			<input type="checkbox" id="{{discipline}}" ng-model="filter.disciplines[discipline].active">
+			<label for="{{discipline}}">{{discipline}}</label>
+			<input type="number" min="0" max="500" step="25" ng-model="filter.disciplines[discipline].value">
+		</div>
 		<br>
 		<br>
 		<table cellspacing=0>
