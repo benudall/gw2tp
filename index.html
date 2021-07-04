@@ -19,6 +19,15 @@
 		width: 200px;
 	}
 
+	progress {
+		width: 100%;
+	}
+
+	.getCraftingLevels {
+		height: 49px;
+		vertical-align: top;
+	}
+
 	.discipline {
 		display: inline-block;
 		margin: 1px;
@@ -54,7 +63,13 @@
 		background: #444444;
 	}
 
-	tr:first-child>* {
+	tr:last-child th,
+	th:last-child {
+		border-bottom: 5px solid black;
+	}
+
+	thead tr:first-child>*,
+	tbody:not(:first-of-type) tr:first-child>* {
 		border-top: 5px solid black;
 	}
 
@@ -75,16 +90,21 @@
 		border: 1px solid black;
 	}
 
-	td:nth-child(11),
-	td:nth-child(13) {
+	td:nth-child(12),
+	td:nth-child(14) {
 		background: green;
+	}
+
+	img.ingredientIcon {
+		height: 32px;
+		width: 32px;
 	}
 
 	span {
 		text-align: right;
 	}
 
-	.outputName {
+	.itemName {
 		font-weight: bold;
 	}
 
@@ -162,8 +182,6 @@
 			}
 		})
 		.controller('MainController', ['$scope', '$http', function ($scope, $http) {
-			$scope.labels = {};
-
 			$scope.images = {
 				"Armorsmith": "https://wiki.guildwars2.com/images/3/32/Armorsmith_tango_icon_20px.png",
 				"Artificer": "https://wiki.guildwars2.com/images/b/b7/Artificer_tango_icon_20px.png",
@@ -217,25 +235,18 @@
 
 			$scope.autoRefresh = true;
 
-			$scope.totalProfits = () => {
-				$http.get("/data/totalProfits")
+			$scope.filteredRecipes = () => {
+				$http.get("/data/filteredRecipes")
 					.then(res => {
 						$scope.recipes = res.data;
-						$scope.labels["final"] = new Date();
 						$scope.safeApply();
 					})
 			}
-			$scope.totalProfits();
+			$scope.filteredRecipes();
 
 			interval = setInterval(async () => {
-				if ($scope.autoRefresh) {
-					await $scope.fetch('/get/listings', 'listings');
-					await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
-					await $scope.fetch('/get/totalProfits', 'totalProfits');
-					$scope.totalProfits();
-				}
+				$scope.openWS();
 			}, 300000)
-
 
 			$scope.fetch = async (url, label) => {
 				await $http.get(url)
@@ -243,6 +254,28 @@
 						$scope.labels[label] = new Date();
 					})
 			}
+
+			$scope.openWS = () => {
+				$scope.ws = new WebSocket("ws:localhost:8081");
+
+				$scope.ws.onopen = event => {
+					console.log("WS open", event.data);
+				};
+				$scope.ws.onmessage = async message => {
+					console.log(message.data);
+					var messageJSON = JSON.parse(message.data);
+					$scope.wsState = messageJSON.message;
+					$scope.wsProgress = messageJSON.progress;
+					$scope.safeApply();
+				};
+				$scope.ws.onerror = error => {
+					console.log("WS error", error.data);
+				};
+				$scope.ws.onclose = event => {
+					console.log("WS close", event.data);
+					$scope.filteredRecipes();
+				};
+			};
 
 			$scope.safeApply = function (fn) {
 				var phase = this.$root.$$phase;
@@ -259,32 +292,24 @@
 
 <body ng-app="myApp">
 	<div ng-controller="MainController" class="controller">
-		<input type="checkbox" ng-model="autoRefresh" id="autoRefresh"><label for="autoRefresh">Auto refresh</label>
-		<br>
-		<button ng-click="fetch('/get/itemNames','itemNames')">Refresh ItemNames</button>{{labels.itemNames}}
-		<br>
-		<button ng-click="fetch('/get/listings','listings')">Refresh Listings</button>{{labels.listings}}
-		<br>
-		<button ng-click="fetch('/get/filteredRecipes','filteredRecipes')()">Recalc Profitable</button>{{labels.filteredRecipes}}
-		<br>
-		<button ng-click="fetch('/get/totalProfits','totalProfits')()">Recalc Total Profits</button>{{labels.totalProfits}}
-		<br>
-		<button ng-click="totalProfits()">Update page</button>{{labels.final}}
-		<br>
+		<progress value="{{wsProgress}}" max="100"></progress>
+		<input type="checkbox" ng-model="autoRefresh" id="autoRefresh"><label for="autoRefresh">Auto Update</label>
+		<button ng-click="openWS()">Update</button>
+		{{wsState}}
 		<br>
 		<div class="discipline" ng-repeat="(discipline,value) in filter.disciplines">
 			<input type="checkbox" id="{{discipline}}" ng-model="filter.disciplines[discipline].active">
 			<label for="{{discipline}}">{{discipline}}</label>
 			<input type="number" min="0" max="500" step="25" ng-model="filter.disciplines[discipline].value">
 		</div>
-		<button ng-click="getCraftingLevels()">Get Character Crafting Levels</button>
+		<button ng-click="getCraftingLevels()" class="getCraftingLevels">Get Character Crafting Levels</button>
 		<br>
 		<br>
 		<table cellspacing=0>
 			<thead>
 				<tr>
 					<th colspan=2>Requirements</th>
-					<th colspan=3>Ingredients</th>
+					<th colspan=4>Ingredients</th>
 					<th colspan=8>Output</th>
 					<th rowspan=2>Links</th>
 				</tr>
@@ -292,6 +317,7 @@
 					<th>Crafting</th>
 					<th>Level</th>
 
+					<th>Icon</th>
 					<th>Name</th>
 					<th>Count</th>
 					<th>Cost</th>
@@ -333,7 +359,10 @@
 					</td>
 					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].min_rating}}</td>
 
-					<td>{{recipe[1].ingredients[0].data.name}}</td>
+					<td>
+						<img class="ingredientIcon" src="{{recipe[1].ingredients[0].data.icon}}">
+					</td>
+					<td class="itemName {{recipe[1].ingredients[0].data.rarity}}">{{recipe[1].ingredients[0].data.name}}</td>
 					<td>{{recipe[1].ingredients[0].count}}</td>
 					<td><span ng-bind-html="recipe[1].ingredients[0].data.sell | coin">{{recipe[1].ingredients[0].data.sell}}</span></td>
 					<td>
@@ -341,9 +370,9 @@
 						<a href="https://www.gw2tp.com/item/{{recipe[1].ingredients[0].item_id}}">gw2tp</a>
 					</td>
 					<td rowspan="{{recipe[1].ingredients.length}}">
-						<img class="icon" src="{{recipe[1].icon}}">
+						<img class="outputIcon" src="{{recipe[1].icon}}">
 					</td>
-					<td rowspan="{{recipe[1].ingredients.length}}" class="outputName {{recipe[1].rarity}}">{{recipe[1].output.name}}</td>
+					<td rowspan="{{recipe[1].ingredients.length}}" class="itemName {{recipe[1].rarity}}">{{recipe[1].output.name}}</td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalCost | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalRevenue | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].profit | coin"></span></td>
@@ -357,7 +386,10 @@
 					</td>
 				</tr>
 				<tr ng-repeat="ingredient in recipe[1].ingredients" ng-if="$index > 0">
-					<td>{{ingredient.data.name}}</td>
+					<td>
+						<img class="ingredientIcon" src="{{ingredient.data.icon}}">
+					</td>
+					<td class="itemName {{ingredient.rarity}}">{{ingredient.data.name}}</td>
 					<td>{{ingredient.count}}</td>
 					<td><span ng-bind-html="ingredient.data.sell | coin"></span></td>
 					<td>

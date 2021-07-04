@@ -1,647 +1,123 @@
 [
 	[
-		"10456",
+		"2",
 		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 76363,
-			"output_item_count": 1,
-			"min_rating": 300,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 21158,
-					"count": 3,
-					"data": {
-						"name": "Catapult Blueprints",
-						"buy": 400,
-						"sell": 408,
-						"supply": 65133,
-						"demand": 41897
-					}
-				},
-				{
-					"item_id": 73120,
-					"count": 1,
-					"data": {
-						"name": "Mithril Reinforcing Plate",
-						"buy": 174,
-						"sell": 475,
-						"supply": 7481,
-						"demand": 10078
-					}
-				}
-			],
-			"output_upgrade_id": 43,
-			"id": 10456,
-			"chat_link": "[&CdgoAAA=]",
-			"output": {
-				"name": "Guild Catapult",
-				"buy": 85601,
-				"sell": 24999999,
-				"supply": 2,
-				"demand": 103
-			},
-			"totalCost": 2997,
-			"totalRevenue": 85601,
-			"profit": 69763.84999999999
-		}
-	],
-	[
-		"11079",
-		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 70532,
-			"output_item_count": 1,
-			"min_rating": 300,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 21161,
-					"count": 3,
-					"data": {
-						"name": "Flame Ram Blueprints",
-						"buy": 37,
-						"sell": 38,
-						"supply": 246374,
-						"demand": 413126
-					}
-				},
-				{
-					"item_id": 73120,
-					"count": 1,
-					"data": {
-						"name": "Mithril Reinforcing Plate",
-						"buy": 174,
-						"sell": 475,
-						"supply": 7481,
-						"demand": 10078
-					}
-				}
-			],
-			"output_upgrade_id": 327,
-			"id": 11079,
-			"chat_link": "[&CUcrAAA=]",
-			"output": {
-				"name": "Guild Flame Ram Blueprint",
-				"buy": 10138,
-				"sell": 0,
-				"supply": 0,
-				"demand": 390
-			},
-			"totalCost": 1887,
-			"totalRevenue": 10138,
-			"profit": 6730.299999999999
-		}
-	],
-	[
-		"10830",
-		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 70754,
-			"output_item_count": 1,
-			"min_rating": 200,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 21156,
-					"count": 3,
-					"data": {
-						"name": "Arrow Cart Blueprints",
-						"buy": 1,
-						"sell": 2,
-						"supply": 928916,
-						"demand": 906
-					}
-				},
-				{
-					"item_id": 73081,
-					"count": 1,
-					"data": {
-						"name": "Steel Reinforcing Plate",
-						"buy": 452,
-						"sell": 1514,
-						"supply": 2662,
-						"demand": 3834
-					}
-				}
-			],
-			"output_upgrade_id": 505,
-			"id": 10830,
-			"chat_link": "[&CU4qAAA=]",
-			"output": {
-				"name": "Guild Arrow Cart Blueprints",
-				"buy": 10346,
-				"sell": 0,
-				"supply": 0,
-				"demand": 408
-			},
-			"totalCost": 2818,
-			"totalRevenue": 10346,
-			"profit": 5976.1
-		}
-	],
-	[
-		"11071",
-		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 70605,
+			"type": "Refinement",
+			"output_item_id": 19712,
 			"output_item_count": 1,
 			"min_rating": 400,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
-				"Scribe"
+				"Artificer",
+				"Weaponsmith",
+				"Scribe",
+				"Huntsman"
 			],
 			"flags": [
 				"AutoLearned"
 			],
 			"ingredients": [
 				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 21160,
+					"item_id": 19725,
 					"count": 3,
 					"data": {
-						"name": "Trebuchet Blueprints",
-						"buy": 5,
-						"sell": 8,
-						"supply": 321601,
-						"demand": 34375
-					}
-				},
-				{
-					"item_id": 71252,
-					"count": 1,
-					"data": {
-						"name": "Orichalcum Reinforcing Plate",
-						"buy": 696,
-						"sell": 1379,
-						"supply": 2795,
-						"demand": 4750
+						"name": "Ancient Wood Log",
+						"buy": 116,
+						"sell": 117,
+						"supply": 787387,
+						"demand": 137542,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/5C999770AB7CC1F85D270A50C205673DF8B6E104/220467.png"
 					}
 				}
 			],
-			"output_upgrade_id": 576,
-			"id": 11071,
-			"chat_link": "[&CT8rAAA=]",
+			"id": 2,
+			"chat_link": "[&CQIAAAA=]",
 			"output": {
-				"name": "Guild Trebuchet Blueprints",
-				"buy": 10136,
-				"sell": 0,
-				"supply": 0,
-				"demand": 320
+				"name": "Ancient Wood Plank",
+				"buy": 437,
+				"sell": 463,
+				"supply": 143575,
+				"demand": 58972
 			},
-			"totalCost": 2701,
-			"totalRevenue": 10136,
-			"profit": 5914.6
+			"totalCost": 351,
+			"totalRevenue": 437,
+			"profit": 20.44999999999999,
+			"rarity": "Basic",
+			"icon": "https://render.guildwars2.com/file/4A0C6F64BD7AD446ADCA0177C052D732582EE90A/220464.png",
+			"totalProfit": 0,
+			"sellCount": 0
 		}
 	],
 	[
-		"10690",
+		"373",
 		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 72157,
+			"type": "Boots",
+			"output_item_id": 10384,
 			"output_item_count": 1,
-			"min_rating": 200,
+			"min_rating": 50,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 21157,
-					"count": 3,
-					"data": {
-						"name": "Ballista Blueprints",
-						"buy": 3,
-						"sell": 6,
-						"supply": 737819,
-						"demand": 54483
-					}
-				},
-				{
-					"item_id": 73081,
-					"count": 1,
-					"data": {
-						"name": "Steel Reinforcing Plate",
-						"buy": 452,
-						"sell": 1514,
-						"supply": 2662,
-						"demand": 3834
-					}
-				}
-			],
-			"output_upgrade_id": 186,
-			"id": 10690,
-			"chat_link": "[&CcIpAAA=]",
-			"output": {
-				"name": "Guild Ballista Blueprints",
-				"buy": 10235,
-				"sell": 0,
-				"supply": 0,
-				"demand": 593
-			},
-			"totalCost": 2830,
-			"totalRevenue": 10235,
-			"profit": 5869.75
-		}
-	],
-	[
-		"10638",
-		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 76527,
-			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 75311,
-					"count": 3,
-					"data": {
-						"name": "Shield Generator Blueprint",
-						"buy": 367,
-						"sell": 443,
-						"supply": 26443,
-						"demand": 27901
-					}
-				},
-				{
-					"item_id": 71252,
-					"count": 1,
-					"data": {
-						"name": "Orichalcum Reinforcing Plate",
-						"buy": 696,
-						"sell": 1379,
-						"supply": 2795,
-						"demand": 4750
-					}
-				}
-			],
-			"output_upgrade_id": 623,
-			"id": 10638,
-			"chat_link": "[&CY4pAAA=]",
-			"output": {
-				"name": "Guild Shield Generator Blueprint",
-				"buy": 10118,
-				"sell": 0,
-				"supply": 0,
-				"demand": 576
-			},
-			"totalCost": 4006,
-			"totalRevenue": 10118,
-			"profit": 4594.299999999999
-		}
-	],
-	[
-		"10096",
-		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 74629,
-			"output_item_count": 1,
-			"min_rating": 300,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 71428,
-					"count": 1,
-					"data": {
-						"name": "Resonating Sliver",
-						"buy": 5,
-						"sell": 6,
-						"supply": 9223998,
-						"demand": 269359
-					}
-				},
-				{
-					"item_id": 75784,
-					"count": 1,
-					"data": {
-						"name": "Box of Banner Supplies",
-						"buy": 55,
-						"sell": 94,
-						"supply": 31520,
-						"demand": 512
-					}
-				},
-				{
-					"item_id": 73512,
-					"count": 1,
-					"data": {
-						"name": "Bag of Incandescent Energy",
-						"buy": 2751,
-						"sell": 4799,
-						"supply": 1770,
-						"demand": 1291
-					}
-				}
-			],
-			"output_upgrade_id": 590,
-			"id": 10096,
-			"chat_link": "[&CXAnAAA=]",
-			"output": {
-				"name": "Schematic: Dragon Banner",
-				"buy": 10306,
-				"sell": 0,
-				"supply": 0,
-				"demand": 512
-			},
-			"totalCost": 6197,
-			"totalRevenue": 10306,
-			"profit": 2563.1000000000004
-		}
-	],
-	[
-		"10218",
-		{
-			"type": "GuildConsumableWvw",
-			"output_item_id": 77175,
-			"output_item_count": 1,
-			"min_rating": 400,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71473,
-					"count": 1,
-					"data": {
-						"name": "Badge of Tribute",
-						"buy": 1121,
-						"sell": 1298,
-						"supply": 47498,
-						"demand": 24100
-					}
-				},
-				{
-					"item_id": 21159,
-					"count": 3,
-					"data": {
-						"name": "Alpha Siege Golem Blueprints",
-						"buy": 1318,
-						"sell": 1697,
-						"supply": 19554,
-						"demand": 24363
-					}
-				},
-				{
-					"item_id": 71252,
-					"count": 1,
-					"data": {
-						"name": "Orichalcum Reinforcing Plate",
-						"buy": 696,
-						"sell": 1379,
-						"supply": 2795,
-						"demand": 4750
-					}
-				}
-			],
-			"output_upgrade_id": 44,
-			"id": 10218,
-			"chat_link": "[&CeonAAA=]",
-			"output": {
-				"name": "Guild Siege Golem Blueprints",
-				"buy": 10711,
-				"sell": 0,
-				"supply": 0,
-				"demand": 494
-			},
-			"totalCost": 7768,
-			"totalRevenue": 10711,
-			"profit": 1336.3500000000004
-		}
-	],
-	[
-		"3780",
-		{
-			"type": "Earring",
-			"output_item_id": 13556,
-			"output_item_count": 1,
-			"min_rating": 275,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
+				"Armorsmith"
 			],
 			"flags": [],
 			"ingredients": [
 				{
-					"item_id": 12810,
+					"item_id": 19801,
 					"count": 1,
 					"data": {
-						"name": "Platinum Hook",
-						"buy": 205,
-						"sell": 347,
-						"supply": 1769,
-						"demand": 2345
+						"name": "Resilient Embroidered Jute Insignia",
+						"buy": 109,
+						"sell": 194,
+						"supply": 2369,
+						"demand": 526,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/FE9C2772ACA502536C32AA6B000467C506F3E39D/66003.png"
 					}
 				},
 				{
-					"item_id": 12816,
+					"item_id": 13108,
 					"count": 1,
 					"data": {
-						"name": "Platinum Setting",
-						"buy": 257,
-						"sell": 480,
-						"supply": 2701,
-						"demand": 3499
+						"name": "Bronze Chain Boot Panel",
+						"buy": 32,
+						"sell": 110,
+						"supply": 13400,
+						"demand": 5837,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/2727FC67F9E50F1B11A52DAA00D49A23C205B860/63567.png"
 					}
 				},
 				{
-					"item_id": 24918,
-					"count": 3,
+					"item_id": 13103,
+					"count": 1,
 					"data": {
-						"name": "Embellished Ornate Sapphire Jewel",
-						"buy": 0,
-						"sell": 166,
-						"supply": 2519,
-						"demand": 0
+						"name": "Bronze Chain Boot Lining",
+						"buy": 32,
+						"sell": 138,
+						"supply": 5028,
+						"demand": 1508,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/DAC47618A825CC2CD5B740971F9ED5A2C5D8E1AC/63562.png"
 					}
 				}
 			],
-			"id": 3780,
-			"chat_link": "[&CcQOAAA=]",
+			"id": 373,
+			"chat_link": "[&CXUBAAA=]",
 			"output": {
-				"name": "Sapphire Platinum Earring",
-				"buy": 2000,
-				"sell": 3290,
-				"supply": 953,
-				"demand": 136
+				"name": "Resilient Chain Boots",
+				"buy": 534,
+				"sell": 2681,
+				"supply": 640,
+				"demand": 517
 			},
-			"totalCost": 1325,
-			"totalRevenue": 2000,
-			"profit": 375
-		}
-	],
-	[
-		"6112",
-		{
-			"type": "Axe",
-			"output_item_id": 15691,
-			"output_item_count": 1,
-			"min_rating": 125,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12850,
-					"count": 1,
-					"data": {
-						"name": "Iron Axe Blade",
-						"buy": 327,
-						"sell": 649,
-						"supply": 1755,
-						"demand": 1439
-					}
-				},
-				{
-					"item_id": 12890,
-					"count": 1,
-					"data": {
-						"name": "Small Soft Haft",
-						"buy": 35,
-						"sell": 98,
-						"supply": 1860,
-						"demand": 676
-					}
-				},
-				{
-					"item_id": 19938,
-					"count": 1,
-					"data": {
-						"name": "Strong Iron Imbued Inscription",
-						"buy": 1529,
-						"sell": 2415,
-						"supply": 1549,
-						"demand": 1440
-					}
-				}
-			],
-			"id": 6112,
-			"chat_link": "[&CeAXAAA=]",
-			"output": {
-				"name": "Strong Bandit Cleaver",
-				"buy": 4100,
-				"sell": 9000,
-				"supply": 281,
-				"demand": 69
-			},
-			"totalCost": 3162,
-			"totalRevenue": 4100,
-			"profit": 323
+			"totalCost": 442,
+			"totalRevenue": 534,
+			"profit": 11.899999999999977,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/C80D5A9E0D3432DBE44A0BCAEF5A411DCF240A6F/63231.png",
+			"totalProfit": 312.89999999999884,
+			"sellCount": 51
 		}
 	],
 	[
@@ -663,9 +139,11 @@
 					"data": {
 						"name": "Thin Glove Strap",
 						"buy": 173,
-						"sell": 398,
-						"supply": 1335,
-						"demand": 2539
+						"sell": 273,
+						"supply": 1307,
+						"demand": 2539,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/70E91C07E36C950DFE5174DA56A0A0DDA8FD180F/223020.png"
 					}
 				},
 				{
@@ -673,10 +151,12 @@
 					"count": 1,
 					"data": {
 						"name": "Thin Glove Lining",
-						"buy": 124,
-						"sell": 450,
-						"supply": 1370,
-						"demand": 2541
+						"buy": 62,
+						"sell": 601,
+						"supply": 1355,
+						"demand": 2529,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/3D1B9B1BC501DC619CFB0855CA070BAA130AF824/223030.png"
 					}
 				},
 				{
@@ -684,10 +164,12 @@
 					"count": 1,
 					"data": {
 						"name": "Honed Intricate Wool Insignia",
-						"buy": 1624,
-						"sell": 2100,
-						"supply": 267,
-						"demand": 1085
+						"buy": 1622,
+						"sell": 2080,
+						"supply": 239,
+						"demand": 994,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/1F55B370D406EAAD440EA83EDA5C4448057AFC15/434386.png"
 					}
 				}
 			],
@@ -695,1052 +177,18 @@
 			"chat_link": "[&CdwGAAA=]",
 			"output": {
 				"name": "Honed Noble Gloves",
-				"buy": 3720,
+				"buy": 3719,
 				"sell": 10071,
 				"supply": 259,
-				"demand": 126
+				"demand": 52
 			},
-			"totalCost": 2948,
-			"totalRevenue": 3720,
-			"profit": 214
-		}
-	],
-	[
-		"2627",
-		{
-			"type": "Shoulders",
-			"output_item_id": 11382,
-			"output_item_count": 1,
-			"min_rating": 125,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Tailor"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 13038,
-					"count": 1,
-					"data": {
-						"name": "Wool Epaulet Panel",
-						"buy": 17,
-						"sell": 104,
-						"supply": 7628,
-						"demand": 385
-					}
-				},
-				{
-					"item_id": 13037,
-					"count": 1,
-					"data": {
-						"name": "Wool Epaulet Padding",
-						"buy": 663,
-						"sell": 664,
-						"supply": 763,
-						"demand": 1071
-					}
-				},
-				{
-					"item_id": 19957,
-					"count": 1,
-					"data": {
-						"name": "Honed Intricate Wool Insignia",
-						"buy": 1624,
-						"sell": 2100,
-						"supply": 267,
-						"demand": 1085
-					}
-				}
-			],
-			"id": 2627,
-			"chat_link": "[&CUMKAAA=]",
-			"output": {
-				"name": "Honed Masquerade Mantle",
-				"buy": 3530,
-				"sell": 9999,
-				"supply": 197,
-				"demand": 165
-			},
-			"totalCost": 2868,
-			"totalRevenue": 3530,
-			"profit": 132.5
-		}
-	],
-	[
-		"3646",
-		{
-			"type": "Earring",
-			"output_item_id": 13445,
-			"output_item_count": 1,
-			"min_rating": 350,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 24494,
-					"count": 1,
-					"data": {
-						"name": "Brilliant Ruby Jewel",
-						"buy": 127,
-						"sell": 130,
-						"supply": 2110,
-						"demand": 1274
-					}
-				},
-				{
-					"item_id": 12808,
-					"count": 1,
-					"data": {
-						"name": "Mithril Hook",
-						"buy": 106,
-						"sell": 213,
-						"supply": 1105,
-						"demand": 2570
-					}
-				},
-				{
-					"item_id": 12814,
-					"count": 1,
-					"data": {
-						"name": "Mithril Setting",
-						"buy": 74,
-						"sell": 214,
-						"supply": 2797,
-						"demand": 2189
-					}
-				}
-			],
-			"id": 3646,
-			"chat_link": "[&CT4OAAA=]",
-			"output": {
-				"name": "Ruby Mithril Earring",
-				"buy": 802,
-				"sell": 1595,
-				"supply": 559,
-				"demand": 211
-			},
-			"totalCost": 557,
-			"totalRevenue": 802,
-			"profit": 124.69999999999993
-		}
-	],
-	[
-		"5339",
-		{
-			"type": "Component",
-			"output_item_id": 12856,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 3,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 174,
-						"sell": 210,
-						"supply": 809286,
-						"demand": 54083
-					}
-				}
-			],
-			"id": 5339,
-			"chat_link": "[&CdsUAAA=]",
-			"output": {
-				"name": "Iron Dagger Blade",
-				"buy": 831,
-				"sell": 1425,
-				"supply": 5155,
-				"demand": 2901
-			},
-			"totalCost": 630,
-			"totalRevenue": 831,
-			"profit": 76.35000000000002
-		}
-	],
-	[
-		"6753",
-		{
-			"type": "Earring",
-			"output_item_id": 38151,
-			"output_item_count": 1,
-			"min_rating": 100,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12811,
-					"count": 1,
-					"data": {
-						"name": "Silver Hook",
-						"buy": 26,
-						"sell": 47,
-						"supply": 2764,
-						"demand": 2897
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 37,
-						"sell": 60,
-						"supply": 3521,
-						"demand": 4973
-					}
-				},
-				{
-					"item_id": 38139,
-					"count": 1,
-					"data": {
-						"name": "Intricate Snowflake",
-						"buy": 93,
-						"sell": 189,
-						"supply": 18086,
-						"demand": 1829
-					}
-				}
-			],
-			"id": 6753,
-			"chat_link": "[&CWEaAAA=]",
-			"output": {
-				"name": "Snowflake Silver Earring",
-				"buy": 431,
-				"sell": 630,
-				"supply": 1806,
-				"demand": 51
-			},
-			"totalCost": 296,
-			"totalRevenue": 431,
-			"profit": 70.34999999999997
-		}
-	],
-	[
-		"1209",
-		{
-			"type": "Boots",
-			"output_item_id": 11509,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Leatherworker"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 19802,
-					"count": 1,
-					"data": {
-						"name": "Vital Embroidered Jute Insignia",
-						"buy": 72,
-						"sell": 196,
-						"supply": 1802,
-						"demand": 609
-					}
-				},
-				{
-					"item_id": 13091,
-					"count": 1,
-					"data": {
-						"name": "Rawhide Boot Upper",
-						"buy": 17,
-						"sell": 215,
-						"supply": 1370,
-						"demand": 1530
-					}
-				},
-				{
-					"item_id": 13096,
-					"count": 2,
-					"data": {
-						"name": "Rawhide Boot Sole",
-						"buy": 8,
-						"sell": 76,
-						"supply": 5024,
-						"demand": 12879
-					}
-				}
-			],
-			"id": 1209,
-			"chat_link": "[&CbkEAAA=]",
-			"output": {
-				"name": "Vital Seeker Boots",
-				"buy": 744,
-				"sell": 745,
-				"supply": 675,
-				"demand": 891
-			},
-			"totalCost": 563,
-			"totalRevenue": 744,
-			"profit": 69.39999999999998
-		}
-	],
-	[
-		"3534",
-		{
-			"type": "Ring",
-			"output_item_id": 13301,
-			"output_item_count": 1,
-			"min_rating": 100,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12829,
-					"count": 1,
-					"data": {
-						"name": "Silver Band",
-						"buy": 38,
-						"sell": 99,
-						"supply": 3080,
-						"demand": 3692
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 37,
-						"sell": 60,
-						"supply": 3521,
-						"demand": 4973
-					}
-				},
-				{
-					"item_id": 24469,
-					"count": 1,
-					"data": {
-						"name": "Carnelian Nugget",
-						"buy": 71,
-						"sell": 72,
-						"supply": 16272,
-						"demand": 17142
-					}
-				}
-			],
-			"id": 3534,
-			"chat_link": "[&Cc4NAAA=]",
-			"output": {
-				"name": "Carnelian Silver Ring",
-				"buy": 341,
-				"sell": 1429,
-				"supply": 1398,
-				"demand": 398
-			},
-			"totalCost": 231,
-			"totalRevenue": 341,
-			"profit": 58.849999999999966
-		}
-	],
-	[
-		"3793",
-		{
-			"type": "Ring",
-			"output_item_id": 13527,
-			"output_item_count": 1,
-			"min_rating": 200,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12825,
-					"count": 1,
-					"data": {
-						"name": "Gold Band",
-						"buy": 96,
-						"sell": 244,
-						"supply": 2164,
-						"demand": 1997
-					}
-				},
-				{
-					"item_id": 12813,
-					"count": 1,
-					"data": {
-						"name": "Gold Setting",
-						"buy": 48,
-						"sell": 86,
-						"supply": 5898,
-						"demand": 3088
-					}
-				},
-				{
-					"item_id": 24911,
-					"count": 3,
-					"data": {
-						"name": "Embellished Gilded Topaz Jewel",
-						"buy": 121,
-						"sell": 220,
-						"supply": 673,
-						"demand": 560
-					}
-				}
-			],
-			"id": 3793,
-			"chat_link": "[&CdEOAAA=]",
-			"output": {
-				"name": "Topaz Gold Ring",
-				"buy": 1230,
-				"sell": 3999,
-				"supply": 1512,
-				"demand": 502
-			},
-			"totalCost": 990,
-			"totalRevenue": 1230,
-			"profit": 55.5
-		}
-	],
-	[
-		"5355",
-		{
-			"type": "Component",
-			"output_item_id": 12838,
-			"output_item_count": 1,
-			"min_rating": 75,
-			"time_to_craft_ms": 3000,
-			"disciplines": [
-				"Weaponsmith"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 19683,
-					"count": 3,
-					"data": {
-						"name": "Iron Ingot",
-						"buy": 174,
-						"sell": 210,
-						"supply": 809286,
-						"demand": 54083
-					}
-				}
-			],
-			"id": 5355,
-			"chat_link": "[&CesUAAA=]",
-			"output": {
-				"name": "Iron Greatsword Blade",
-				"buy": 801,
-				"sell": 988,
-				"supply": 8690,
-				"demand": 1058
-			},
-			"totalCost": 630,
-			"totalRevenue": 801,
-			"profit": 50.85000000000002
-		}
-	],
-	[
-		"3475",
-		{
-			"type": "Amulet",
-			"output_item_id": 13283,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12818,
-					"count": 1,
-					"data": {
-						"name": "Copper Chain",
-						"buy": 64,
-						"sell": 125,
-						"supply": 1994,
-						"demand": 5127
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 43,
-						"sell": 169,
-						"supply": 5189,
-						"demand": 4260
-					}
-				},
-				{
-					"item_id": 24483,
-					"count": 1,
-					"data": {
-						"name": "Adorned Garnet Jewel",
-						"buy": 85,
-						"sell": 173,
-						"supply": 1287,
-						"demand": 1235
-					}
-				}
-			],
-			"id": 3475,
-			"chat_link": "[&CZMNAAA=]",
-			"output": {
-				"name": "Garnet Copper Amulet",
-				"buy": 603,
-				"sell": 1098,
-				"supply": 586,
-				"demand": 277
-			},
-			"totalCost": 467,
-			"totalRevenue": 603,
-			"profit": 45.549999999999955
-		}
-	],
-	[
-		"3772",
-		{
-			"type": "Earring",
-			"output_item_id": 13548,
-			"output_item_count": 1,
-			"min_rating": 200,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12807,
-					"count": 1,
-					"data": {
-						"name": "Gold Hook",
-						"buy": 35,
-						"sell": 73,
-						"supply": 2970,
-						"demand": 1843
-					}
-				},
-				{
-					"item_id": 12813,
-					"count": 1,
-					"data": {
-						"name": "Gold Setting",
-						"buy": 48,
-						"sell": 86,
-						"supply": 5898,
-						"demand": 3088
-					}
-				},
-				{
-					"item_id": 24911,
-					"count": 3,
-					"data": {
-						"name": "Embellished Gilded Topaz Jewel",
-						"buy": 121,
-						"sell": 220,
-						"supply": 673,
-						"demand": 560
-					}
-				}
-			],
-			"id": 3772,
-			"chat_link": "[&CbwOAAA=]",
-			"output": {
-				"name": "Topaz Gold Earring",
-				"buy": 1001,
-				"sell": 3488,
-				"supply": 945,
-				"demand": 1114
-			},
-			"totalCost": 819,
-			"totalRevenue": 1001,
-			"profit": 31.850000000000023
-		}
-	],
-	[
-		"3560",
-		{
-			"type": "Earring",
-			"output_item_id": 13288,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12806,
-					"count": 1,
-					"data": {
-						"name": "Copper Hook",
-						"buy": 25,
-						"sell": 109,
-						"supply": 2784,
-						"demand": 1793
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 43,
-						"sell": 169,
-						"supply": 5189,
-						"demand": 4260
-					}
-				},
-				{
-					"item_id": 24483,
-					"count": 1,
-					"data": {
-						"name": "Adorned Garnet Jewel",
-						"buy": 85,
-						"sell": 173,
-						"supply": 1287,
-						"demand": 1235
-					}
-				}
-			],
-			"id": 3560,
-			"chat_link": "[&CegNAAA=]",
-			"output": {
-				"name": "Garnet Copper Stud",
-				"buy": 565,
-				"sell": 1993,
-				"supply": 1419,
-				"demand": 333
-			},
-			"totalCost": 451,
-			"totalRevenue": 565,
-			"profit": 29.25
-		}
-	],
-	[
-		"3778",
-		{
-			"type": "Earring",
-			"output_item_id": 13554,
-			"output_item_count": 1,
-			"min_rating": 200,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12807,
-					"count": 1,
-					"data": {
-						"name": "Gold Hook",
-						"buy": 35,
-						"sell": 73,
-						"supply": 2970,
-						"demand": 1843
-					}
-				},
-				{
-					"item_id": 12813,
-					"count": 1,
-					"data": {
-						"name": "Gold Setting",
-						"buy": 48,
-						"sell": 86,
-						"supply": 5898,
-						"demand": 3088
-					}
-				},
-				{
-					"item_id": 24907,
-					"count": 3,
-					"data": {
-						"name": "Embellished Gilded Lapis Jewel",
-						"buy": 120,
-						"sell": 203,
-						"supply": 687,
-						"demand": 45
-					}
-				}
-			],
-			"id": 3778,
-			"chat_link": "[&CcIOAAA=]",
-			"output": {
-				"name": "Lapis Gold Earring",
-				"buy": 934,
-				"sell": 3685,
-				"supply": 1325,
-				"demand": 403
-			},
-			"totalCost": 768,
-			"totalRevenue": 934,
-			"profit": 25.899999999999977
-		}
-	],
-	[
-		"3576",
-		{
-			"type": "Ring",
-			"output_item_id": 13278,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12824,
-					"count": 1,
-					"data": {
-						"name": "Copper Band",
-						"buy": 44,
-						"sell": 155,
-						"supply": 9608,
-						"demand": 3473
-					}
-				},
-				{
-					"item_id": 12812,
-					"count": 1,
-					"data": {
-						"name": "Copper Setting",
-						"buy": 43,
-						"sell": 169,
-						"supply": 5189,
-						"demand": 4260
-					}
-				},
-				{
-					"item_id": 24483,
-					"count": 1,
-					"data": {
-						"name": "Adorned Garnet Jewel",
-						"buy": 85,
-						"sell": 173,
-						"supply": 1287,
-						"demand": 1235
-					}
-				}
-			],
-			"id": 3576,
-			"chat_link": "[&CfgNAAA=]",
-			"output": {
-				"name": "Garnet Copper Ring",
-				"buy": 613,
-				"sell": 1679,
-				"supply": 1242,
-				"demand": 90
-			},
-			"totalCost": 497,
-			"totalRevenue": 613,
-			"profit": 24.049999999999955
-		}
-	],
-	[
-		"3510",
-		{
-			"type": "Earring",
-			"output_item_id": 13307,
-			"output_item_count": 1,
-			"min_rating": 100,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12811,
-					"count": 1,
-					"data": {
-						"name": "Silver Hook",
-						"buy": 26,
-						"sell": 47,
-						"supply": 2764,
-						"demand": 2897
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 37,
-						"sell": 60,
-						"supply": 3521,
-						"demand": 4973
-					}
-				},
-				{
-					"item_id": 24469,
-					"count": 1,
-					"data": {
-						"name": "Carnelian Nugget",
-						"buy": 71,
-						"sell": 72,
-						"supply": 16272,
-						"demand": 17142
-					}
-				}
-			],
-			"id": 3510,
-			"chat_link": "[&CbYNAAA=]",
-			"output": {
-				"name": "Carnelian Silver Stud",
-				"buy": 237,
-				"sell": 630,
-				"supply": 479,
-				"demand": 183
-			},
-			"totalCost": 179,
-			"totalRevenue": 237,
-			"profit": 22.44999999999999
-		}
-	],
-	[
-		"3539",
-		{
-			"type": "Ring",
-			"output_item_id": 13302,
-			"output_item_count": 1,
-			"min_rating": 125,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12829,
-					"count": 1,
-					"data": {
-						"name": "Silver Band",
-						"buy": 38,
-						"sell": 99,
-						"supply": 3080,
-						"demand": 3692
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 37,
-						"sell": 60,
-						"supply": 3521,
-						"demand": 4973
-					}
-				},
-				{
-					"item_id": 24478,
-					"count": 1,
-					"data": {
-						"name": "Intricate Carnelian Jewel",
-						"buy": 0,
-						"sell": 80,
-						"supply": 3576,
-						"demand": 0
-					}
-				}
-			],
-			"id": 3539,
-			"chat_link": "[&CdMNAAA=]",
-			"output": {
-				"name": "Carnelian Silver Ring",
-				"buy": 302,
-				"sell": 1101,
-				"supply": 608,
-				"demand": 172
-			},
-			"totalCost": 239,
-			"totalRevenue": 302,
-			"profit": 17.69999999999999
-		}
-	],
-	[
-		"2057",
-		{
-			"type": "Boots",
-			"output_item_id": 10894,
-			"output_item_count": 1,
-			"min_rating": 50,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Tailor"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 19799,
-					"count": 1,
-					"data": {
-						"name": "Mighty Embroidered Jute Insignia",
-						"buy": 111,
-						"sell": 189,
-						"supply": 5178,
-						"demand": 3247
-					}
-				},
-				{
-					"item_id": 13021,
-					"count": 1,
-					"data": {
-						"name": "Jute Sandal Upper",
-						"buy": 156,
-						"sell": 327,
-						"supply": 2414,
-						"demand": 6031
-					}
-				},
-				{
-					"item_id": 13022,
-					"count": 2,
-					"data": {
-						"name": "Jute Sandal Sole",
-						"buy": 4,
-						"sell": 14,
-						"supply": 54673,
-						"demand": 22717
-					}
-				}
-			],
-			"id": 2057,
-			"chat_link": "[&CQkIAAA=]",
-			"output": {
-				"name": "Mighty Embroidered Sandals",
-				"buy": 656,
-				"sell": 2979,
-				"supply": 625,
-				"demand": 110
-			},
-			"totalCost": 544,
-			"totalRevenue": 656,
-			"profit": 13.600000000000023
-		}
-	],
-	[
-		"3486",
-		{
-			"type": "Amulet",
-			"output_item_id": 13304,
-			"output_item_count": 1,
-			"min_rating": 100,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Jeweler"
-			],
-			"flags": [],
-			"ingredients": [
-				{
-					"item_id": 12823,
-					"count": 1,
-					"data": {
-						"name": "Silver Chain",
-						"buy": 39,
-						"sell": 119,
-						"supply": 4715,
-						"demand": 6520
-					}
-				},
-				{
-					"item_id": 12817,
-					"count": 1,
-					"data": {
-						"name": "Silver Setting",
-						"buy": 37,
-						"sell": 60,
-						"supply": 3521,
-						"demand": 4973
-					}
-				},
-				{
-					"item_id": 24469,
-					"count": 1,
-					"data": {
-						"name": "Carnelian Nugget",
-						"buy": 71,
-						"sell": 72,
-						"supply": 16272,
-						"demand": 17142
-					}
-				}
-			],
-			"id": 3486,
-			"chat_link": "[&CZ4NAAA=]",
-			"output": {
-				"name": "Carnelian Silver Amulet",
-				"buy": 309,
-				"sell": 1311,
-				"supply": 703,
-				"demand": 294
-			},
-			"totalCost": 251,
-			"totalRevenue": 309,
-			"profit": 11.649999999999977
-		}
-	],
-	[
-		"11250",
-		{
-			"type": "Refinement",
-			"output_item_id": 75857,
-			"output_item_count": 1,
-			"min_rating": 150,
-			"time_to_craft_ms": 1000,
-			"disciplines": [
-				"Scribe"
-			],
-			"flags": [
-				"AutoLearned"
-			],
-			"ingredients": [
-				{
-					"item_id": 71428,
-					"count": 3,
-					"data": {
-						"name": "Resonating Sliver",
-						"buy": 5,
-						"sell": 6,
-						"supply": 9223998,
-						"demand": 269359
-					}
-				}
-			],
-			"id": 11250,
-			"chat_link": "[&CfIrAAA=]",
-			"output": {
-				"name": "Resonating Fragment",
-				"buy": 28,
-				"sell": 50,
-				"supply": 75487,
-				"demand": 17686
-			},
-			"totalCost": 18,
-			"totalRevenue": 28,
-			"profit": 5.800000000000001
+			"totalCost": 2954,
+			"totalRevenue": 3719,
+			"profit": 207.1500000000001,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/04D6DAB3CCB0CF65A2CEE2F7BAA4CFC44CBA369C/61442.png",
+			"totalProfit": 1518.7000000000003,
+			"sellCount": 10
 		}
 	],
 	[
@@ -1763,10 +211,12 @@
 					"count": 1,
 					"data": {
 						"name": "Packet of Salt",
-						"buy": 9,
-						"sell": 10,
-						"supply": 191577,
-						"demand": 166980
+						"buy": 8,
+						"sell": 11,
+						"supply": 216108,
+						"demand": 170411,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/135535073FE49205B57801F3A94F35F7270274EF/63257.png"
 					}
 				},
 				{
@@ -1774,10 +224,12 @@
 					"count": 1,
 					"data": {
 						"name": "Black Peppercorn",
-						"buy": 18,
-						"sell": 19,
-						"supply": 184571,
-						"demand": 54858
+						"buy": 20,
+						"sell": 25,
+						"supply": 179753,
+						"demand": 64833,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/54BB5F03AFE3FA75E59F432418A6C7BE9F07EC6A/63315.png"
 					}
 				}
 			],
@@ -1785,14 +237,1367 @@
 			"chat_link": "[&CR0LAAA=]",
 			"output": {
 				"name": "Pile of Salt and Pepper",
-				"buy": 38,
-				"sell": 53,
-				"supply": 93860,
-				"demand": 13595
+				"buy": 44,
+				"sell": 60,
+				"supply": 92628,
+				"demand": 12839
 			},
-			"totalCost": 29,
-			"totalRevenue": 38,
-			"profit": 3.299999999999997
+			"totalCost": 36,
+			"totalRevenue": 44,
+			"profit": 1.3999999999999986,
+			"rarity": "Basic",
+			"icon": "https://render.guildwars2.com/file/DE066D3C502075B90ECE290F5B95FFA87875DFAB/63274.png",
+			"totalProfit": 107.00000000000014,
+			"sellCount": 85
+		}
+	],
+	[
+		"3473",
+		{
+			"type": "Amulet",
+			"output_item_id": 13363,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12818,
+					"count": 1,
+					"data": {
+						"name": "Copper Chain",
+						"buy": 65,
+						"sell": 123,
+						"supply": 2076,
+						"demand": 4891,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/3DC30F3EFD6EDCD20E6F41631701786F50752007/63395.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24477,
+					"count": 1,
+					"data": {
+						"name": "Adorned Amber Jewel",
+						"buy": 0,
+						"sell": 19,
+						"supply": 11289,
+						"demand": 0,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/397B074F04530A4D719F9B35DC4201C425272736/220919.png"
+					}
+				}
+			],
+			"id": 3473,
+			"chat_link": "[&CZENAAA=]",
+			"output": {
+				"name": "Amber Copper Amulet",
+				"buy": 371,
+				"sell": 644,
+				"supply": 1003,
+				"demand": 230
+			},
+			"totalCost": 247,
+			"totalRevenue": 371,
+			"profit": 68.34999999999997,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/DA5D774D3103E1240B12A05D5AE409B557D70391/340168.png",
+			"totalProfit": 68.34999999999997,
+			"sellCount": 1
+		}
+	],
+	[
+		"3475",
+		{
+			"type": "Amulet",
+			"output_item_id": 13283,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12818,
+					"count": 1,
+					"data": {
+						"name": "Copper Chain",
+						"buy": 65,
+						"sell": 123,
+						"supply": 2076,
+						"demand": 4891,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/3DC30F3EFD6EDCD20E6F41631701786F50752007/63395.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24483,
+					"count": 1,
+					"data": {
+						"name": "Adorned Garnet Jewel",
+						"buy": 91,
+						"sell": 255,
+						"supply": 1248,
+						"demand": 1412,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/07F7663A04EA5BD7FAB83199DC70671E3CD576AB/220925.png"
+					}
+				}
+			],
+			"id": 3475,
+			"chat_link": "[&CZMNAAA=]",
+			"output": {
+				"name": "Garnet Copper Amulet",
+				"buy": 603,
+				"sell": 1533,
+				"supply": 555,
+				"demand": 277
+			},
+			"totalCost": 483,
+			"totalRevenue": 603,
+			"profit": 29.549999999999955,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/3F773DD6A70DF8BDD8F5E254F3BA625C7A5CBB65/340126.png",
+			"totalProfit": 267.7499999999997,
+			"sellCount": 10
+		}
+	],
+	[
+		"3486",
+		{
+			"type": "Amulet",
+			"output_item_id": 13304,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12823,
+					"count": 1,
+					"data": {
+						"name": "Silver Chain",
+						"buy": 41,
+						"sell": 96,
+						"supply": 4743,
+						"demand": 5780,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/5729ECC82A4AB53119777A983D7D6C10CD44B493/63396.png"
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 34,
+						"sell": 70,
+						"supply": 3441,
+						"demand": 4789,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/02CC2A2B09AF07F234E02B5B561665A7967B0EDC/63394.png"
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 70,
+						"sell": 80,
+						"supply": 16986,
+						"demand": 16120,
+						"rarity": "Fine",
+						"icon": "https://render.guildwars2.com/file/5BFE9A910EAA6B4D56FA2BAD11A1D03ED91B2CD0/220912.png"
+					}
+				}
+			],
+			"id": 3486,
+			"chat_link": "[&CZ4NAAA=]",
+			"output": {
+				"name": "Carnelian Silver Amulet",
+				"buy": 309,
+				"sell": 1320,
+				"supply": 745,
+				"demand": 294
+			},
+			"totalCost": 246,
+			"totalRevenue": 309,
+			"profit": 16.649999999999977,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/E1AB01F843A06E16C2221B0E1194AAC1793311A0/340140.png",
+			"totalProfit": 45.69999999999993,
+			"sellCount": 3
+		}
+	],
+	[
+		"3510",
+		{
+			"type": "Earring",
+			"output_item_id": 13307,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12811,
+					"count": 1,
+					"data": {
+						"name": "Silver Hook",
+						"buy": 35,
+						"sell": 83,
+						"supply": 2788,
+						"demand": 2632,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/7472449776AA61ABABA4FB3867F354DB5955E2EE/63392.png"
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 34,
+						"sell": 70,
+						"supply": 3441,
+						"demand": 4789,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/02CC2A2B09AF07F234E02B5B561665A7967B0EDC/63394.png"
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 70,
+						"sell": 80,
+						"supply": 16986,
+						"demand": 16120,
+						"rarity": "Fine",
+						"icon": "https://render.guildwars2.com/file/5BFE9A910EAA6B4D56FA2BAD11A1D03ED91B2CD0/220912.png"
+					}
+				}
+			],
+			"id": 3510,
+			"chat_link": "[&CbYNAAA=]",
+			"output": {
+				"name": "Carnelian Silver Stud",
+				"buy": 399,
+				"sell": 636,
+				"supply": 416,
+				"demand": 183
+			},
+			"totalCost": 233,
+			"totalRevenue": 399,
+			"profit": 106.14999999999998,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/A7C83AA32426C04450D6634C04CED8709D22033E/340142.png",
+			"totalProfit": 212.29999999999995,
+			"sellCount": 2
+		}
+	],
+	[
+		"3534",
+		{
+			"type": "Ring",
+			"output_item_id": 13301,
+			"output_item_count": 1,
+			"min_rating": 100,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12829,
+					"count": 1,
+					"data": {
+						"name": "Silver Band",
+						"buy": 40,
+						"sell": 88,
+						"supply": 3135,
+						"demand": 3588,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/F01AAF097A1DD7E506B991093308F304BE93CDE2/63398.png"
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 34,
+						"sell": 70,
+						"supply": 3441,
+						"demand": 4789,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/02CC2A2B09AF07F234E02B5B561665A7967B0EDC/63394.png"
+					}
+				},
+				{
+					"item_id": 24469,
+					"count": 1,
+					"data": {
+						"name": "Carnelian Nugget",
+						"buy": 70,
+						"sell": 80,
+						"supply": 16986,
+						"demand": 16120,
+						"rarity": "Fine",
+						"icon": "https://render.guildwars2.com/file/5BFE9A910EAA6B4D56FA2BAD11A1D03ED91B2CD0/220912.png"
+					}
+				}
+			],
+			"id": 3534,
+			"chat_link": "[&Cc4NAAA=]",
+			"output": {
+				"name": "Carnelian Silver Ring",
+				"buy": 440,
+				"sell": 1432,
+				"supply": 1429,
+				"demand": 401
+			},
+			"totalCost": 238,
+			"totalRevenue": 440,
+			"profit": 136,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/BBDC689B77692D9118AD3C64B0D53AF045D21ACD/340138.png",
+			"totalProfit": 1773.7499999999982,
+			"sellCount": 42
+		}
+	],
+	[
+		"3539",
+		{
+			"type": "Ring",
+			"output_item_id": 13302,
+			"output_item_count": 1,
+			"min_rating": 125,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12829,
+					"count": 1,
+					"data": {
+						"name": "Silver Band",
+						"buy": 40,
+						"sell": 88,
+						"supply": 3135,
+						"demand": 3588,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/F01AAF097A1DD7E506B991093308F304BE93CDE2/63398.png"
+					}
+				},
+				{
+					"item_id": 12817,
+					"count": 1,
+					"data": {
+						"name": "Silver Setting",
+						"buy": 34,
+						"sell": 70,
+						"supply": 3441,
+						"demand": 4789,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/02CC2A2B09AF07F234E02B5B561665A7967B0EDC/63394.png"
+					}
+				},
+				{
+					"item_id": 24478,
+					"count": 1,
+					"data": {
+						"name": "Intricate Carnelian Jewel",
+						"buy": 0,
+						"sell": 85,
+						"supply": 3319,
+						"demand": 0,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/7605E0D649E0D403EB2A2E2D2395445E521A0C79/220920.png"
+					}
+				}
+			],
+			"id": 3539,
+			"chat_link": "[&CdMNAAA=]",
+			"output": {
+				"name": "Carnelian Silver Ring",
+				"buy": 303,
+				"sell": 790,
+				"supply": 605,
+				"demand": 183
+			},
+			"totalCost": 243,
+			"totalRevenue": 303,
+			"profit": 14.550000000000011,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/BBDC689B77692D9118AD3C64B0D53AF045D21ACD/340138.png",
+			"totalProfit": 324.94999999999993,
+			"sellCount": 28
+		}
+	],
+	[
+		"3544",
+		{
+			"type": "Ring",
+			"output_item_id": 13336,
+			"output_item_count": 1,
+			"min_rating": 150,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12825,
+					"count": 1,
+					"data": {
+						"name": "Gold Band",
+						"buy": 96,
+						"sell": 200,
+						"supply": 3005,
+						"demand": 1423,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/487BCA37D925AE090EEC08271301BC00E094050D/219506.png"
+					}
+				},
+				{
+					"item_id": 12813,
+					"count": 1,
+					"data": {
+						"name": "Gold Setting",
+						"buy": 49,
+						"sell": 85,
+						"supply": 5853,
+						"demand": 3296,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/D6050A4E14C22D9837F934D84034EC6C72D8D2BE/219498.png"
+					}
+				},
+				{
+					"item_id": 24527,
+					"count": 1,
+					"data": {
+						"name": "Amethyst Lump",
+						"buy": 69,
+						"sell": 70,
+						"supply": 20734,
+						"demand": 6515,
+						"rarity": "Fine",
+						"icon": "https://render.guildwars2.com/file/601E907BDC961A36E97258C20DA5BB130690C95C/220959.png"
+					}
+				}
+			],
+			"id": 3544,
+			"chat_link": "[&CdgNAAA=]",
+			"output": {
+				"name": "Amethyst Gold Ring",
+				"buy": 418,
+				"sell": 775,
+				"supply": 875,
+				"demand": 666
+			},
+			"totalCost": 355,
+			"totalRevenue": 418,
+			"profit": 0.30000000000001137,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/501D94F001D15FFA06175965052604F10667270F/340149.png",
+			"totalProfit": 0.6000000000000227,
+			"sellCount": 2
+		}
+	],
+	[
+		"3560",
+		{
+			"type": "Earring",
+			"output_item_id": 13288,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12806,
+					"count": 1,
+					"data": {
+						"name": "Copper Hook",
+						"buy": 31,
+						"sell": 99,
+						"supply": 3100,
+						"demand": 1520,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/937808956C97A2B86366FA625E16C19CC050599A/63391.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24483,
+					"count": 1,
+					"data": {
+						"name": "Adorned Garnet Jewel",
+						"buy": 91,
+						"sell": 255,
+						"supply": 1248,
+						"demand": 1412,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/07F7663A04EA5BD7FAB83199DC70671E3CD576AB/220925.png"
+					}
+				}
+			],
+			"id": 3560,
+			"chat_link": "[&CegNAAA=]",
+			"output": {
+				"name": "Garnet Copper Stud",
+				"buy": 567,
+				"sell": 1971,
+				"supply": 1474,
+				"demand": 317
+			},
+			"totalCost": 459,
+			"totalRevenue": 567,
+			"profit": 22.94999999999999,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/2C934ED19C1834224C460DC62CB17992D6130205/340128.png",
+			"totalProfit": 414.6499999999995,
+			"sellCount": 24
+		}
+	],
+	[
+		"3562",
+		{
+			"type": "Earring",
+			"output_item_id": 13290,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12806,
+					"count": 1,
+					"data": {
+						"name": "Copper Hook",
+						"buy": 31,
+						"sell": 99,
+						"supply": 3100,
+						"demand": 1520,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/937808956C97A2B86366FA625E16C19CC050599A/63391.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24480,
+					"count": 1,
+					"data": {
+						"name": "Adorned Malachite Jewel",
+						"buy": 0,
+						"sell": 51,
+						"supply": 5828,
+						"demand": 0,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/0EFBBDDDE2C9FCEFE30C7D21E9A391B114FE9BA4/220922.png"
+					}
+				}
+			],
+			"id": 3562,
+			"chat_link": "[&CeoNAAA=]",
+			"output": {
+				"name": "Malachite Copper Stud",
+				"buy": 337,
+				"sell": 750,
+				"supply": 1109,
+				"demand": 13
+			},
+			"totalCost": 255,
+			"totalRevenue": 337,
+			"profit": 31.44999999999999,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/E0E02D0F0F9CBBF590392777391AD3E0C5FE706B/340134.png",
+			"totalProfit": 64.89999999999998,
+			"sellCount": 2
+		}
+	],
+	[
+		"3569",
+		{
+			"type": "Ring",
+			"output_item_id": 13277,
+			"output_item_count": 1,
+			"min_rating": 0,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12824,
+					"count": 1,
+					"data": {
+						"name": "Copper Band",
+						"buy": 48,
+						"sell": 140,
+						"supply": 9633,
+						"demand": 3305,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/F800B0FF794C78700948165FA76A440C6ADB5379/63397.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24464,
+					"count": 1,
+					"data": {
+						"name": "Garnet Pebble",
+						"buy": 84,
+						"sell": 127,
+						"supply": 7226,
+						"demand": 16908,
+						"rarity": "Fine",
+						"icon": "https://render.guildwars2.com/file/62432B92985A9F759F24C55675429696060F0B1D/220907.png"
+					}
+				}
+			],
+			"id": 3569,
+			"chat_link": "[&CfENAAA=]",
+			"output": {
+				"name": "Garnet Copper Ring",
+				"buy": 485,
+				"sell": 999,
+				"supply": 1539,
+				"demand": 1519
+			},
+			"totalCost": 372,
+			"totalRevenue": 485,
+			"profit": 40.25,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/ED80DCFCCEAE4423FC97BE05F00DDE192F3C2AE2/340130.png",
+			"totalProfit": 965.3499999999995,
+			"sellCount": 40
+		}
+	],
+	[
+		"3576",
+		{
+			"type": "Ring",
+			"output_item_id": 13278,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12824,
+					"count": 1,
+					"data": {
+						"name": "Copper Band",
+						"buy": 48,
+						"sell": 140,
+						"supply": 9633,
+						"demand": 3305,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/F800B0FF794C78700948165FA76A440C6ADB5379/63397.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24483,
+					"count": 1,
+					"data": {
+						"name": "Adorned Garnet Jewel",
+						"buy": 91,
+						"sell": 255,
+						"supply": 1248,
+						"demand": 1412,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/07F7663A04EA5BD7FAB83199DC70671E3CD576AB/220925.png"
+					}
+				}
+			],
+			"id": 3576,
+			"chat_link": "[&CfgNAAA=]",
+			"output": {
+				"name": "Garnet Copper Ring",
+				"buy": 714,
+				"sell": 1600,
+				"supply": 1180,
+				"demand": 94
+			},
+			"totalCost": 500,
+			"totalRevenue": 714,
+			"profit": 106.89999999999998,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/ED80DCFCCEAE4423FC97BE05F00DDE192F3C2AE2/340130.png",
+			"totalProfit": 573.8999999999991,
+			"sellCount": 21
+		}
+	],
+	[
+		"3577",
+		{
+			"type": "Ring",
+			"output_item_id": 13281,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12824,
+					"count": 1,
+					"data": {
+						"name": "Copper Band",
+						"buy": 48,
+						"sell": 140,
+						"supply": 9633,
+						"demand": 3305,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/F800B0FF794C78700948165FA76A440C6ADB5379/63397.png"
+					}
+				},
+				{
+					"item_id": 12812,
+					"count": 1,
+					"data": {
+						"name": "Copper Setting",
+						"buy": 52,
+						"sell": 105,
+						"supply": 5733,
+						"demand": 4487,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/C9770B0DECDB1B214CB5024942B20506C41D0B68/63393.png"
+					}
+				},
+				{
+					"item_id": 24488,
+					"count": 1,
+					"data": {
+						"name": "Adorned Tiger's Eye Jewel",
+						"buy": 67,
+						"sell": 126,
+						"supply": 786,
+						"demand": 268,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/FC0872C2A561619AE075FBF7D9D62D4293D04790/220930.png"
+					}
+				}
+			],
+			"id": 3577,
+			"chat_link": "[&CfkNAAA=]",
+			"output": {
+				"name": "Tiger's Eye Copper Ring",
+				"buy": 488,
+				"sell": 1415,
+				"supply": 1221,
+				"demand": 72
+			},
+			"totalCost": 371,
+			"totalRevenue": 488,
+			"profit": 43.80000000000001,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/C3CD9967D2E91D3939E06EDC800D206CEBDC6A18/340122.png",
+			"totalProfit": 159.20000000000005,
+			"sellCount": 4
+		}
+	],
+	[
+		"3646",
+		{
+			"type": "Earring",
+			"output_item_id": 13445,
+			"output_item_count": 1,
+			"min_rating": 350,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 24494,
+					"count": 1,
+					"data": {
+						"name": "Brilliant Ruby Jewel",
+						"buy": 127,
+						"sell": 130,
+						"supply": 1856,
+						"demand": 1274,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/6A91E018C00449714D0B2E714C621C04041EBB19/220935.png"
+					}
+				},
+				{
+					"item_id": 12808,
+					"count": 1,
+					"data": {
+						"name": "Mithril Hook",
+						"buy": 117,
+						"sell": 220,
+						"supply": 1077,
+						"demand": 2781,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/150169E128399268B770AF420607F0B65AB8A0F3/219495.png"
+					}
+				},
+				{
+					"item_id": 12814,
+					"count": 1,
+					"data": {
+						"name": "Mithril Setting",
+						"buy": 87,
+						"sell": 242,
+						"supply": 2644,
+						"demand": 2519,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/EAA5A0126AEFCF9702F4DD41A3DB27AAAC1C48D9/219499.png"
+					}
+				}
+			],
+			"id": 3646,
+			"chat_link": "[&CT4OAAA=]",
+			"output": {
+				"name": "Ruby Mithril Earring",
+				"buy": 718,
+				"sell": 1598,
+				"supply": 557,
+				"demand": 201
+			},
+			"totalCost": 592,
+			"totalRevenue": 718,
+			"profit": 18.299999999999955,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/9DDB1A256F500B6B9AAC0396F3FFA3A3550CFC7D/340207.png",
+			"totalProfit": 54.04999999999984,
+			"sellCount": 3
+		}
+	],
+	[
+		"3773",
+		{
+			"type": "Earring",
+			"output_item_id": 13549,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12807,
+					"count": 1,
+					"data": {
+						"name": "Gold Hook",
+						"buy": 36,
+						"sell": 69,
+						"supply": 3013,
+						"demand": 1988,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/062715067FF243E2FFE26011A1CCE53F6115CF74/219494.png"
+					}
+				},
+				{
+					"item_id": 12813,
+					"count": 1,
+					"data": {
+						"name": "Gold Setting",
+						"buy": 49,
+						"sell": 85,
+						"supply": 5853,
+						"demand": 3296,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/D6050A4E14C22D9837F934D84034EC6C72D8D2BE/219498.png"
+					}
+				},
+				{
+					"item_id": 24909,
+					"count": 3,
+					"data": {
+						"name": "Embellished Gilded Spinel Jewel",
+						"buy": 0,
+						"sell": 196,
+						"supply": 568,
+						"demand": 0,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/3250023BC455F3540102FAC875779148B89F0A7D/340645.png"
+					}
+				}
+			],
+			"id": 3773,
+			"chat_link": "[&Cb0OAAA=]",
+			"output": {
+				"name": "Spinel Gold Earring",
+				"buy": 878,
+				"sell": 1899,
+				"supply": 922,
+				"demand": 1014
+			},
+			"totalCost": 742,
+			"totalRevenue": 878,
+			"profit": 4.2999999999999545,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/73C7A348740CBA5FF2B44A6054B1A8E9A4EC9C62/433715.png",
+			"totalProfit": 7.599999999999909,
+			"sellCount": 2
+		}
+	],
+	[
+		"3778",
+		{
+			"type": "Earring",
+			"output_item_id": 13554,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12807,
+					"count": 1,
+					"data": {
+						"name": "Gold Hook",
+						"buy": 36,
+						"sell": 69,
+						"supply": 3013,
+						"demand": 1988,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/062715067FF243E2FFE26011A1CCE53F6115CF74/219494.png"
+					}
+				},
+				{
+					"item_id": 12813,
+					"count": 1,
+					"data": {
+						"name": "Gold Setting",
+						"buy": 49,
+						"sell": 85,
+						"supply": 5853,
+						"demand": 3296,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/D6050A4E14C22D9837F934D84034EC6C72D8D2BE/219498.png"
+					}
+				},
+				{
+					"item_id": 24907,
+					"count": 3,
+					"data": {
+						"name": "Embellished Gilded Lapis Jewel",
+						"buy": 113,
+						"sell": 200,
+						"supply": 703,
+						"demand": 15,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/49E37FA7C052AF2C91DEDDA2CDF33FF9C4C3E97A/340643.png"
+					}
+				}
+			],
+			"id": 3778,
+			"chat_link": "[&CcIOAAA=]",
+			"output": {
+				"name": "Lapis Gold Earring",
+				"buy": 936,
+				"sell": 3681,
+				"supply": 1332,
+				"demand": 431
+			},
+			"totalCost": 754,
+			"totalRevenue": 936,
+			"profit": 41.60000000000002,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/2C04E068E806BFFED4A1CA0234E30E604F316EEC/433720.png",
+			"totalProfit": 259.00000000000034,
+			"sellCount": 15
+		}
+	],
+	[
+		"3804",
+		{
+			"type": "Ring",
+			"output_item_id": 13538,
+			"output_item_count": 1,
+			"min_rating": 275,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 12828,
+					"count": 1,
+					"data": {
+						"name": "Platinum Band",
+						"buy": 278,
+						"sell": 561,
+						"supply": 1607,
+						"demand": 2749,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/2FCBA45938A0C3B35F19BBB60408D6F512C00198/219509.png"
+					}
+				},
+				{
+					"item_id": 12816,
+					"count": 1,
+					"data": {
+						"name": "Platinum Setting",
+						"buy": 263,
+						"sell": 474,
+						"supply": 2865,
+						"demand": 3912,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/18020C480903BFEF6872799519E369F599355D4E/219501.png"
+					}
+				},
+				{
+					"item_id": 24917,
+					"count": 3,
+					"data": {
+						"name": "Embellished Ornate Ruby Jewel",
+						"buy": 355,
+						"sell": 357,
+						"supply": 980,
+						"demand": 1487,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/F923A62371AE3A6C5DDAA751495A14730FBE0BE3/340653.png"
+					}
+				}
+			],
+			"id": 3804,
+			"chat_link": "[&CdwOAAA=]",
+			"output": {
+				"name": "Ruby Platinum Ring",
+				"buy": 2925,
+				"sell": 4789,
+				"supply": 791,
+				"demand": 686
+			},
+			"totalCost": 2106,
+			"totalRevenue": 2925,
+			"profit": 380.25,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/5822F752A654800EC6E65268F8972F03A4A60165/455623.png",
+			"totalProfit": 1901.25,
+			"sellCount": 5
+		}
+	],
+	[
+		"3969",
+		{
+			"type": "Scepter",
+			"output_item_id": 13924,
+			"output_item_count": 1,
+			"min_rating": 375,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Artificer"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19897,
+					"count": 1,
+					"data": {
+						"name": "Carrion Mithril Imbued Inscription",
+						"buy": 2722,
+						"sell": 2724,
+						"supply": 1318,
+						"demand": 1774,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/FF97D8634CA694CCB55D3AF9B2E64144D55E5E11/66028.png"
+					}
+				},
+				{
+					"item_id": 13256,
+					"count": 1,
+					"data": {
+						"name": "Elder Scepter Core",
+						"buy": 430,
+						"sell": 697,
+						"supply": 3054,
+						"demand": 1103,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/E670C3B52BC52EAEFE6C0FEFE7DB209E0657253C/219687.png"
+					}
+				},
+				{
+					"item_id": 12977,
+					"count": 1,
+					"data": {
+						"name": "Elder Scepter Rod",
+						"buy": 682,
+						"sell": 984,
+						"supply": 3483,
+						"demand": 1177,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/7EAEFDE991F302CE1150482E61D3757E1EABB703/219562.png"
+					}
+				}
+			],
+			"id": 3969,
+			"chat_link": "[&CYEPAAA=]",
+			"output": {
+				"name": "Carrion Krait Wand",
+				"buy": 5406,
+				"sell": 6900,
+				"supply": 1021,
+				"demand": 547
+			},
+			"totalCost": 4405,
+			"totalRevenue": 5406,
+			"profit": 190.09999999999945,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/2C731762EBC55D1492D2235F28941209FADF6908/574968.png",
+			"totalProfit": 1633.9999999999945,
+			"sellCount": 10
+		}
+	],
+	[
+		"4045",
+		{
+			"type": "Focus",
+			"output_item_id": 13973,
+			"output_item_count": 1,
+			"min_rating": 375,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Artificer"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19897,
+					"count": 1,
+					"data": {
+						"name": "Carrion Mithril Imbued Inscription",
+						"buy": 2722,
+						"sell": 2724,
+						"supply": 1318,
+						"demand": 1774,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/FF97D8634CA694CCB55D3AF9B2E64144D55E5E11/66028.png"
+					}
+				},
+				{
+					"item_id": 13244,
+					"count": 1,
+					"data": {
+						"name": "Elder Focus Core",
+						"buy": 309,
+						"sell": 549,
+						"supply": 8076,
+						"demand": 3530,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/241355A6E364CD96630A04ABD390F67827E2996F/219677.png"
+					}
+				},
+				{
+					"item_id": 12983,
+					"count": 1,
+					"data": {
+						"name": "Elder Focus Casing",
+						"buy": 569,
+						"sell": 969,
+						"supply": 5603,
+						"demand": 1449,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/F61993491202AE62CC3527675B24E9A256B06D0F/219564.png"
+					}
+				}
+			],
+			"id": 4045,
+			"chat_link": "[&Cc0PAAA=]",
+			"output": {
+				"name": "Carrion Krait Star",
+				"buy": 5282,
+				"sell": 6899,
+				"supply": 999,
+				"demand": 282
+			},
+			"totalCost": 4242,
+			"totalRevenue": 5282,
+			"profit": 247.69999999999982,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/0872ED746DE5C1C765F944BB5AADAD4A28C32864/574967.png",
+			"totalProfit": 1188.7999999999965,
+			"sellCount": 7
+		}
+	],
+	[
+		"4069",
+		{
+			"type": "Staff",
+			"output_item_id": 13719,
+			"output_item_count": 1,
+			"min_rating": 50,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Artificer"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19767,
+					"count": 1,
+					"data": {
+						"name": "Mighty Bronze Plated Inscription",
+						"buy": 83,
+						"sell": 256,
+						"supply": 9262,
+						"demand": 5255,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/A42A35BB267169F756C675CA0D7E1C0FE40C9652/65971.png"
+					}
+				},
+				{
+					"item_id": 12971,
+					"count": 1,
+					"data": {
+						"name": "Green Staff Shaft",
+						"buy": 71,
+						"sell": 171,
+						"supply": 6312,
+						"demand": 1780,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/BBAC071EDC27462AA33B62AAD1BD4141675F2A79/63474.png"
+					}
+				},
+				{
+					"item_id": 13263,
+					"count": 1,
+					"data": {
+						"name": "Green Staff Head",
+						"buy": 10,
+						"sell": 57,
+						"supply": 3702,
+						"demand": 4351,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/53DBFD6C0BB8C86C3F92CEFCE65C1EDD33C308C9/219693.png"
+					}
+				}
+			],
+			"id": 4069,
+			"chat_link": "[&CeUPAAA=]",
+			"output": {
+				"name": "Mighty Green Wood Staff",
+				"buy": 579,
+				"sell": 2768,
+				"supply": 830,
+				"demand": 143
+			},
+			"totalCost": 484,
+			"totalRevenue": 579,
+			"profit": 8.149999999999977,
+			"rarity": "Masterwork",
+			"icon": "https://render.guildwars2.com/file/04BE267A42B12DB00F0162639702BDEFC90F4A5D/62880.png",
+			"totalProfit": 8.149999999999977,
+			"sellCount": 1
 		}
 	],
 	[
@@ -1814,9 +1619,11 @@
 					"data": {
 						"name": "Soft Staff Head",
 						"buy": 44,
-						"sell": 175,
-						"supply": 3496,
-						"demand": 2348
+						"sell": 144,
+						"supply": 3490,
+						"demand": 2348,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/71B4B63D5521D9BFF69818E7B8B3C97255770C01/219695.png"
 					}
 				},
 				{
@@ -1825,9 +1632,11 @@
 					"data": {
 						"name": "Soft Staff Shaft",
 						"buy": 159,
-						"sell": 382,
-						"supply": 4796,
-						"demand": 2793
+						"sell": 400,
+						"supply": 4705,
+						"demand": 2793,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/26AD049D2EA1570178FBC1F9B01711C9F580C9B9/63473.png"
 					}
 				},
 				{
@@ -1835,10 +1644,12 @@
 					"count": 1,
 					"data": {
 						"name": "Hearty Iron Imbued Inscription",
-						"buy": 1401,
-						"sell": 1990,
+						"buy": 1402,
+						"sell": 1987,
 						"supply": 1071,
-						"demand": 1022
+						"demand": 1055,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/A9A13324FD1ED5080DEDCD4B0842910A6036C028/434369.png"
 					}
 				}
 			],
@@ -1846,23 +1657,192 @@
 			"chat_link": "[&CQIRAAA=]",
 			"output": {
 				"name": "Hearty Bandit Spire",
-				"buy": 3000,
-				"sell": 9000,
-				"supply": 389,
-				"demand": 106
+				"buy": 3002,
+				"sell": 9007,
+				"supply": 385,
+				"demand": 113
 			},
-			"totalCost": 2547,
-			"totalRevenue": 3000,
-			"profit": 3
+			"totalCost": 2531,
+			"totalRevenue": 3002,
+			"profit": 20.699999999999818,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/6426AC91389A582D7A0F02F641DDDAD6F8F87F4F/66497.png",
+			"totalProfit": 179.4999999999991,
+			"sellCount": 9
 		}
 	],
 	[
-		"3473",
+		"4492",
 		{
-			"type": "Amulet",
-			"output_item_id": 13363,
+			"type": "Component",
+			"output_item_id": 12955,
 			"output_item_count": 1,
-			"min_rating": 50,
+			"min_rating": 150,
+			"time_to_craft_ms": 3000,
+			"disciplines": [
+				"Huntsman"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19714,
+					"count": 3,
+					"data": {
+						"name": "Seasoned Wood Plank",
+						"buy": 212,
+						"sell": 213,
+						"supply": 630446,
+						"demand": 30211,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png"
+					}
+				}
+			],
+			"id": 4492,
+			"chat_link": "[&CYwRAAA=]",
+			"output": {
+				"name": "Seasoned Rifle Stock",
+				"buy": 890,
+				"sell": 1593,
+				"supply": 8710,
+				"demand": 2112
+			},
+			"totalCost": 639,
+			"totalRevenue": 890,
+			"profit": 117.5,
+			"rarity": "Basic",
+			"icon": "https://render.guildwars2.com/file/14EDBD500122F226CD230616A9913477C0BA2B5D/63464.png",
+			"totalProfit": 705,
+			"sellCount": 6
+		}
+	],
+	[
+		"4493",
+		{
+			"type": "Component",
+			"output_item_id": 12949,
+			"output_item_count": 1,
+			"min_rating": 150,
+			"time_to_craft_ms": 3000,
+			"disciplines": [
+				"Huntsman"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 19714,
+					"count": 4,
+					"data": {
+						"name": "Seasoned Wood Plank",
+						"buy": 212,
+						"sell": 213,
+						"supply": 630446,
+						"demand": 30211,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png"
+					}
+				}
+			],
+			"id": 4493,
+			"chat_link": "[&CY0RAAA=]",
+			"output": {
+				"name": "Seasoned Short-Bow Stave",
+				"buy": 1085,
+				"sell": 1980,
+				"supply": 12192,
+				"demand": 1342
+			},
+			"totalCost": 852,
+			"totalRevenue": 1085,
+			"profit": 70.25,
+			"rarity": "Basic",
+			"icon": "https://render.guildwars2.com/file/0A77F60E429E083CFABA9E279163A3E2E0A392B0/219549.png",
+			"totalProfit": 281,
+			"sellCount": 4
+		}
+	],
+	[
+		"4934",
+		{
+			"type": "Warhorn",
+			"output_item_id": 14516,
+			"output_item_count": 1,
+			"min_rating": 375,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Huntsman"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 19902,
+					"count": 1,
+					"data": {
+						"name": "Knight's Mithril Imbued Inscription",
+						"buy": 2400,
+						"sell": 2901,
+						"supply": 860,
+						"demand": 2391,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/B7DDF69D762A9B18B497EBE304E247C9079FF51E/340468.png"
+					}
+				},
+				{
+					"item_id": 12935,
+					"count": 1,
+					"data": {
+						"name": "Mithril Horn",
+						"buy": 459,
+						"sell": 559,
+						"supply": 2030,
+						"demand": 4928,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/0BC7FCAAF0F7985609B57C18A54F3606F194FF17/219543.png"
+					}
+				},
+				{
+					"item_id": 12929,
+					"count": 1,
+					"data": {
+						"name": "Mithril Warhorn Mouthpiece",
+						"buy": 78,
+						"sell": 145,
+						"supply": 3827,
+						"demand": 2075,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/0A4C53CFB832BAEF1C497A97DB0204BF1601B450/219542.png"
+					}
+				}
+			],
+			"id": 4934,
+			"chat_link": "[&CUYTAAA=]",
+			"output": {
+				"name": "Knight's Krait Whelk",
+				"buy": 4251,
+				"sell": 6000,
+				"supply": 938,
+				"demand": 476
+			},
+			"totalCost": 3605,
+			"totalRevenue": 4251,
+			"profit": 8.349999999999909,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/5AFCDED071B62CFA9F2F0B430CEEF23A6E2BA4C0/574983.png",
+			"totalProfit": 16.699999999999818,
+			"sellCount": 2
+		}
+	],
+	[
+		"6753",
+		{
+			"type": "Earring",
+			"output_item_id": 38151,
+			"output_item_count": 1,
+			"min_rating": 100,
 			"time_to_craft_ms": 1000,
 			"disciplines": [
 				"Jeweler"
@@ -1870,51 +1850,1010 @@
 			"flags": [],
 			"ingredients": [
 				{
-					"item_id": 12818,
+					"item_id": 12811,
 					"count": 1,
 					"data": {
-						"name": "Copper Chain",
-						"buy": 64,
-						"sell": 125,
-						"supply": 1994,
-						"demand": 5127
+						"name": "Silver Hook",
+						"buy": 35,
+						"sell": 83,
+						"supply": 2788,
+						"demand": 2632,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/7472449776AA61ABABA4FB3867F354DB5955E2EE/63392.png"
 					}
 				},
 				{
-					"item_id": 12812,
+					"item_id": 12817,
 					"count": 1,
 					"data": {
-						"name": "Copper Setting",
-						"buy": 43,
-						"sell": 169,
-						"supply": 5189,
-						"demand": 4260
+						"name": "Silver Setting",
+						"buy": 34,
+						"sell": 70,
+						"supply": 3441,
+						"demand": 4789,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/02CC2A2B09AF07F234E02B5B561665A7967B0EDC/63394.png"
 					}
 				},
 				{
-					"item_id": 24477,
+					"item_id": 38139,
 					"count": 1,
 					"data": {
-						"name": "Adorned Amber Jewel",
-						"buy": 0,
-						"sell": 19,
-						"supply": 11053,
-						"demand": 0
+						"name": "Intricate Snowflake",
+						"buy": 93,
+						"sell": 192,
+						"supply": 17940,
+						"demand": 1827,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/55362E7D2711D263AE76DA2A57B596A0B4E00FEF/526247.png"
 					}
 				}
 			],
-			"id": 3473,
-			"chat_link": "[&CZENAAA=]",
+			"id": 6753,
+			"chat_link": "[&CWEaAAA=]",
 			"output": {
-				"name": "Amber Copper Amulet",
-				"buy": 371,
-				"sell": 599,
-				"supply": 999,
-				"demand": 230
+				"name": "Snowflake Silver Earring",
+				"buy": 431,
+				"sell": 747,
+				"supply": 1805,
+				"demand": 51
 			},
-			"totalCost": 313,
-			"totalRevenue": 371,
-			"profit": 2.349999999999966
+			"totalCost": 345,
+			"totalRevenue": 431,
+			"profit": 21.349999999999966,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/12B7DF627254CFE15E540FA440BBC29D27C57CC6/526259.png",
+			"totalProfit": 21.349999999999966,
+			"sellCount": 1
+		}
+	],
+	[
+		"6759",
+		{
+			"type": "Earring",
+			"output_item_id": 38154,
+			"output_item_count": 1,
+			"min_rating": 375,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Jeweler"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 38142,
+					"count": 3,
+					"data": {
+						"name": "Brilliant Snowflake",
+						"buy": 876,
+						"sell": 1273,
+						"supply": 1684,
+						"demand": 6052,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/D3B0CAF4CAE9D50E33F54B394160B91A45C6E521/526250.png"
+					}
+				},
+				{
+					"item_id": 12808,
+					"count": 1,
+					"data": {
+						"name": "Mithril Hook",
+						"buy": 117,
+						"sell": 220,
+						"supply": 1077,
+						"demand": 2781,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/150169E128399268B770AF420607F0B65AB8A0F3/219495.png"
+					}
+				},
+				{
+					"item_id": 12814,
+					"count": 1,
+					"data": {
+						"name": "Mithril Setting",
+						"buy": 87,
+						"sell": 242,
+						"supply": 2644,
+						"demand": 2519,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/EAA5A0126AEFCF9702F4DD41A3DB27AAAC1C48D9/219499.png"
+					}
+				}
+			],
+			"id": 6759,
+			"chat_link": "[&CWcaAAA=]",
+			"output": {
+				"name": "Snowflake Mithril Earring",
+				"buy": 5600,
+				"sell": 9891,
+				"supply": 177,
+				"demand": 854
+			},
+			"totalCost": 4281,
+			"totalRevenue": 5600,
+			"profit": 479,
+			"rarity": "Rare",
+			"icon": "https://render.guildwars2.com/file/F0370369FF74DF1B2542CDE20D6419F63E042AC3/526262.png",
+			"totalProfit": 1459.3000000000002,
+			"sellCount": 4
+		}
+	],
+	[
+		"7929",
+		{
+			"type": "Coat",
+			"output_item_id": 48612,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Armorsmith"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 46713,
+					"count": 1,
+					"data": {
+						"name": "Settler's Intricate Gossamer Insignia",
+						"buy": 2502,
+						"sell": 4996,
+						"supply": 1540,
+						"demand": 1067,
+						"rarity": "Exotic",
+						"icon": "https://render.guildwars2.com/file/A2F2A3CE57CC6B20B99A91BB3B20D97CEB19562A/699289.png"
+					}
+				},
+				{
+					"item_id": 13162,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Chestplate Padding",
+						"buy": 199,
+						"sell": 577,
+						"supply": 587,
+						"demand": 1237,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/7EC04D2153AF2D06083AF204E5E1C00893CBF3DB/219601.png"
+					}
+				},
+				{
+					"item_id": 13163,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Chestplate Panel",
+						"buy": 1426,
+						"sell": 1999,
+						"supply": 1070,
+						"demand": 2290,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/9F3BF31868DF01D8D1D5DF9D2EF4F79BCE4C46D5/219602.png"
+					}
+				}
+			],
+			"id": 7929,
+			"chat_link": "[&CfkeAAA=]",
+			"output": {
+				"name": "Settler's Draconic Coat",
+				"buy": 9451,
+				"sell": 19182,
+				"supply": 159,
+				"demand": 446
+			},
+			"totalCost": 7572,
+			"totalRevenue": 9451,
+			"profit": 461.34999999999945,
+			"rarity": "Exotic",
+			"icon": "https://render.guildwars2.com/file/E7FC2F5D02DBA0EE089BC615A5D2F1DFCFE6185F/61563.png",
+			"totalProfit": 1378.499999999999,
+			"sellCount": 3
+		}
+	],
+	[
+		"8025",
+		{
+			"type": "Leggings",
+			"output_item_id": 48591,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Armorsmith"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 46713,
+					"count": 1,
+					"data": {
+						"name": "Settler's Intricate Gossamer Insignia",
+						"buy": 2502,
+						"sell": 4996,
+						"supply": 1540,
+						"demand": 1067,
+						"rarity": "Exotic",
+						"icon": "https://render.guildwars2.com/file/A2F2A3CE57CC6B20B99A91BB3B20D97CEB19562A/699289.png"
+					}
+				},
+				{
+					"item_id": 13168,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Legging Lining",
+						"buy": 67,
+						"sell": 600,
+						"supply": 939,
+						"demand": 2255,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/0F110F8053F2F23034E8984A10200B09E39C7D72/219607.png"
+					}
+				},
+				{
+					"item_id": 13169,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Legging Panel",
+						"buy": 851,
+						"sell": 1350,
+						"supply": 1789,
+						"demand": 2616,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/4DCA565B7430F0B226B0AD659D1AB1E0522B6702/219608.png"
+					}
+				}
+			],
+			"id": 8025,
+			"chat_link": "[&CVkfAAA=]",
+			"output": {
+				"name": "Settler's Draconic Legs",
+				"buy": 8580,
+				"sell": 19997,
+				"supply": 189,
+				"demand": 157
+			},
+			"totalCost": 6946,
+			"totalRevenue": 8580,
+			"profit": 347,
+			"rarity": "Exotic",
+			"icon": "https://render.guildwars2.com/file/5B4F503619F5F5C659E961E76E290BAB6F234816/61566.png",
+			"totalProfit": 1814.3999999999987,
+			"sellCount": 6
+		}
+	],
+	[
+		"10096",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 74629,
+			"output_item_count": 1,
+			"min_rating": 300,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 71428,
+					"count": 1,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 0,
+						"sell": 5,
+						"supply": 9323505,
+						"demand": 0,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/97BF4A30AE0F43EFF6A444013F9040A60D48E6BB/1201931.png"
+					}
+				},
+				{
+					"item_id": 75784,
+					"count": 1,
+					"data": {
+						"name": "Box of Banner Supplies",
+						"buy": 12,
+						"sell": 91,
+						"supply": 31731,
+						"demand": 33,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/9E60A1EB1D98CB80D8A105E6E75604B4B86C39A2/1201877.png"
+					}
+				},
+				{
+					"item_id": 73512,
+					"count": 1,
+					"data": {
+						"name": "Bag of Incandescent Energy",
+						"buy": 2147,
+						"sell": 3745,
+						"supply": 1694,
+						"demand": 1283,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/60A57261C201FBF54B177BFF181AE81D6AE87D2C/1201881.png"
+					}
+				}
+			],
+			"output_upgrade_id": 590,
+			"id": 10096,
+			"chat_link": "[&CXAnAAA=]",
+			"output": {
+				"name": "Schematic: Dragon Banner",
+				"buy": 10306,
+				"sell": 0,
+				"supply": 0,
+				"demand": 512
+			},
+			"totalCost": 5155,
+			"totalRevenue": 10306,
+			"profit": 3605.1000000000004,
+			"rarity": "Basic",
+			"icon": "https://render.guildwars2.com/file/C262FD8051C4D33B7CA550FA6029E947FC660BDC/1202646.png",
+			"totalProfit": 3605.1000000000004,
+			"sellCount": 1
+		}
+	],
+	[
+		"10218",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 77175,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 21159,
+					"count": 3,
+					"data": {
+						"name": "Alpha Siege Golem Blueprints",
+						"buy": 1350,
+						"sell": 1550,
+						"supply": 20593,
+						"demand": 25806,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/430B1C0B04B9A826DAE7AC0B7A940D02E35DA26E/63048.png"
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1276,
+						"supply": 2592,
+						"demand": 4015,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/91405C6640C95E361FF74CC7A96B0C16501F3C2D/1201913.png"
+					}
+				}
+			],
+			"output_upgrade_id": 44,
+			"id": 10218,
+			"chat_link": "[&CeonAAA=]",
+			"output": {
+				"name": "Guild Siege Golem Blueprints",
+				"buy": 10711,
+				"sell": 0,
+				"supply": 0,
+				"demand": 494
+			},
+			"totalCost": 7240,
+			"totalRevenue": 10711,
+			"profit": 1864.3500000000004,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/1EC9B6DFED38AD684512CE12347D6CA7EA2D70EA/1228589.png",
+			"totalProfit": 1864.3500000000004,
+			"sellCount": 1
+		}
+	],
+	[
+		"10456",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 76363,
+			"output_item_count": 1,
+			"min_rating": 300,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 21158,
+					"count": 3,
+					"data": {
+						"name": "Catapult Blueprints",
+						"buy": 411,
+						"sell": 456,
+						"supply": 63809,
+						"demand": 43675,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/0F68450F2D9AAE580294070426EFD7AF66F1CE71/63047.png"
+					}
+				},
+				{
+					"item_id": 73120,
+					"count": 1,
+					"data": {
+						"name": "Mithril Reinforcing Plate",
+						"buy": 174,
+						"sell": 376,
+						"supply": 7122,
+						"demand": 9155,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/4B1A0EABF7AFCD44BEABA168C4F7A41FD47B02BE/1201911.png"
+					}
+				}
+			],
+			"output_upgrade_id": 43,
+			"id": 10456,
+			"chat_link": "[&CdgoAAA=]",
+			"output": {
+				"name": "Guild Catapult",
+				"buy": 85600,
+				"sell": 24999999,
+				"supply": 2,
+				"demand": 102
+			},
+			"totalCost": 3058,
+			"totalRevenue": 85600,
+			"profit": 69702,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/96B9EBD829D87CC8D651C3A4950DAC714E0A80CC/1228586.png",
+			"totalProfit": 2566057.400000002,
+			"sellCount": 50
+		}
+	],
+	[
+		"10638",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 76527,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 75311,
+					"count": 3,
+					"data": {
+						"name": "Shield Generator Blueprint",
+						"buy": 350,
+						"sell": 400,
+						"supply": 28921,
+						"demand": 26568,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/DC635179B70C1FC120DDE95FEE0DA99B1B430F34/1201511.png"
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1276,
+						"supply": 2592,
+						"demand": 4015,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/91405C6640C95E361FF74CC7A96B0C16501F3C2D/1201913.png"
+					}
+				}
+			],
+			"output_upgrade_id": 623,
+			"id": 10638,
+			"chat_link": "[&CY4pAAA=]",
+			"output": {
+				"name": "Guild Shield Generator Blueprint",
+				"buy": 10118,
+				"sell": 0,
+				"supply": 0,
+				"demand": 576
+			},
+			"totalCost": 3790,
+			"totalRevenue": 10118,
+			"profit": 4810.299999999999,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/CCAD4925396649C34C936991024C74FB591BADEB/1228588.png",
+			"totalProfit": 4810.299999999999,
+			"sellCount": 1
+		}
+	],
+	[
+		"10690",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 72157,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 21157,
+					"count": 3,
+					"data": {
+						"name": "Ballista Blueprints",
+						"buy": 2,
+						"sell": 10,
+						"supply": 744928,
+						"demand": 54853,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/27E67AB70677EB0DB834A4D4244CBE65FA1F1DC7/62862.png"
+					}
+				},
+				{
+					"item_id": 73081,
+					"count": 1,
+					"data": {
+						"name": "Steel Reinforcing Plate",
+						"buy": 469,
+						"sell": 1497,
+						"supply": 2879,
+						"demand": 3898,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/5E6E5FE939A96B553232A8A13D5223324202EA41/1201950.png"
+					}
+				}
+			],
+			"output_upgrade_id": 186,
+			"id": 10690,
+			"chat_link": "[&CcIpAAA=]",
+			"output": {
+				"name": "Guild Ballista Blueprints",
+				"buy": 10235,
+				"sell": 0,
+				"supply": 0,
+				"demand": 593
+			},
+			"totalCost": 2841,
+			"totalRevenue": 10235,
+			"profit": 5858.75,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/0E7F020C0A1B92D15615635D180F7B06DCB108CF/1228585.png",
+			"totalProfit": 5858.75,
+			"sellCount": 1
+		}
+	],
+	[
+		"10830",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70754,
+			"output_item_count": 1,
+			"min_rating": 200,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 21156,
+					"count": 3,
+					"data": {
+						"name": "Arrow Cart Blueprints",
+						"buy": 2,
+						"sell": 4,
+						"supply": 931249,
+						"demand": 910,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/02052733FF693927AC44EEBCAAFF4B5AB0E974AD/63046.png"
+					}
+				},
+				{
+					"item_id": 73081,
+					"count": 1,
+					"data": {
+						"name": "Steel Reinforcing Plate",
+						"buy": 469,
+						"sell": 1497,
+						"supply": 2879,
+						"demand": 3898,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/5E6E5FE939A96B553232A8A13D5223324202EA41/1201950.png"
+					}
+				}
+			],
+			"output_upgrade_id": 505,
+			"id": 10830,
+			"chat_link": "[&CU4qAAA=]",
+			"output": {
+				"name": "Guild Arrow Cart Blueprints",
+				"buy": 10346,
+				"sell": 0,
+				"supply": 0,
+				"demand": 408
+			},
+			"totalCost": 2823,
+			"totalRevenue": 10346,
+			"profit": 5971.1,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/FE6364E2DBE0A64A5E21ECDA13FA5EA7DC3FDA41/1228584.png",
+			"totalProfit": 5971.1,
+			"sellCount": 1
+		}
+	],
+	[
+		"11071",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70605,
+			"output_item_count": 1,
+			"min_rating": 400,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 21160,
+					"count": 3,
+					"data": {
+						"name": "Trebuchet Blueprints",
+						"buy": 4,
+						"sell": 7,
+						"supply": 324272,
+						"demand": 30100,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/B233DDC4D8A2EB1BF10F533E62E8BE0D7C734D4D/63045.png"
+					}
+				},
+				{
+					"item_id": 71252,
+					"count": 1,
+					"data": {
+						"name": "Orichalcum Reinforcing Plate",
+						"buy": 696,
+						"sell": 1276,
+						"supply": 2592,
+						"demand": 4015,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/91405C6640C95E361FF74CC7A96B0C16501F3C2D/1201913.png"
+					}
+				}
+			],
+			"output_upgrade_id": 576,
+			"id": 11071,
+			"chat_link": "[&CT8rAAA=]",
+			"output": {
+				"name": "Guild Trebuchet Blueprints",
+				"buy": 10136,
+				"sell": 0,
+				"supply": 0,
+				"demand": 320
+			},
+			"totalCost": 2611,
+			"totalRevenue": 10136,
+			"profit": 6004.6,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/F06D7EB9F1581430A2FB60E2B3DB4609A6FF32F5/1228590.png",
+			"totalProfit": 6004.6,
+			"sellCount": 1
+		}
+	],
+	[
+		"11079",
+		{
+			"type": "GuildConsumableWvw",
+			"output_item_id": 70532,
+			"output_item_count": 1,
+			"min_rating": 300,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71473,
+					"count": 1,
+					"data": {
+						"name": "Badge of Tribute",
+						"buy": 1020,
+						"sell": 1314,
+						"supply": 52538,
+						"demand": 19422,
+						"rarity": "Rare",
+						"icon": "https://render.guildwars2.com/file/767E3830B0AFF098AFF228E5DB7831A39F467355/1203097.png"
+					}
+				},
+				{
+					"item_id": 21161,
+					"count": 3,
+					"data": {
+						"name": "Flame Ram Blueprints",
+						"buy": 35,
+						"sell": 43,
+						"supply": 256657,
+						"demand": 410908,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/0CF25610DF30C07F57F7AF9058F4636B15A2A7D7/66267.png"
+					}
+				},
+				{
+					"item_id": 73120,
+					"count": 1,
+					"data": {
+						"name": "Mithril Reinforcing Plate",
+						"buy": 174,
+						"sell": 376,
+						"supply": 7122,
+						"demand": 9155,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/4B1A0EABF7AFCD44BEABA168C4F7A41FD47B02BE/1201911.png"
+					}
+				}
+			],
+			"output_upgrade_id": 327,
+			"id": 11079,
+			"chat_link": "[&CUcrAAA=]",
+			"output": {
+				"name": "Guild Flame Ram Blueprint",
+				"buy": 10138,
+				"sell": 0,
+				"supply": 0,
+				"demand": 390
+			},
+			"totalCost": 1819,
+			"totalRevenue": 10138,
+			"profit": 6798.299999999999,
+			"rarity": "Fine",
+			"icon": "https://render.guildwars2.com/file/FB12804948060D72BA046980374EEC375624B660/1228587.png",
+			"totalProfit": 6798.299999999999,
+			"sellCount": 1
+		}
+	],
+	[
+		"11124",
+		{
+			"type": "UpgradeComponent",
+			"output_item_id": 74326,
+			"output_item_count": 1,
+			"min_rating": 225,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [],
+			"ingredients": [
+				{
+					"item_id": 89271,
+					"count": 15,
+					"data": {
+						"name": "Pile of Lucent Crystal",
+						"buy": 101,
+						"sell": 105,
+						"supply": 1451183,
+						"demand": 93018,
+						"rarity": "Fine",
+						"icon": "https://render.guildwars2.com/file/607AA1A4574FA66006FFB57C0B2DDBAAFDE50CD6/2063471.png"
+					}
+				},
+				{
+					"item_id": 19721,
+					"count": 10,
+					"data": {
+						"name": "Glob of Ectoplasm",
+						"buy": 2073,
+						"sell": 2279,
+						"supply": 1237816,
+						"demand": 318027,
+						"rarity": "Exotic",
+						"icon": "https://render.guildwars2.com/file/18CE5D78317265000CF3C23ED76AB3CEE86BA60E/65941.png"
+					}
+				},
+				{
+					"item_id": 68942,
+					"count": 1,
+					"data": {
+						"name": "Evergreen Lodestone",
+						"buy": 219,
+						"sell": 220,
+						"supply": 73133,
+						"demand": 29213,
+						"rarity": "Exotic",
+						"icon": "https://render.guildwars2.com/file/2CF4BAB1CD7F509DF151F0472F632C0D1ECAF468/1203091.png"
+					}
+				},
+				{
+					"item_id": 89098,
+					"count": 1,
+					"data": {
+						"name": "Symbol of Control",
+						"buy": 9558,
+						"sell": 10295,
+						"supply": 5679,
+						"demand": 17228,
+						"rarity": "Masterwork",
+						"icon": "https://render.guildwars2.com/file/BF26E2BE4C6F3F0F24194A0B0209800DB9E8D118/2063469.png"
+					}
+				}
+			],
+			"id": 11124,
+			"chat_link": "[&CXQrAAA=]",
+			"output": {
+				"name": "Superior Sigil of Transference",
+				"buy": 41305,
+				"sell": 42762,
+				"supply": 746,
+				"demand": 463
+			},
+			"totalCost": 34880,
+			"totalRevenue": 41305,
+			"profit": 229.25,
+			"rarity": "Exotic",
+			"icon": "https://render.guildwars2.com/file/7A2021FB079CE4FC3A469CAE2B6E6273000E7D45/1201535.png",
+			"totalProfit": 2934.2999999999956,
+			"sellCount": 45
+		}
+	],
+	[
+		"11250",
+		{
+			"type": "Refinement",
+			"output_item_id": 75857,
+			"output_item_count": 1,
+			"min_rating": 150,
+			"time_to_craft_ms": 1000,
+			"disciplines": [
+				"Scribe"
+			],
+			"flags": [
+				"AutoLearned"
+			],
+			"ingredients": [
+				{
+					"item_id": 71428,
+					"count": 3,
+					"data": {
+						"name": "Resonating Sliver",
+						"buy": 0,
+						"sell": 5,
+						"supply": 9323505,
+						"demand": 0,
+						"rarity": "Basic",
+						"icon": "https://render.guildwars2.com/file/97BF4A30AE0F43EFF6A444013F9040A60D48E6BB/1201931.png"
+					}
+				}
+			],
+			"id": 11250,
+			"chat_link": "[&CfIrAAA=]",
+			"output": {
+				"name": "Resonating Fragment",
+				"buy": 29,
+				"sell": 39,
+				"supply": 77603,
+				"demand": 13095
+			},
+			"totalCost": 15,
+			"totalRevenue": 29,
+			"profit": 9.649999999999999,
+			"rarity": "Basic",
+			"icon": "https://render.guildwars2.com/file/CD6A0549629C6EEA674DC5B64006BB19F006220E/1201932.png",
+			"totalProfit": 29404.900000001675,
+			"sellCount": 4267
 		}
 	]
 ]
