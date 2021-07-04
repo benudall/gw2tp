@@ -121,7 +121,24 @@ var server = http.createServer(async (request, result) => {
 
         console.log("profitableRecipes has length:", Object.keys(profitableRecipes).length);
 
-        var sortedRecipes = Object.entries(profitableRecipes).sort((a, b) => b[1].profit - a[1].profit);
+        var itemData = await fetch("https://api.guildwars2.com/v2/items?ids=" + Object.entries(profitableRecipes).map(recipe => recipe[1].output_item_id).join(","))
+            .then(res => res.json()
+                .catch(err => {
+                    console.error(err);
+                }))
+            .then(items => {
+                return items;
+            })
+
+        var profitableRecipesWithOutputItemData = {}
+        Object.entries(profitableRecipes).forEach(recipe => {
+            var item = itemData.filter(item => item.id == recipe[1].output_item_id)[0];
+            recipe[1].rarity = item.rarity;
+            recipe[1].icon = item.icon;
+            profitableRecipesWithOutputItemData[recipe[1].id] = recipe[1];
+        });
+
+        var sortedRecipes = Object.entries(profitableRecipesWithOutputItemData).sort((a, b) => b[1].profit - a[1].profit);
 
         fs.writeFileSync("data/filteredRecipes.json", JSON.stringify(sortedRecipes, null, "\t"));
         result.end(JSON.stringify(sortedRecipes));
@@ -130,7 +147,7 @@ var server = http.createServer(async (request, result) => {
         var profitableRecipes = JSON.parse(fs.readFileSync("data/filteredRecipes.json"));
         var totalProfitRecipes = {};
         var progress = 0;
- 
+
         profitableRecipes.forEach(recipe => {
             fetch("https://api.guildwars2.com/v2/commerce/listings?ids=" + recipe[1].output_item_id + "," + recipe[1].ingredients.map(ingredient => ingredient.item_id).join(","))
                 .then(res => res.json()

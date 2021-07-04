@@ -2,6 +2,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.js"></script>
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-sanitize.js'></script>
 <style>
+	body {
+		background: #444444;
+		color: white;
+	}
+
+	a {
+		color: lightblue
+	}
+
+	a:visited {
+		color: violet
+	}
+
 	button {
 		width: 200px;
 	}
@@ -35,11 +48,10 @@
 		text-align: center;
 	}
 
-
 	thead {
 		position: sticky;
 		top: 0;
-		background: white;
+		background: #444444;
 	}
 
 	tr:first-child>* {
@@ -49,10 +61,11 @@
 	table {
 		border-left: 5px solid black;
 		border-right: 5px solid black;
+		border-bottom: 5px solid black;
 	}
 
 	tbody:hover {
-		background: #dddddd;
+		background: #555555;
 	}
 
 	th,
@@ -62,13 +75,45 @@
 		border: 1px solid black;
 	}
 
-	td:nth-child(10),
-	td:nth-child(12) {
-		background: lightgreen;
+	td:nth-child(11),
+	td:nth-child(13) {
+		background: green;
 	}
 
 	span {
 		text-align: right;
+	}
+
+	.outputName {
+		font-weight: bold;
+	}
+
+	.Basic {
+		color: #ffffff
+	}
+
+	.Fine {
+		color: #62A4DA
+	}
+
+	.Masterwork {
+		color: #1a9306
+	}
+
+	.Rare {
+		color: #fcd00b
+	}
+
+	.Exotic {
+		color: #ffa405
+	}
+
+	.Ascended {
+		color: #fb3e8d
+	}
+
+	.Legendary {
+		color: #4C139D
 	}
 </style>
 <script>
@@ -113,12 +158,23 @@
 				var output = input.sort((a, b) => {
 					return $scope.sort.split('.').reduce((m, n) => m[n], b[1]) - $scope.sort.split('.').reduce((m, n) => m[n], a[1])
 				})
-				console.log(output)
 				return output
 			}
 		})
 		.controller('MainController', ['$scope', '$http', function ($scope, $http) {
 			$scope.labels = {};
+
+			$scope.images = {
+				"Armorsmith": "https://wiki.guildwars2.com/images/3/32/Armorsmith_tango_icon_20px.png",
+				"Artificer": "https://wiki.guildwars2.com/images/b/b7/Artificer_tango_icon_20px.png",
+				"Chef": "https://wiki.guildwars2.com/images/8/8f/Chef_tango_icon_20px.png	",
+				"Huntsman": "https://wiki.guildwars2.com/images/f/f3/Huntsman_tango_icon_20px.png",
+				"Jeweler": "https://wiki.guildwars2.com/images/f/f2/Jeweler_tango_icon_20px.png",
+				"Leatherworker": "https://wiki.guildwars2.com/images/e/e5/Leatherworker_tango_icon_20px.png",
+				"Scribe": "https://wiki.guildwars2.com/images/0/0b/Scribe_tango_icon_20px.png",
+				"Tailor": "https://wiki.guildwars2.com/images/4/4d/Tailor_tango_icon_20px.png",
+				"Weaponsmith": "https://wiki.guildwars2.com/images/4/46/Weaponsmith_tango_icon_20px.png",
+			}
 
 			$scope.filter = {
 				disciplines: {
@@ -138,10 +194,28 @@
 
 			$scope.setSort = sort => {
 				$scope.sort = sort;
-				console.log("sort set to", $scope.sort)
 			}
 
-			$scope.autoRefresh = false;
+			$scope.getCraftingLevels = () => {
+				var access_token = "32BFB384-BD6A-3246-AC4F-1681E2389BA5DB84D012-0D40-4EA9-B578-F35ABA955E46";
+				$http.get("https://api.guildwars2.com/v2/characters?ids=all&access_token=" + access_token)
+					.then(res => res.data)
+					.then(characters => {
+						Object.keys($scope.filter.disciplines).forEach(discipline => {
+							$scope.filter.disciplines[discipline].value = 0;
+						});
+
+						characters.forEach(character => {
+							character.crafting.forEach(crafting => {
+								if ($scope.filter.disciplines[crafting.discipline].value < crafting.rating) {
+									$scope.filter.disciplines[crafting.discipline].value = crafting.rating
+								}
+							})
+						});
+					});
+			}
+
+			$scope.autoRefresh = true;
 
 			$scope.totalProfits = () => {
 				$http.get("/data/totalProfits")
@@ -153,7 +227,7 @@
 			}
 			$scope.totalProfits();
 
-			intverval = setInterval(async () => {
+			interval = setInterval(async () => {
 				if ($scope.autoRefresh) {
 					await $scope.fetch('/get/listings', 'listings');
 					await $scope.fetch('/get/filteredRecipes', 'filteredRecipes');
@@ -163,8 +237,8 @@
 			}, 300000)
 
 
-			$scope.fetch = (url, label) => {
-				$http.get(url)
+			$scope.fetch = async (url, label) => {
+				await $http.get(url)
 					.then(res => {
 						$scope.labels[label] = new Date();
 					})
@@ -203,6 +277,7 @@
 			<label for="{{discipline}}">{{discipline}}</label>
 			<input type="number" min="0" max="500" step="25" ng-model="filter.disciplines[discipline].value">
 		</div>
+		<button ng-click="getCraftingLevels()">Get Character Crafting Levels</button>
 		<br>
 		<br>
 		<table cellspacing=0>
@@ -210,7 +285,7 @@
 				<tr>
 					<th colspan=2>Requirements</th>
 					<th colspan=3>Ingredients</th>
-					<th colspan=7>Output</th>
+					<th colspan=8>Output</th>
 					<th rowspan=2>Links</th>
 				</tr>
 				<tr>
@@ -222,6 +297,7 @@
 					<th>Cost</th>
 					<th>Links</th>
 
+					<th>Icon</th>
 					<th>Name</th>
 					<th ng-click="setSort('totalCost')">
 						Total Cost
@@ -252,7 +328,9 @@
 			</thead>
 			<tbody ng-repeat="recipe in recipes | disciplineFilter:this | sortByColumn:this">
 				<tr>
-					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-repeat="discipline in recipe[1].disciplines">{{discipline}}<br></span></td>
+					<td rowspan="{{recipe[1].ingredients.length}}">
+						<span ng-repeat="discipline in recipe[1].disciplines"><img src="{{images[discipline]}}">{{discipline}}<br></span>
+					</td>
 					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].min_rating}}</td>
 
 					<td>{{recipe[1].ingredients[0].data.name}}</td>
@@ -262,8 +340,10 @@
 						<a href="https://wiki.guildwars2.com/index.php?search={{recipe[1].ingredients[0].data.name}}">wiki</a>
 						<a href="https://www.gw2tp.com/item/{{recipe[1].ingredients[0].item_id}}">gw2tp</a>
 					</td>
-
-					<td rowspan="{{recipe[1].ingredients.length}}">{{recipe[1].output.name}}</td>
+					<td rowspan="{{recipe[1].ingredients.length}}">
+						<img class="icon" src="{{recipe[1].icon}}">
+					</td>
+					<td rowspan="{{recipe[1].ingredients.length}}" class="outputName {{recipe[1].rarity}}">{{recipe[1].output.name}}</td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalCost | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].totalRevenue | coin"></span></td>
 					<td rowspan="{{recipe[1].ingredients.length}}"><span ng-bind-html="recipe[1].profit | coin"></span></td>
