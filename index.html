@@ -64,7 +64,7 @@
 	}
 
 	tr:last-child th,
-	th:last-child {
+	th[rowspan="2"] {
 		border-bottom: 5px solid black;
 	}
 
@@ -77,9 +77,12 @@
 		border-left: 5px solid black;
 		border-right: 5px solid black;
 		border-bottom: 5px solid black;
+		display: inline-block;
+		vertical-align: top;
+		border-collapse: collapse;
 	}
 
-	tbody:hover {
+	.recipes tbody:hover {
 		background: #555555;
 	}
 
@@ -134,6 +137,37 @@
 
 	.Legendary {
 		color: #4C139D
+	}
+
+	.shop input {
+		height: 64px;
+		width: 64px;
+	}
+
+	.shoppingList,
+	.shoppingList input{
+		font-size: 32px;
+	}
+
+	.shoppingList th{
+		background: #555555;
+	}
+
+	.shoppingList span{
+		font-size: 20px;
+	}
+
+	.shoppingList td:first-child {
+		padding: 0;
+		height: 0;
+	}
+
+	.shoppingList input {
+		border: none;
+		height: 100%;
+		width: 100%;
+		background: transparent;
+		color: white;
 	}
 </style>
 <script>
@@ -277,6 +311,34 @@
 				};
 			};
 
+			$scope.updateShoppingList = () => {
+				$scope.shoppingList = {
+					ingredients: {},
+					outputs: {}
+				};
+				$scope.recipes
+					.filter(recipe => recipe[1].shoppingList == true)
+					.forEach(recipe => {
+						$scope.shoppingList.outputs[recipe[1].output.name] = recipe[1].sellCount;
+						recipe[1].ingredients.forEach(ingredient => {
+							var ingredientList = $scope.shoppingList.ingredients[ingredient.data.name];
+							if (ingredientList == undefined) {
+								$scope.shoppingList.ingredients[ingredient.data.name] = ingredient.count * recipe[1].sellCount;
+								return;
+							}
+							$scope.shoppingList.ingredients[ingredient.data.name] += ingredient.count * recipe[1].sellCount;
+						})
+						console.log(recipe)
+					});
+				console.log("done")
+				$scope.safeApply();
+			}
+
+			$scope.copy = $event => {
+				$event.target.select()
+				document.execCommand("copy");
+			}
+
 			$scope.safeApply = function (fn) {
 				var phase = this.$root.$$phase;
 				if (phase == '$apply' || phase == '$digest') {
@@ -305,13 +367,18 @@
 		<button ng-click="getCraftingLevels()" class="getCraftingLevels">Get Character Crafting Levels</button>
 		<br>
 		<br>
-		<table cellspacing=0>
+		<table cellspacing=0 class="recipes">
 			<thead>
 				<tr>
 					<th colspan=2>Requirements</th>
 					<th colspan=4>Ingredients</th>
 					<th colspan=8>Output</th>
 					<th rowspan=2>Links</th>
+					<th rowspan=2>
+						Add to
+						<br>
+						Shopping List
+					</th>
 				</tr>
 				<tr>
 					<th>Crafting</th>
@@ -384,6 +451,9 @@
 						<a href="https://www.gw2tp.com/item/{{recipe[1].output_item_id}}">gw2tp</a>
 						<a href="https://www.gw2craftgold.com/recipe-details-{{recipe[1].id}}">gw2craftgold</a>
 					</td>
+					<td rowspan="{{recipe[1].ingredients.length}}" class="shop">
+						<input id="shop{{recipe[0]}}" type="checkbox" ng-change="updateShoppingList()" ng-model="recipe[1].shoppingList">
+					</td>
 				</tr>
 				<tr ng-repeat="ingredient in recipe[1].ingredients" ng-if="$index > 0">
 					<td>
@@ -397,6 +467,38 @@
 						<a href="https://www.gw2tp.com/item/{{ingredient.item_id}}">gw2tp</a>
 					</td>
 				</tr>
+			</tbody>
+		</table>
+		<table cellspacing=0 class="shoppingList">
+			<thead>
+				<tr>
+					<th colspan=2>
+						Shopping List
+						<br>
+						<span>(Click item name to copy)</span>
+					</th>
+				</tr>
+				<tr>
+					<th>Ingredients</th>
+					<th>Count</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="(ingredient, count) in shoppingList.ingredients">
+					<td><input value="{{ingredient}}" ng-click="copy($event)"></td>
+					<td>{{count}}</td>
+				</tr>
+			</tbody>
+			<thead>
+				<tr>
+					<th>Outputs</th>
+					<th>Count</th>
+				</tr>
+			</thead>
+			<tr ng-repeat="(output, count) in shoppingList.outputs">
+				<td><input value="{{output}}" ng-click="copy($event)"></td>
+				<td>{{count}}</td>
+			</tr>
 			</tbody>
 		</table>
 	</div>
